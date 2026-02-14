@@ -1,0 +1,16 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { CheckoutTrigger } from "@/components/checkout-trigger";
+
+export function StickyCtaMobile() {
+  return (
+    <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-[hsl(var(--border))] bg-[var(--background)]/95 p-4 pb-[max(1rem,env(safe-area-inset-bottom))] backdrop-blur md:hidden">
+      <CheckoutTrigger asChild>
+        <Button type="button" size="lg" className="w-full">
+          Garantir minha vaga — R$ 49,90/mês
+        </Button>
+      </CheckoutTrigger>
+    </div>
+  );
+}
