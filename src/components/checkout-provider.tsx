@@ -2,6 +2,7 @@
 
 import { createContext, useCallback, useContext, useState } from "react";
 import { CheckoutDialog } from "@/components/checkout-dialog";
+import { ThankYouModal } from "@/components/thank-you-modal";
 
 type CheckoutContextValue = {
   openCheckout: () => void;
@@ -11,12 +12,23 @@ const CheckoutContext = createContext<CheckoutContextValue | null>(null);
 
 export function CheckoutProvider({ children }: { children: React.ReactNode }) {
   const [open, setOpen] = useState(false);
+  const [thankYouOpen, setThankYouOpen] = useState(false);
   const openCheckout = useCallback(() => setOpen(true), []);
+
+  const handleLeadSuccess = useCallback(() => {
+    setThankYouOpen(true);
+  }, []);
 
   return (
     <CheckoutContext.Provider value={{ openCheckout }}>
       {children}
-      <CheckoutDialog open={open} onOpenChange={setOpen} />
+      <CheckoutDialog
+        key={open ? "open" : "closed"}
+        open={open}
+        onOpenChange={setOpen}
+        onLeadSuccess={handleLeadSuccess}
+      />
+      <ThankYouModal open={thankYouOpen} onOpenChange={setThankYouOpen} />
     </CheckoutContext.Provider>
   );
 }

@@ -51,6 +51,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/feedback" className="hover:underline">
+                  Enviar feedback
+                </Link>
+              </li>
+              <li>
                 <Link href="/politica-de-privacidade" className="hover:underline">
                   Política de Privacidade
                 </Link>

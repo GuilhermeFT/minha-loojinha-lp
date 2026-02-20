@@ -21,6 +21,11 @@ import { JsonLd } from "@/components/json-ld";
 export default function Home() {
   const faqItems = [
     {
+      question: "O que é o acesso antecipado?",
+      answer:
+        "O Minha Loojinha está em fase beta: você já pode usar a ferramenta e nos ajudar a melhorar. Podem haver ajustes e novas funções. Estamos atentos ao seu feedback para entregar a melhor experiência.",
+    },
+    {
       question: "Como funciona o período de 90 dias grátis?",
       answer:
         "Você cadastra seu cartão agora, mas a primeira cobrança só acontece após 90 dias. Durante esse período você usa o Minha Loojinha sem pagar nada. Se quiser cancelar antes, é só avisar.",
@@ -111,16 +116,22 @@ export default function Home() {
               <h1 className="text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl md:text-5xl lg:text-6xl">
                 Venda mais no WhatsApp em Anápolis, Goiânia e região
               </h1>
+              <p className="text-base font-medium text-[hsl(var(--primary))] sm:text-lg">
+                Em acesso antecipado para Anápolis, Goiânia e região.
+              </p>
               <p className="text-base text-[hsl(var(--muted-foreground))] sm:text-lg md:text-xl">
                 Solução para MEIs, lojistas e microempreendedores da região que
                 querem vender online. Seu cliente escolhe os produtos, envia o
                 pedido pronto, paga online e você recebe tudo organizado com
                 controle de estoque automático.
               </p>
+              <p className="text-sm text-[hsl(var(--muted-foreground))]">
+                Lojistas da região já estão garantindo vaga no acesso antecipado.
+              </p>
               <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 sm:justify-center lg:justify-start">
                 <CheckoutTrigger asChild>
                   <Button type="button" size="lg" className="w-full sm:w-auto md:h-14 md:px-8 md:text-lg">
-                    Garantir minha vaga — R$ 49,90/mês
+                    Quero acesso antecipado — R$ 49,90/mês
                   </Button>
                 </CheckoutTrigger>
                 <Button variant="outline" size="lg" asChild className="md:h-14 md:px-8 md:text-lg">
@@ -166,18 +177,18 @@ export default function Home() {
             Chega de mensagens bagunçadas. Seu catálogo fica estruturado, o
             cliente manda o pedido pronto e você foca em vender mais.
           </p>
-          <div className="mt-10 grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
                 title: "Pedido estruturado no WhatsApp",
                 description:
                   "Seu cliente monta o pedido no catálogo e envia uma única mensagem organizada, com itens e totais.",
               },
-              {
+             /*  {
                 title: "Pagamento online",
                 description:
                   "Integre com meios de pagamento e receba confirmação sem precisar cobrar manualmente.",
-              },
+              }, */
               {
                 title: "Estoque automático",
                 description:
@@ -206,7 +217,7 @@ export default function Home() {
           <div className="mt-12 flex flex-col items-center gap-4 text-center sm:flex-row sm:justify-center">
             <CheckoutTrigger asChild>
               <Button type="button" size="lg" className="w-full sm:w-auto">
-                Garantir minha vaga — R$ 49,90/mês
+                Quero acesso antecipado — R$ 49,90/mês
               </Button>
             </CheckoutTrigger>
             <Button variant="outline" size="lg" asChild className="w-full sm:w-auto">
@@ -229,7 +240,7 @@ export default function Home() {
           <Card className="overflow-hidden border-2 border-[hsl(var(--primary))]/20 shadow-[var(--shadow-card)]">
             <CardHeader className="space-y-1 text-center">
               <p className="text-sm font-medium uppercase tracking-wider text-[hsl(var(--primary))]">
-                Oferta para primeiros inscritos
+                Oferta de acesso antecipado
               </p>
               <CardTitle className="text-4xl font-bold">
                 R$ 49,90
@@ -239,6 +250,9 @@ export default function Home() {
               </CardTitle>
               <p className="text-lg font-semibold text-[hsl(var(--primary))]">
                 90 dias grátis para testar
+              </p>
+              <p className="text-sm text-[hsl(var(--muted-foreground))]">
+                Vagas limitadas na fase de acesso antecipado.
               </p>
             </CardHeader>
             <CardContent className="space-y-6 text-center">
@@ -266,6 +280,14 @@ export default function Home() {
             Dúvidas frequentes
           </h2>
           <Accordion type="single" collapsible className="mt-10">
+            <AccordionItem value="early-access">
+              <AccordionTrigger>O que é o acesso antecipado?</AccordionTrigger>
+              <AccordionContent>
+                O Minha Loojinha está em fase beta: você já pode usar a ferramenta
+                e nos ajudar a melhorar. Podem haver ajustes e novas funções.
+                Estamos atentos ao seu feedback para entregar a melhor experiência.
+              </AccordionContent>
+            </AccordionItem>
             <AccordionItem value="trial">
               <AccordionTrigger>
                 Como funciona o período de 90 dias grátis?
@@ -329,8 +351,8 @@ export default function Home() {
               Pronto para organizar suas vendas no WhatsApp?
             </p>
             <CheckoutTrigger asChild>
-              <Button type="button" size="xl" className="w-full max-w-sm">
-                Garantir minha vaga — R$ 49,90/mês
+              <Button type="button" size="xl" className="w-full ">
+                Quero acesso antecipado — R$ 49,90/mês
               </Button>
             </CheckoutTrigger>
           </div>

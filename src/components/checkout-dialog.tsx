@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useActionState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -10,49 +11,49 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { cn } from "@/lib/utils";
+import { submitCtaLead } from "@/actions/cta-lead";
 
-const CHECKOUT_URL =
-  typeof window !== "undefined"
-    ? process.env.NEXT_PUBLIC_CHECKOUT_URL
-    : "";
+function formatWhatsApp(value: string): string {
+  const digits = value.replace(/\D/g, "").slice(0, 11);
+  if (digits.length <= 2) return digits ? `(${digits}` : digits;
+  if (digits.length <= 7) return `(${digits.slice(0, 2)}) ${digits.slice(2)}`;
+  return `(${digits.slice(0, 2)}) ${digits.slice(2, 7)}-${digits.slice(7)}`;
+}
 
 type CheckoutDialogProps = {
   open: boolean;
   onOpenChange: (open: boolean) => void;
+  onLeadSuccess?: () => void;
 };
 
-export function CheckoutDialog({ open, onOpenChange }: CheckoutDialogProps) {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+export function CheckoutDialog({
+  open,
+  onOpenChange,
+  onLeadSuccess,
+}: CheckoutDialogProps) {
   const [phone, setPhone] = useState("");
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
+  const [state, formAction, isPending] = useActionState(
+    async (
+      _prev: { message: string; ok: boolean } | null,
+      formData: FormData
+    ) => {
+      const result = await submitCtaLead(formData);
+      return { message: result.message, ok: result.ok };
+    },
+    null as { message: string; ok: boolean } | null
+  );
 
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    setError("");
-    if (!name.trim()) {
-      setError("Preencha seu nome.");
-      return;
+  useEffect(() => {
+    if (state?.ok) {
+      onOpenChange(false);
+      onLeadSuccess?.();
     }
-    if (!email.trim()) {
-      setError("Preencha seu e-mail.");
-      return;
-    }
-    const url = CHECKOUT_URL || "";
-    if (!url) {
-      setError("Checkout não configurado. Tente mais tarde.");
-      return;
-    }
-    setLoading(true);
-    const params = new URLSearchParams({
-      name: name.trim(),
-      email: email.trim(),
-      ...(phone.trim() && { phone: phone.trim() }),
-    });
-    const target = url.includes("?") ? `${url}&${params}` : `${url}?${params}`;
-    window.location.href = target;
-  }
+  }, [state?.ok, onOpenChange, onLeadSuccess]);
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setPhone(formatWhatsApp(e.target.value));
+  };
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -60,39 +61,49 @@ export function CheckoutDialog({ open, onOpenChange }: CheckoutDialogProps) {
         <DialogHeader>
           <DialogTitle>Garantir minha vaga</DialogTitle>
           <DialogDescription>
-            Preencha seus dados. Em seguida você será redirecionado para a
-            página de pagamento.
+            Preencha seus dados que entraremos em contato em breve.
           </DialogDescription>
         </DialogHeader>
-        <form onSubmit={handleSubmit} className="space-y-4 pt-2">
+        <form action={formAction} className="space-y-4 pt-2">
           <Input
             type="text"
+            name="name"
             placeholder="Nome completo"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            disabled={loading}
+            disabled={isPending}
             required
           />
           <Input
             type="email"
+            name="email"
             placeholder="E-mail"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            disabled={loading}
+            disabled={isPending}
             required
           />
           <Input
             type="tel"
-            placeholder="Telefone / WhatsApp (opcional)"
+            name="phone"
+            placeholder="(00) 00000-0000"
             value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-            disabled={loading}
+            onChange={handlePhoneChange}
+            disabled={isPending}
+            maxLength={16}
+            inputMode="numeric"
+            autoComplete="tel"
           />
-          {error && (
-            <p className="text-sm text-red-600 dark:text-red-400">{error}</p>
+          {state?.message && (
+            <p
+              className={cn(
+                "text-sm",
+                state.ok
+                  ? "text-[hsl(var(--primary))]"
+                  : "text-red-600 dark:text-red-400"
+              )}
+            >
+              {state.message}
+            </p>
           )}
-          <Button type="submit" className="w-full" disabled={loading}>
-            {loading ? "Redirecionando..." : "Continuar para o pagamento"}
+          <Button type="submit" className="w-full" disabled={isPending}>
+            {isPending ? "Enviando..." : "Quero garantir minha vaga"}
           </Button>
         </form>
       </DialogContent>

@@ -42,6 +42,9 @@ export function Header() {
             height={32}
             priority
           />
+          <span className="rounded-md border border-[hsl(var(--primary))]/40 bg-[hsl(var(--primary))]/10 px-2 py-0.5 text-xs font-medium text-[hsl(var(--primary))]">
+            Beta
+          </span>
         </Link>
 
         {/* Desktop nav */}

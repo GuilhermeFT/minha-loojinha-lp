@@ -77,6 +77,10 @@ body {
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 @keyframes accordion-down {
   from {
     height: 0;
