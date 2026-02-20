@@ -65,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased pb-24 md:pb-0`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden pb-28 md:pb-0`}
       >
         <CheckoutProvider>
           <BetaBanner />

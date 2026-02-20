@@ -24,12 +24,12 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-[hsl(var(--border))] bg-[var(--background)]/95 backdrop-blur supports-[backdrop-filter]:bg-[var(--background)]/80">
-      <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2">
+      <div className="container mx-auto flex h-14 min-h-14 max-w-6xl items-center justify-between gap-2 px-3 sm:h-16 sm:px-6">
+        <Link href="/" className="flex min-w-0 shrink items-center gap-1.5 sm:gap-2">
           <Image
             src={logoLight}
             alt="Minha Loojinha"
-            className="h-8 w-auto dark:hidden"
+            className="h-7 w-auto dark:hidden sm:h-8"
             width={140}
             height={32}
             priority
@@ -37,12 +37,12 @@ export function Header() {
           <Image
             src={logoDark}
             alt="Minha Loojinha"
-            className="hidden h-8 w-auto dark:block"
+            className="hidden h-7 w-auto dark:block sm:h-8"
             width={140}
             height={32}
             priority
           />
-          <span className="rounded-md border border-[hsl(var(--primary))]/40 bg-[hsl(var(--primary))]/10 px-2 py-0.5 text-xs font-medium text-[hsl(var(--primary))]">
+          <span className="shrink-0 rounded-md border border-[hsl(var(--primary))]/40 bg-[hsl(var(--primary))]/10 px-1.5 py-0.5 text-[10px] font-medium text-[hsl(var(--primary))] sm:px-2 sm:text-xs">
             Beta
           </span>
         </Link>

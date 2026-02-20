@@ -8,7 +8,7 @@ import { FooterCta } from "@/components/footer-cta";
 export function Footer() {
   return (
     <footer className="border-t border-[hsl(var(--border))] bg-[hsl(var(--muted))]/30">
-      <div className="container mx-auto max-w-6xl px-4 py-12 sm:px-6">
+      <div className="container mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
         <div className="grid gap-8 sm:gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           <div>
             <Link href="/" className="inline-block">

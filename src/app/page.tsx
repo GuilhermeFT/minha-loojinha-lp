@@ -110,10 +110,10 @@ export default function Home() {
         data={[webSiteSchema, organizationSchema, faqSchema, localBusinessSchema]}
       />
         {/* Hero */}
-        <section className="container mx-auto max-w-6xl px-3 py-12 sm:px-6 sm:py-24 md:px-6 md:py-32">
+        <section className="container mx-auto max-w-6xl px-3 py-12 pb-24 sm:px-6 sm:py-24 sm:pb-24 md:px-6 md:py-32 md:pb-32">
           <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-16">
-            <div className="space-y-6 sm:space-y-8 text-center lg:text-left">
-              <h1 className="text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl md:text-5xl lg:text-6xl">
+            <div className="min-w-0 space-y-6 text-center sm:space-y-8 lg:text-left">
+              <h1 className="text-2xl font-bold leading-tight tracking-tight text-[var(--foreground)] sm:text-4xl md:text-5xl lg:text-6xl">
                 Venda mais no WhatsApp em Anápolis, Goiânia e região
               </h1>
               <p className="text-base font-medium text-[hsl(var(--primary))] sm:text-lg">
@@ -139,7 +139,7 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-          <div className="relative flex justify-center">
+          <div className="relative flex justify-center md:block">
             <div className="hidden w-full max-w-lg md:block">
               <Image
                 src={lpCart}
@@ -150,13 +150,13 @@ export default function Home() {
                 priority
               />
             </div>
-            <div className="w-full max-w-sm md:hidden">
+            <div className="w-full max-w-[280px] shrink-0 px-2 sm:max-w-sm md:hidden">
               <Image
                 src={lpCartMobile}
                 alt="Catálogo e pedidos no WhatsApp"
                 width={566}
                 height={553}
-                className="w-full"
+                className="h-auto w-full"
                 priority
               />
             </div>
@@ -234,14 +234,13 @@ export default function Home() {
       {/* Preço e CTA */}
       <section
         id="preco"
-        className="container mx-auto max-w-6xl px-3 py-12 sm:px-6 sm:py-24 md:py-24"
+        className="container mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-24 md:py-24"
       >
-        <div className="mx-auto max-w-xl px-1 sm:px-0">
+        <div className="mx-auto max-w-xl px-0 sm:px-0">
           <Card className="overflow-hidden border-2 border-[hsl(var(--primary))]/20 shadow-[var(--shadow-card)]">
             <CardHeader className="space-y-1 text-center">
               <p className="text-sm font-medium uppercase tracking-wider text-[hsl(var(--primary))]">
-                Oferta de acesso antecipado
-              </p>
+                Oferta de               </p>
               <CardTitle className="text-4xl font-bold">
                 R$ 49,90
                 <span className="text-lg font-normal text-[hsl(var(--muted-foreground))]">
@@ -275,7 +274,7 @@ export default function Home() {
         id="duvidas"
         className="border-t border-[hsl(var(--border))] bg-[hsl(var(--muted))]/20 py-12 sm:py-24"
       >
-        <div className="container mx-auto max-w-3xl px-3 sm:px-6">
+        <div className="container mx-auto max-w-3xl px-4 sm:px-6">
           <h2 className="text-center text-2xl font-bold tracking-tight text-[var(--foreground)] sm:text-3xl">
             Dúvidas frequentes
           </h2>
