@@ -7,7 +7,7 @@
   --palette-mid: #8132ae;
   --palette-light: #656fbe;
   --background: #faf8fc;
-  --foreground: #27003e;
+  --foreground: #1f003d;
   --primary: 270 100% 12%;
   --primary-foreground: #ffffff;
   --muted: 270 20% 96%;
@@ -15,7 +15,7 @@
   --accent: 262 65% 42%;
   --accent-foreground: #ffffff;
   --card: #ffffff;
-  --card-foreground: #27003e;
+  --card-foreground: #1f003d;
   --border: 270 20% 90%;
   --input: 270 20% 90%;
   --ring: 270 100% 35%;
@@ -26,6 +26,16 @@
   --radius-2xl: 1.5rem;
   --shadow-soft: 0 4px 20px -2px rgb(39 0 62 / 0.08), 0 2px 8px -2px rgb(39 0 62 / 0.04);
   --shadow-card: 0 8px 30px -8px rgb(39 0 62 / 0.12), 0 4px 12px -4px rgb(83 0 131 / 0.08);
+  --shadow-button: 0 10px 30px rgba(83, 0, 131, 0.25);
+  /* Extended DS tokens */
+  --color-primary-deep: #1f003d;
+  --color-bg-soft: #fdfbff;
+  --color-surface-dark: #27003e;
+  --gradient-primary: linear-gradient(135deg, #530083, #8132ae);
+  --gradient-soft: linear-gradient(135deg, #fdfbff, #f4efff);
+  --text-secondary: #484848;
+  --text-muted: #888888;
+  --border-color: #e8e8e8;
 }
 
 .dark {
@@ -60,6 +70,8 @@
   --color-palette-dark: var(--palette-dark);
   --color-palette-mid: var(--palette-mid);
   --color-palette-light: var(--palette-light);
+  --color-surface-dark: var(--color-surface-dark);
+  --color-bg-soft: var(--color-bg-soft);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --radius-sm: var(--radius-sm);
@@ -69,6 +81,7 @@
   --radius-2xl: var(--radius-2xl);
   --shadow-soft: var(--shadow-soft);
   --shadow-card: var(--shadow-card);
+  --shadow-button: var(--shadow-button);
 }
 
 body {

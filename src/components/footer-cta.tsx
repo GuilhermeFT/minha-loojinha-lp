@@ -6,10 +6,10 @@ import { CheckoutTrigger } from "@/components/checkout-trigger";
 export function FooterCta() {
   return (
     <div>
-      <h3 className="font-semibold text-[var(--foreground)]">
+      <h3 className="font-semibold text-white/90">
         Garantir minha vaga
       </h3>
-      <p className="mt-1 text-sm text-[hsl(var(--muted-foreground))]">
+      <p className="mt-1 text-sm text-white/60">
         R$ 49,90/mês — 90 dias grátis para testar.
       </p>
       <CheckoutTrigger asChild>
