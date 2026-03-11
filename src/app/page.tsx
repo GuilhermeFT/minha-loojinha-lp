@@ -49,7 +49,7 @@ export default function Home() {
     {
       question: "O preço de R$ 49,90 é promocional?",
       answer:
-        "Sim. Esse valor é uma oferta para os primeiros inscritos. Quem garantir a vaga agora paga R$ 49,90/mês mesmo após o trial. Os próximos podem ter outro valor.",
+        "Sim. Esse valor é uma oferta para os primeiros inscritos. Quem assinar agora paga R$ 49,90/mês mesmo após o trial. Os próximos podem ter outro valor.",
     },
     {
       question: "Qual a diferença para um catálogo simples no WhatsApp?",
@@ -196,13 +196,13 @@ export default function Home() {
               </p>
 
               <p className="text-sm text-[var(--text-muted)]">
-                Lojistas da região já estão garantindo vaga no acesso antecipado.
+                Lojistas da região já estão na plataforma.
               </p>
 
               <div className="flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
                 <CheckoutTrigger asChild>
                   <Button type="button" size="lg" className="w-full sm:w-auto md:h-14 md:px-8 md:text-lg">
-                    Quero acesso antecipado — R$ 49,90/mês
+                    Acessar a plataforma — R$ 49,90/mês
                   </Button>
                 </CheckoutTrigger>
                 <Button variant="outline" size="lg" asChild className="md:h-14 md:px-8 md:text-lg">
@@ -290,7 +290,7 @@ export default function Home() {
           <div className="mt-12 flex flex-col items-center gap-4 text-center sm:flex-row sm:justify-center">
             <CheckoutTrigger asChild>
               <Button type="button" size="lg" className="w-full sm:w-auto">
-                Quero acesso antecipado — R$ 49,90/mês
+                Acessar a plataforma — R$ 49,90/mês
               </Button>
             </CheckoutTrigger>
             <Button variant="outline" size="lg" asChild className="w-full sm:w-auto bg-white/60">
@@ -535,7 +535,7 @@ export default function Home() {
                 </ul>
                 <CheckoutTrigger asChild>
                   <Button type="button" size="xl" className="w-full">
-                    Garantir minha vaga
+                    Acessar a plataforma
                   </Button>
                 </CheckoutTrigger>
                 <p className="text-xs text-[var(--text-muted)]">
@@ -590,7 +590,7 @@ export default function Home() {
                 <AccordionTrigger>O preço de R$ 49,90 é promocional?</AccordionTrigger>
                 <AccordionContent>
                   Sim. Esse valor é uma oferta para os primeiros inscritos. Quem
-                  garantir a vaga agora paga R$ 49,90/mês mesmo após o trial. Os
+                  assinar agora paga R$ 49,90/mês mesmo após o trial. Os
                   próximos podem ter outro valor.
                 </AccordionContent>
               </AccordionItem>
@@ -642,7 +642,7 @@ export default function Home() {
             </p>
             <CheckoutTrigger asChild>
               <Button type="button" size="xl" className="w-full sm:w-auto">
-                Quero acesso antecipado — R$ 49,90/mês
+                Acessar a plataforma — R$ 49,90/mês
               </Button>
             </CheckoutTrigger>
           </div>

@@ -1,7 +1,9 @@
 "use client";
 
 import React from "react";
-import { useCheckout } from "@/components/checkout-provider";
+
+const PAINEL_URL =
+  process.env.NEXT_PUBLIC_PANEL_URL ?? "https://painel.minhaloojinha.com/";
 
 type CheckoutTriggerProps = {
   children: React.ReactNode;
@@ -14,7 +16,9 @@ export function CheckoutTrigger({
   className,
   asChild,
 }: CheckoutTriggerProps) {
-  const { openCheckout } = useCheckout();
+  const goToPanel = () => {
+    window.location.href = PAINEL_URL;
+  };
 
   if (asChild && React.isValidElement(children)) {
     return (
@@ -22,7 +26,7 @@ export function CheckoutTrigger({
         className={className}
         onClick={(e) => {
           e.preventDefault();
-          openCheckout();
+          goToPanel();
         }}
       >
         {children}
@@ -36,7 +40,7 @@ export function CheckoutTrigger({
       className={className}
       onClick={(e) => {
         e.preventDefault();
-        openCheckout();
+        goToPanel();
       }}
     >
       {children}

@@ -12,7 +12,7 @@ export function StickyCtaMobile() {
           size="lg"
           className="w-full min-h-12 text-center text-sm leading-tight sm:text-base"
         >
-          Garantir minha vaga — R$ 49,90/mês
+          Acessar o painel — R$ 49,90/mês
         </Button>
       </CheckoutTrigger>
     </div>

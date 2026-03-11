@@ -88,7 +88,7 @@ export function Header() {
           ))}
           <CheckoutTrigger asChild>
             <Button type="button" size="sm" className="shrink-0">
-              Garantir vaga — R$ 49,90/mês
+              Acessar o painel — R$ 49,90/mês
             </Button>
           </CheckoutTrigger>
         </nav>
@@ -148,7 +148,7 @@ export function Header() {
                 <div className="mt-4 px-0">
                   <CheckoutTrigger asChild>
                     <Button type="button" size="lg" className="w-full">
-                      Garantir vaga — R$ 49,90/mês
+                      Acessar o painel — R$ 49,90/mês
                     </Button>
                   </CheckoutTrigger>
                 </div>

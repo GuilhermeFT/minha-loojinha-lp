@@ -1,8 +1,6 @@
 "use client";
 
-import { createContext, useCallback, useContext, useState } from "react";
-import { CheckoutDialog } from "@/components/checkout-dialog";
-import { ThankYouModal } from "@/components/thank-you-modal";
+import { createContext, useContext } from "react";
 
 type CheckoutContextValue = {
   openCheckout: () => void;
@@ -11,24 +9,18 @@ type CheckoutContextValue = {
 const CheckoutContext = createContext<CheckoutContextValue | null>(null);
 
 export function CheckoutProvider({ children }: { children: React.ReactNode }) {
-  const [open, setOpen] = useState(false);
-  const [thankYouOpen, setThankYouOpen] = useState(false);
-  const openCheckout = useCallback(() => setOpen(true), []);
-
-  const handleLeadSuccess = useCallback(() => {
-    setThankYouOpen(true);
-  }, []);
+  const openCheckout = () => {
+    const url =
+      process.env.NEXT_PUBLIC_PANEL_URL ?? "https://painel.minhaloojinha.com/";
+    window.location.href = url;
+  };
 
   return (
     <CheckoutContext.Provider value={{ openCheckout }}>
       {children}
-      <CheckoutDialog
-        key={open ? "open" : "closed"}
-        open={open}
-        onOpenChange={setOpen}
-        onLeadSuccess={handleLeadSuccess}
-      />
-      <ThankYouModal open={thankYouOpen} onOpenChange={setThankYouOpen} />
+      {/* Form dialog and thank-you modal hidden while CTAs redirect to panel */}
+      {/* <CheckoutDialog ... /> */}
+      {/* <ThankYouModal ... /> */}
     </CheckoutContext.Provider>
   );
 }
