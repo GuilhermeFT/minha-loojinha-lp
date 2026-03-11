@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { MessageCircle, Package, TrendingUp, CheckCircle, Lock, Star, Zap, Smartphone } from "lucide-react";
@@ -21,6 +22,17 @@ import {
 } from "@/components/ui/accordion";
 import { CheckoutTrigger } from "@/components/checkout-trigger";
 import { JsonLd } from "@/components/json-ld";
+
+const siteUrlDefault = process.env.NEXT_PUBLIC_URL ?? "https://minhaloojinha.com.br";
+
+export const metadata: Metadata = {
+  title: "Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região",
+  description:
+    "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados, pagamento online e estoque automático. 90 dias grátis.",
+  alternates: {
+    canonical: siteUrlDefault.replace(/\/$/, ""),
+  },
+};
 
 export default function Home() {
   const faqItems = [
@@ -61,7 +73,7 @@ export default function Home() {
     },
   ];
 
-  const siteUrl = process.env.NEXT_PUBLIC_URL ?? "https://minhaloojinha.com";
+  const siteUrl = process.env.NEXT_PUBLIC_URL ?? "https://minhaloojinha.com.br";
   const baseUrl = siteUrl.replace(/\/$/, "");
 
   const webSiteSchema = {
@@ -107,10 +119,38 @@ export default function Home() {
     url: baseUrl,
   };
 
+  const softwareApplicationSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "Minha Loojinha",
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "Web",
+    url: baseUrl,
+    description:
+      "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados, pagamento online e estoque automático.",
+    offers: {
+      "@type": "Offer",
+      price: "49.90",
+      priceCurrency: "BRL",
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        price: "49.90",
+        priceCurrency: "BRL",
+        unitText: "MONTH",
+      },
+    },
+  };
+
   return (
     <div className="flex flex-col">
       <JsonLd
-        data={[webSiteSchema, organizationSchema, faqSchema, localBusinessSchema]}
+        data={[
+          webSiteSchema,
+          organizationSchema,
+          faqSchema,
+          localBusinessSchema,
+          softwareApplicationSchema,
+        ]}
       />
 
       {/* Hero */}

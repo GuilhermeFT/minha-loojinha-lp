@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_URL ?? "https://minhaloojinha.com";
+const siteUrl = process.env.NEXT_PUBLIC_URL ?? "https://minhaloojinha.com.br";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -36,6 +36,8 @@ export const metadata: Metadata = {
     "vendas online",
     "MEI",
   ],
+  authors: [{ name: "Minha Loojinha", url: siteUrl }],
+  creator: "Minha Loojinha",
   openGraph: {
     title:
       "Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região",
@@ -44,6 +46,15 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: "Minha Loojinha",
     type: "website",
+    locale: "pt_BR",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -51,6 +62,18 @@ export const metadata: Metadata = {
       "Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região",
     description:
       "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   alternates: {
     canonical: siteUrl,
