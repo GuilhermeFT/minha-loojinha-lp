@@ -9,6 +9,7 @@ import logoLight from "@/assets/minhaloojinha-logo-light.svg";
 import logoDark from "@/assets/minhaloojinha-logo-dark.svg";
 import { Button } from "@/components/ui/button";
 import { CheckoutTrigger } from "@/components/checkout-trigger";
+import { useLpShared } from "@/components/lp-content-context";
 
 const navLinks = [
   { href: "/#beneficios", label: "Benefícios" },
@@ -19,6 +20,7 @@ const navLinks = [
 ];
 
 export function Header() {
+  const shared = useLpShared();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -86,9 +88,9 @@ export function Header() {
               {link.label}
             </Link>
           ))}
-          <CheckoutTrigger asChild>
+          <CheckoutTrigger asChild location="header">
             <Button type="button" size="sm" className="shrink-0">
-              Acessar o painel — R$ 49,90/mês
+              {shared.headerCta}
             </Button>
           </CheckoutTrigger>
         </nav>
@@ -146,9 +148,9 @@ export function Header() {
                   </Link>
                 ))}
                 <div className="mt-4 px-0">
-                  <CheckoutTrigger asChild>
+                  <CheckoutTrigger asChild location="header_mobile">
                     <Button type="button" size="lg" className="w-full">
-                      Acessar o painel — R$ 49,90/mês
+                      {shared.headerCta}
                     </Button>
                   </CheckoutTrigger>
                 </div>

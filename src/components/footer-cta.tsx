@@ -2,19 +2,21 @@
 
 import { Button } from "@/components/ui/button";
 import { CheckoutTrigger } from "@/components/checkout-trigger";
+import { useLpShared } from "@/components/lp-content-context";
 
 export function FooterCta() {
+  const shared = useLpShared();
   return (
     <div>
       <h3 className="font-semibold text-white/90">
-        Acessar a plataforma
+        {shared.footerCtaTitle}
       </h3>
       <p className="mt-1 text-sm text-white/60">
-        R$ 49,90/mês — 90 dias grátis para testar.
+        {shared.footerCtaSubtitle}
       </p>
-      <CheckoutTrigger asChild>
+      <CheckoutTrigger asChild location="footer">
         <Button type="button" size="sm" className="mt-4 w-full">
-          Começar agora
+          {shared.footerCtaButton}
         </Button>
       </CheckoutTrigger>
     </div>
