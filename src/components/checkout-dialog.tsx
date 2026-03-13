@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useActionState } from "react";
+import { sendGAEvent } from "@next/third-parties/google";
 import {
   Dialog,
   DialogContent,
@@ -46,6 +47,9 @@ export function CheckoutDialog({
 
   useEffect(() => {
     if (state?.ok) {
+      sendGAEvent("event", "generate_lead", {
+        method: "checkout_dialog",
+      });
       onOpenChange(false);
       onLeadSuccess?.();
     }

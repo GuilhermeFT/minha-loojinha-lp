@@ -21,8 +21,7 @@ export function CheckoutTrigger({
   location = "cta",
 }: CheckoutTriggerProps) {
   const goToPanel = () => {
-    sendGAEvent({
-      event: "cta_click",
+    sendGAEvent("event", "cta_click", {
       value: "acessar_plataforma",
       location,
     });
