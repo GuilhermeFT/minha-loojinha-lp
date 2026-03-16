@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { BetaBanner } from "@/components/beta-banner";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -103,8 +103,8 @@ export default function RootLayout({
           </LpContentProvider>
         </CheckoutProvider>
         <Analytics />
-        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ? (
-          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+        {process.env.NEXT_PUBLIC_GTAG_MANAGER_ID ? (
+          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTAG_MANAGER_ID} />
         ) : null}
       </body>
     </html>
