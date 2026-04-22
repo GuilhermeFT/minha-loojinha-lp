@@ -66,6 +66,8 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
     url: baseUrl,
   };
 
+  const monthlyPlan = pricing.plans[0];
+
   const softwareApplicationSchema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -76,11 +78,11 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
     description: schema.siteDescription,
     offers: {
       "@type": "Offer",
-      price: pricing.price,
+      price: monthlyPlan.price,
       priceCurrency: "BRL",
       priceSpecification: {
         "@type": "UnitPriceSpecification",
-        price: pricing.price,
+        price: monthlyPlan.price,
         priceCurrency: "BRL",
         unitText: "MONTH",
       },
@@ -363,45 +365,83 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
         className="border-t border-[hsl(var(--border))] bg-[var(--background)] py-12 sm:py-24"
       >
         <div className="container mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="mx-auto max-w-xl">
-            <div className="overflow-hidden rounded-2xl border border-[var(--palette-mid)]/20 shadow-[var(--shadow-card)]">
+          <div className="mx-auto mb-10 max-w-2xl text-center">
+            <span className="inline-block rounded-full border border-yellow-400/40 bg-yellow-400/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-yellow-600">
+              {pricing.badge}
+            </span>
+            <h2 className="mt-4 text-2xl font-bold tracking-tight text-[var(--foreground)] sm:text-3xl">
+              {pricing.title}
+            </h2>
+          </div>
+          <div className="mx-auto grid max-w-3xl gap-6 sm:grid-cols-2">
+            {pricing.plans.map((plan) => (
               <div
-                className="px-8 py-8 text-center text-white"
-                style={{ background: "var(--gradient-primary)" }}
+                key={plan.id}
+                className={[
+                  "relative flex flex-col overflow-hidden rounded-2xl border shadow-[var(--shadow-card)] transition-shadow hover:shadow-lg",
+                  plan.destaque
+                    ? "border-[var(--palette-mid)] ring-2 ring-[var(--palette-mid)]"
+                    : "border-[hsl(var(--border))]",
+                ].join(" ")}
               >
-                <span className="inline-block rounded-full border border-yellow-300/40 bg-yellow-400/20 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-yellow-200">
-                  {pricing.badge}
-                </span>
-                <p className="mt-4 text-5xl font-bold tracking-tight">
-                  R$ {pricing.price}
-                  <span className="text-xl font-normal opacity-80">{pricing.priceSuffix}</span>
-                </p>
-                <p className="mt-2 flex items-center justify-center gap-2 text-base font-semibold text-white/90">
-                  <Lock className="size-4" />
-                  {pricing.trialText}
-                </p>
-                <p className="mt-1 text-sm text-white/60">{pricing.trialSubtext}</p>
-              </div>
-              <div className="space-y-6 bg-white p-8 text-center">
-                <ul className="space-y-3 text-left">
-                  {pricing.features.map((item) => (
-                    <li
-                      key={item}
-                      className="flex items-center gap-3 text-sm text-[var(--text-secondary)]"
+                {plan.destaque && (
+                  <div
+                    className="py-1.5 text-center text-xs font-semibold uppercase tracking-wider text-white"
+                    style={{ background: "var(--gradient-primary)" }}
+                  >
+                    Mais popular
+                  </div>
+                )}
+                <div
+                  className="px-6 py-6 text-center text-white"
+                  style={{ background: "var(--gradient-primary)" }}
+                >
+                  <p className="text-sm font-semibold uppercase tracking-wider opacity-80">
+                    {plan.name}
+                  </p>
+                  <p className="mt-2 flex items-end justify-center gap-1">
+                    <span className="text-4xl font-bold tracking-tight">R$ {plan.price}</span>
+                    <span className="mb-1 text-base font-normal opacity-70">{plan.priceSuffix}</span>
+                  </p>
+                  {plan.savingsBadge && (
+                    <span className="mt-2 inline-block rounded-full bg-yellow-400/30 px-2.5 py-0.5 text-xs font-semibold text-yellow-200">
+                      {plan.savingsBadge}
+                    </span>
+                  )}
+                  <p className="mt-2 text-xs text-white/60">{plan.billingNote}</p>
+                </div>
+                <div className="flex flex-1 flex-col gap-6 bg-white p-6">
+                  <ul className="space-y-3">
+                    {plan.features.map((item) => (
+                      <li
+                        key={item}
+                        className="flex items-center gap-3 text-sm text-[var(--text-secondary)]"
+                      >
+                        <CheckCircle className="size-4 shrink-0 text-[var(--palette-mid)]" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                  <CheckoutTrigger asChild location={`pricing_${plan.id}`}>
+                    <Button
+                      type="button"
+                      size="lg"
+                      className="mt-auto w-full"
+                      variant={plan.destaque ? "default" : "outline"}
                     >
-                      <CheckCircle className="size-4 shrink-0 text-[var(--palette-mid)]" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-                <CheckoutTrigger asChild location="pricing">
-                  <Button type="button" size="xl" className="w-full">
-                    {pricing.cta}
-                  </Button>
-                </CheckoutTrigger>
-                <p className="text-xs text-[var(--text-muted)]">{pricing.disclaimer}</p>
+                      {plan.cta}
+                    </Button>
+                  </CheckoutTrigger>
+                </div>
               </div>
-            </div>
+            ))}
+          </div>
+          <div className="mx-auto mt-8 max-w-3xl space-y-2 text-center">
+            <p className="flex items-center justify-center gap-2 text-sm font-medium text-[var(--text-secondary)]">
+              <Lock className="size-4 text-[var(--palette-mid)]" />
+              {pricing.guarantee}
+            </p>
+            <p className="text-xs text-[var(--text-muted)]">{pricing.disclaimer}</p>
           </div>
         </div>
       </section>

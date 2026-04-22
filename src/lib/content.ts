@@ -50,14 +50,23 @@ export type LpContentMultiDevice = {
   cta: string;
 };
 
-export type LpContentPricing = {
-  badge: string;
+export type LpContentPlan = {
+  id: string;
+  name: string;
   price: string;
   priceSuffix: string;
-  trialText: string;
-  trialSubtext: string;
+  billingNote: string;
+  savingsBadge?: string;
+  destaque: boolean;
   features: string[];
   cta: string;
+};
+
+export type LpContentPricing = {
+  badge: string;
+  title: string;
+  guarantee: string;
+  plans: LpContentPlan[];
   disclaimer: string;
 };
 

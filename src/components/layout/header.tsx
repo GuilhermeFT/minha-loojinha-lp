@@ -69,12 +69,6 @@ export function Header() {
             height={32}
             priority
           />
-          <span
-            className="shrink-0 rounded-md px-1.5 py-0.5 text-[10px] font-semibold text-white sm:px-2 sm:text-xs"
-            style={{ background: "var(--gradient-primary)" }}
-          >
-            Beta
-          </span>
         </Link>
 
         {/* Desktop nav */}

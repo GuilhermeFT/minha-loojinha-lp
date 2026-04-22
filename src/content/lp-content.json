@@ -2,19 +2,19 @@
   "catalogo-para-whatsapp-goiania-anapolis": {
     "meta": {
       "title": "Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região",
-      "description": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados, pagamento online e estoque automático. 90 dias grátis.",
+      "description": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados e estoque automático. Garantia de 14 dias.",
       "keywords": ["WhatsApp vendas", "Anápolis", "Goiânia", "catálogo WhatsApp", "vendas online", "MEI"],
       "ogTitle": "Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região",
-      "ogDescription": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pagamento online, estoque automático."
+      "ogDescription": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, estoque automático. Garantia de 14 dias."
     },
     "hero": {
-      "badge": "90 dias grátis para testar — sem cobrança agora",
+      "badge": "Garantia de 14 dias — Sem risco, sem fidelidade",
       "title": "Venda mais no",
       "titleHighlight": "WhatsApp",
       "titleSuffix": "em Anápolis, Goiânia e região",
       "subtitle": "Seu cliente escolhe os produtos, envia o pedido pronto e paga online. Você recebe tudo organizado com controle de estoque automático — sem mensagem bagunçada.",
       "socialProof": "Lojistas da região já estão na plataforma.",
-      "ctaPrimary": "Acessar a plataforma — R$ 49,90/mês",
+      "ctaPrimary": "Acessar a plataforma — R$ 16,90/mês",
       "ctaSecondary": "Ver benefícios"
     },
     "benefits": {
@@ -34,8 +34,8 @@
           "description": "Menos tempo enviando foto e preço. Mais tempo atendendo e fechando vendas."
         }
       ],
-      "ctaPrimary": "Acessar a plataforma — R$ 49,90/mês",
-      "ctaSecondary": "Ver preço e oferta",
+      "ctaPrimary": "Acessar a plataforma — R$ 16,90/mês",
+      "ctaSecondary": "Ver planos e preços",
       "footer": "Suporte em português, pensado para o comércio local de Anápolis, Goiânia e toda a região."
     },
     "howItWorks": {
@@ -78,35 +78,56 @@
       "cta": "Criar minha loja agora"
     },
     "pricing": {
-      "badge": "Oferta Beta — Vagas limitadas",
-      "price": "49,90",
-      "priceSuffix": "/mês",
-      "trialText": "90 dias grátis para testar",
-      "trialSubtext": "Primeira cobrança só após 3 meses.",
-      "features": [
-        "Catálogo ilimitado de produtos",
-        "Pedidos estruturados via WhatsApp",
-        "Controle de estoque automático",
-        "Cancele quando quiser, sem fidelidade",
-        "Suporte em português"
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Escolha o plano ideal para sua loja",
+      "guarantee": "14 dias de garantia de reembolso em todos os planos",
+      "plans": [
+        {
+          "id": "mensal",
+          "name": "Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Pedidos estruturados via WhatsApp",
+            "Controle de estoque automático",
+            "Cancele quando quiser, sem fidelidade",
+            "Suporte em português"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Pedidos estruturados via WhatsApp",
+            "Controle de estoque automático",
+            "Cancele quando quiser, sem fidelidade",
+            "Suporte em português"
+          ],
+          "cta": "Assinar Anual"
+        }
       ],
-      "cta": "Acessar a plataforma",
       "disclaimer": "Cartão de crédito. Cancele a qualquer momento."
     },
     "faq": {
       "title": "Dúvidas frequentes",
       "items": [
         {
-          "question": "O que é o acesso antecipado?",
-          "answer": "O Minha Loojinha está em fase beta: você já pode usar a ferramenta e nos ajudar a melhorar. Podem haver ajustes e novas funções. Estamos atentos ao seu feedback para entregar a melhor experiência."
+          "question": "Como funciona a garantia de 14 dias?",
+          "answer": "Você assina e já tem acesso imediato. Se em até 14 dias sentir que o Minha Loojinha não é para você, é só nos avisar e devolvemos 100% do valor pago — sem burocracia."
         },
         {
-          "question": "Como funciona o período de 90 dias grátis?",
-          "answer": "Você cadastra seu cartão agora, mas a primeira cobrança só acontece após 90 dias. Durante esse período você usa o Minha Loojinha sem pagar nada. Se quiser cancelar antes, é só avisar."
-        },
-        {
-          "question": "O preço de R$ 49,90 é promocional?",
-          "answer": "Sim. Esse valor é uma oferta para os primeiros inscritos. Quem assinar agora paga R$ 49,90/mês mesmo após o trial. Os próximos podem ter outro valor."
+          "question": "O preço é promocional?",
+          "answer": "Sim. O plano mensal sai a R$ 16,90/mês e o anual a R$ 149,90 — oferta para os primeiros inscritos. Quem assinar agora garante esse preço. Os próximos podem ter outro valor."
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
@@ -122,22 +143,22 @@
         },
         {
           "question": "Quais formas de pagamento são aceitas?",
-          "answer": "A assinatura é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal. O pagamento é processado de forma segura na página de checkout."
+          "answer": "A assinatura é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
         }
       ],
       "ctaPrompt": "Pronto para organizar suas vendas no WhatsApp?",
-      "ctaButton": "Acessar a plataforma — R$ 49,90/mês"
+      "ctaButton": "Acessar a plataforma — R$ 16,90/mês"
     },
     "shared": {
-      "headerCta": "Acessar o painel — R$ 49,90/mês",
+      "headerCta": "Acessar o painel — R$ 16,90/mês",
       "footerCtaTitle": "Acessar a plataforma",
-      "footerCtaSubtitle": "R$ 49,90/mês — 90 dias grátis para testar.",
+      "footerCtaSubtitle": "A partir de R$ 12,49/mês no plano anual. Garantia de 14 dias.",
       "footerCtaButton": "Começar agora",
-      "stickyCtaMobile": "Acessar o painel — R$ 49,90/mês"
+      "stickyCtaMobile": "Acessar o painel — R$ 16,90/mês"
     },
     "schema": {
       "siteName": "Minha Loojinha",
-      "siteDescription": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados, pagamento online e estoque automático.",
+      "siteDescription": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados e estoque automático.",
       "organizationDescription": "Catálogo estruturado para WhatsApp. Pedidos organizados, estoque automático. Para negócios em Anápolis, Goiânia e região.",
       "localBusinessDescription": "Solução para vendas online via WhatsApp em Anápolis, Goiânia e região. Catálogo estruturado, pedidos organizados, estoque automático.",
       "areaServed": ["Anápolis", "Goiânia", "Região Metropolitana de Goiânia"]
@@ -146,19 +167,19 @@
   "main": {
     "meta": {
       "title": "Minha Loojinha | Seu Catálogo Digital de Moda no WhatsApp",
-      "description": "A solução ideal para lojas de roupas e acessórios venderem mais pelo WhatsApp. Crie seu catálogo, controle seu estoque e receba pedidos organizados. 90 dias grátis.",
+      "description": "A solução ideal para lojas de roupas e acessórios venderem mais pelo WhatsApp. Crie seu catálogo, controle seu estoque e receba pedidos organizados. Garantia de 14 dias.",
       "keywords": ["vender roupas whatsapp", "catálogo digital moda", "pedidos online whatsapp", "loja virtual para MEI", "sistema de vendas moda"],
       "ogTitle": "Minha Loojinha | Transforme seu WhatsApp em uma Máquina de Vendas",
       "ogDescription": "Crie seu catálogo de moda profissional em minutos. Pedidos organizados, controle de grade e estoque automático no WhatsApp."
     },
     "hero": {
-      "badge": "Teste grátis por 90 dias — Sem compromisso",
+      "badge": "14 dias de garantia de reembolso — Sem risco",
       "title": "A vitrine perfeita para sua loja de",
       "titleHighlight": "Moda",
       "titleSuffix": "no WhatsApp",
       "subtitle": "Transforme o Instagram e o WhatsApp da sua marca em uma loja profissional. Seu cliente escolhe o tamanho, envia o pedido pronto e você só finaliza a venda.",
       "socialProof": "Centenas de lojistas já profissionalizaram suas vendas conosco.",
-      "ctaPrimary": "Criar meu catálogo — R$ 49,90/mês",
+      "ctaPrimary": "Criar meu catálogo — R$ 16,90/mês",
       "ctaSecondary": "Ver demonstração"
     },
     "benefits": {
@@ -178,8 +199,8 @@
           "description": "Acabe com o 'vendi e não tinha'. O estoque atualiza automaticamente a cada pedido confirmado."
         }
       ],
-      "ctaPrimary": "Começar agora — 90 dias grátis",
-      "ctaSecondary": "Conhecer recursos",
+      "ctaPrimary": "Começar agora — Garantia de 14 dias",
+      "ctaSecondary": "Ver planos e preços",
       "footer": "Suporte humanizado e plataforma otimizada para conversão em dispositivos móveis."
     },
     "howItWorks": {
@@ -219,22 +240,47 @@
       "badge": "Mobile First",
       "title": "Sua loja no bolso do seu cliente",
       "subtitle": "Uma experiência de compra fluida e rápida, otimizada para celulares, sem que o cliente precise baixar nenhum aplicativo.",
-      "cta": "Experimentar gratuitamente"
+      "cta": "Conhecer a plataforma"
     },
     "pricing": {
-      "badge": "Preço Justo — Oferta de Lançamento",
-      "price": "49,90",
-      "priceSuffix": "/mês",
-      "trialText": "Três meses de mensalidade por nossa conta",
-      "trialSubtext": "Aproveite 90 dias grátis para validar seu negócio.",
-      "features": [
-        "Produtos e categorias ilimitados",
-        "Fotos em alta resolução",
-        "Gestão de estoque e grade de tamanhos",
-        "Pedidos ilimitados via WhatsApp",
-        "Sem taxas sobre suas vendas"
+      "badge": "Preço Justo — Sem taxas por venda",
+      "title": "Escolha o plano ideal para sua loja",
+      "guarantee": "14 dias de garantia de reembolso em todos os planos",
+      "plans": [
+        {
+          "id": "mensal",
+          "name": "Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Produtos e categorias ilimitados",
+            "Fotos em alta resolução",
+            "Gestão de estoque e grade de tamanhos",
+            "Pedidos ilimitados via WhatsApp",
+            "Sem taxas sobre suas vendas"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Produtos e categorias ilimitados",
+            "Fotos em alta resolução",
+            "Gestão de estoque e grade de tamanhos",
+            "Pedidos ilimitados via WhatsApp",
+            "Sem taxas sobre suas vendas"
+          ],
+          "cta": "Assinar Anual"
+        }
       ],
-      "cta": "Assinar agora e ganhar 90 dias",
       "disclaimer": "Cancele quando quiser. Sem taxas de adesão ou fidelidade."
     },
     "faq": {
@@ -249,8 +295,8 @@
           "answer": "O Minha Loojinha organiza o pedido. O pagamento você combina direto com o cliente (Pix, cartão ou link de pagamento) da forma que preferir, sem intermediários cobrando taxas extras sobre a venda."
         },
         {
-          "question": "Como funcionam os 90 dias grátis?",
-          "answer": "Você cria sua conta, configura seu cartão para a assinatura recorrente, mas o sistema só realizará a primeira cobrança após o 90º dia. Você pode cancelar a qualquer momento antes disso."
+          "question": "Como funciona a garantia de 14 dias?",
+          "answer": "Você assina e já tem acesso imediato. Se em até 14 dias sentir que o Minha Loojinha não é para você, é só nos avisar e devolvemos 100% do valor pago — sem burocracia."
         },
         {
           "question": "Posso usar meu próprio domínio?",
@@ -262,14 +308,14 @@
         }
       ],
       "ctaPrompt": "Dê o próximo passo para o sucesso da sua marca.",
-      "ctaButton": "Começar meu teste gratuito"
+      "ctaButton": "Assinar agora — Garantia de 14 dias"
     },
     "shared": {
       "headerCta": "Criar minha loja",
       "footerCtaTitle": "Pronto para vender mais?",
-      "footerCtaSubtitle": "Junte-se a centenas de lojistas de moda. R$ 49,90/mês após o teste.",
+      "footerCtaSubtitle": "A partir de R$ 12,49/mês no plano anual. Garantia de 14 dias.",
       "footerCtaButton": "Começar agora",
-      "stickyCtaMobile": "Criar Catálogo — 90 dias Grátis"
+      "stickyCtaMobile": "Criar Catálogo — Garantia 14 dias"
     },
     "schema": {
       "siteName": "Minha Loojinha",
