@@ -123,3 +123,30 @@ export function getLpContent(path: string): LpContentPath {
 export function getLpContentPaths(): string[] {
   return Object.keys(contentMap);
 }
+
+type LivePrices = {
+  monthly: { price: string; billingNote: string };
+  yearly: { price: string; billingNote: string; savingsBadge: string };
+};
+
+export function mergeWithLivePrices(
+  content: LpContentPath,
+  prices: LivePrices | null,
+): LpContentPath {
+  if (!prices) return content;
+
+  const plans = content.pricing.plans.map((plan) => {
+    if (plan.id === "mensal")
+      return { ...plan, price: prices.monthly.price, billingNote: prices.monthly.billingNote };
+    if (plan.id === "anual")
+      return {
+        ...plan,
+        price: prices.yearly.price,
+        billingNote: prices.yearly.billingNote,
+        savingsBadge: prices.yearly.savingsBadge,
+      };
+    return plan;
+  });
+
+  return { ...content, pricing: { ...content.pricing, plans } };
+}

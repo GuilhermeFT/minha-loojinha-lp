@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { getLpContent, getLpContentPaths } from '@/lib/content'
+import { getLpContent, getLpContentPaths, mergeWithLivePrices } from '@/lib/content'
 import { LpPageContent } from '@/components/lp-page-content'
+import { getPlansPrice } from '@/services/plans.service'
 
 const siteUrlDefault =
   process.env.NEXT_PUBLIC_URL ?? 'https://minhaloojinha.com.br'
@@ -38,7 +39,12 @@ export default async function SlugPage({ params }: Props) {
   if (!paths.includes(slug)) {
     notFound()
   }
-  const content = getLpContent(slug)
+
+  const [rawContent, prices] = await Promise.all([
+    Promise.resolve(getLpContent(slug)),
+    getPlansPrice(),
+  ])
+  const content = mergeWithLivePrices(rawContent, prices)
   const siteUrl = process.env.NEXT_PUBLIC_URL ?? 'https://minhaloojinha.com.br'
   const baseUrl = siteUrl.replace(/\/$/, '')
 
