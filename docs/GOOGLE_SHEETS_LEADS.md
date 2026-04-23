@@ -28,16 +28,16 @@ Guarde o JSON em local seguro e nunca o envie para repositórios públicos.
 1. Acesse [Google Sheets](https://sheets.google.com/) e crie uma nova planilha (ou use uma existente).
 2. Na primeira aba (onde ficam os leads), na primeira linha, defina os cabeçalhos (recomendado):
 
-   | A     | B     | C        | D    |
-   |-------|-------|----------|------|
-   | Nome  | Email | Telefone | Data |
+   | A    | B     | C        | D    |
+   | ---- | ----- | -------- | ---- |
+   | Nome | Email | Telefone | Data |
 
    Os novos leads serão adicionados nas linhas seguintes (colunas A–D).
 
 3. Para receber feedback da página “Enviar feedback”, crie uma **segunda aba** na mesma planilha: clique no **+** no canto inferior e renomeie a nova aba para **Feedback**. Na primeira linha dessa aba, use por exemplo:
 
    | A          | B    |
-   |------------|------|
+   | ---------- | ---- |
    | Comentário | Data |
 
    Os envios de feedback serão adicionados nas linhas seguintes dessa aba. Assim os leads e o feedback não se misturam e nada é sobrescrito.
@@ -101,11 +101,11 @@ Se nada aparecer, verifique:
 
 ## Resumo das variáveis e abas
 
-| Variável              | Onde obter |
-|-----------------------|------------|
-| `GOOGLE_CLIENT_EMAIL` | JSON da conta de serviço, campo `client_email` |
-| `GOOGLE_PRIVATE_KEY`  | JSON da conta de serviço, campo `private_key` |
-| `SHEET_ID`            | URL da planilha: `/d/<SHEET_ID>/edit` |
+| Variável              | Onde obter                                             |
+| --------------------- | ------------------------------------------------------ |
+| `GOOGLE_CLIENT_EMAIL` | JSON da conta de serviço, campo `client_email`         |
+| `GOOGLE_PRIVATE_KEY`  | JSON da conta de serviço, campo `private_key`          |
+| `SHEET_ID`            | URL da planilha: `/d/<SHEET_ID>/edit`                  |
 | `NEXT_PUBLIC_URL`     | URL pública do site (ex.: `https://minhaloojinha.com`) |
 
 Não é mais necessária a variável `NEXT_PUBLIC_CHECKOUT_URL`; os leads passam apenas para a planilha e o contato é feito depois por você.

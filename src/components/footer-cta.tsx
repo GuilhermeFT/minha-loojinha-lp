@@ -8,12 +8,8 @@ export function FooterCta() {
   const shared = useLpShared();
   return (
     <div>
-      <h3 className="font-semibold text-white/90">
-        {shared.footerCtaTitle}
-      </h3>
-      <p className="mt-1 text-sm text-white/60">
-        {shared.footerCtaSubtitle}
-      </p>
+      <h3 className="font-semibold text-white/90">{shared.footerCtaTitle}</h3>
+      <p className="mt-1 text-sm text-white/60">{shared.footerCtaSubtitle}</p>
       <CheckoutTrigger asChild location="footer">
         <Button type="button" size="sm" className="mt-4 w-full">
           {shared.footerCtaButton}

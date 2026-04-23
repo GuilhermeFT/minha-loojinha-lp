@@ -3,7 +3,9 @@ import { env } from "@/env";
 import { getAuthenticatedSheet } from "./auth";
 
 export const leadSchema = z.object({
-  name: z.string("Nome é obrigatório").min(3, "Nome deve ter no mínimo 3 caracteres"),
+  name: z
+    .string("Nome é obrigatório")
+    .min(3, "Nome deve ter no mínimo 3 caracteres"),
   email: z.string("Email é obrigatório").email("Email inválido"),
   expectations: z
     .string("Expectativas são obrigatórias")
@@ -13,14 +15,18 @@ export const leadSchema = z.object({
 export type Lead = z.infer<typeof leadSchema>;
 
 export const waitlistSchema = z.object({
-  name: z.string("Nome é obrigatório").min(2, "Nome deve ter no mínimo 2 caracteres"),
+  name: z
+    .string("Nome é obrigatório")
+    .min(2, "Nome deve ter no mínimo 2 caracteres"),
   email: z.string("Email é obrigatório").email("Email inválido"),
 });
 
 export type WaitlistLead = z.infer<typeof waitlistSchema>;
 
 export const ctaLeadSchema = z.object({
-  name: z.string("Nome é obrigatório").min(2, "Nome deve ter no mínimo 2 caracteres"),
+  name: z
+    .string("Nome é obrigatório")
+    .min(2, "Nome deve ter no mínimo 2 caracteres"),
   email: z.string("Email é obrigatório").email("Email inválido"),
   phone: z.string().optional().default(""),
 });
@@ -61,7 +67,9 @@ export const registerCtaLead = async (data: CtaLead) => {
     range: "A1:D1",
     valueInputOption: "USER_ENTERED",
     requestBody: {
-      values: [[data.name, data.email, data.phone ?? "", new Date().toISOString()]],
+      values: [
+        [data.name, data.email, data.phone ?? "", new Date().toISOString()],
+      ],
     },
   });
 };
@@ -79,15 +87,13 @@ async function ensureFeedbackSheetExists() {
     fields: "sheets.properties.title",
   });
   const hasFeedback = meta.data.sheets?.some(
-    (s) => s.properties?.title === "Feedback"
+    (s) => s.properties?.title === "Feedback",
   );
   if (!hasFeedback) {
     await sheet.spreadsheets.batchUpdate({
       spreadsheetId: env.SHEET_ID,
       requestBody: {
-        requests: [
-          { addSheet: { properties: { title: "Feedback" } } },
-        ],
+        requests: [{ addSheet: { properties: { title: "Feedback" } } }],
       },
     });
   }

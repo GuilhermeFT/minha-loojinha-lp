@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image";
+import Link from "next/link";
 import {
   MessageCircle,
   Package,
@@ -9,31 +9,31 @@ import {
   Star,
   Zap,
   Smartphone,
-} from 'lucide-react'
-import asset1 from '@/assets/images/asset-1.png'
-import asset2 from '@/assets/images/asset-2.png'
-import asset3 from '@/assets/images/asset-3.png'
-import asset4 from '@/assets/images/asset-4.png'
-import asset5 from '@/assets/images/asset-5.png'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardHeader } from '@/components/ui/card'
+} from "lucide-react";
+import asset1 from "@/assets/images/asset-1.png";
+import asset2 from "@/assets/images/asset-2.png";
+import asset3 from "@/assets/images/asset-3.png";
+import asset4 from "@/assets/images/asset-4.png";
+import asset5 from "@/assets/images/asset-5.png";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@/components/ui/accordion'
-import { CheckoutTrigger } from '@/components/checkout-trigger'
-import { JsonLd } from '@/components/json-ld'
-import type { LpContentPath } from '@/lib/content'
+} from "@/components/ui/accordion";
+import { CheckoutTrigger } from "@/components/checkout-trigger";
+import { JsonLd } from "@/components/json-ld";
+import type { LpContentPath } from "@/lib/content";
 
-const benefitIcons = [MessageCircle, Package, TrendingUp]
-const resultsIcons = [CheckCircle, Package, Zap]
+const benefitIcons = [MessageCircle, Package, TrendingUp];
+const resultsIcons = [CheckCircle, Package, Zap];
 
 type LpPageContentProps = {
-  content: LpContentPath
-  baseUrl: string
-}
+  content: LpContentPath;
+  baseUrl: string;
+};
 
 export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
   const {
@@ -45,67 +45,69 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
     pricing,
     faq,
     schema,
-  } = content
+    testimonials,
+  } = content;
 
   const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
     mainEntity: faq.items.map((item) => ({
-      '@type': 'Question',
+      "@type": "Question",
       name: item.question,
-      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+      acceptedAnswer: { "@type": "Answer", text: item.answer },
     })),
-  }
+  };
 
   const webSiteSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
+    "@context": "https://schema.org",
+    "@type": "WebSite",
     name: schema.siteName,
     url: baseUrl,
     description: schema.siteDescription,
-    inLanguage: 'pt-BR',
-  }
+    inLanguage: "pt-BR",
+  };
 
   const organizationSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
+    "@context": "https://schema.org",
+    "@type": "Organization",
     name: schema.siteName,
     url: baseUrl,
     logo: `${baseUrl}/logo.png`,
     description: schema.organizationDescription,
-  }
+  };
 
   const localBusinessSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
     name: schema.siteName,
     description: schema.localBusinessDescription,
     areaServed: schema.areaServed,
     url: baseUrl,
-  }
+  };
 
-  const monthlyPlan = pricing.plans[0]
+  const monthlyPlan =
+    pricing.plans.find((p) => p.id === "mensal") ?? pricing.plans[0];
 
   const softwareApplicationSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'SoftwareApplication',
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
     name: schema.siteName,
-    applicationCategory: 'BusinessApplication',
-    operatingSystem: 'Web',
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "Web",
     url: baseUrl,
     description: schema.siteDescription,
     offers: {
-      '@type': 'Offer',
+      "@type": "Offer",
       price: monthlyPlan.price,
-      priceCurrency: 'BRL',
+      priceCurrency: "BRL",
       priceSpecification: {
-        '@type': 'UnitPriceSpecification',
+        "@type": "UnitPriceSpecification",
         price: monthlyPlan.price,
-        priceCurrency: 'BRL',
-        unitText: 'MONTH',
+        priceCurrency: "BRL",
+        unitText: "MONTH",
       },
     },
-  }
+  };
 
   return (
     <div className="flex flex-col">
@@ -119,37 +121,24 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
         ]}
       />
 
-      <section className="relative overflow-hidden bg-[var(--background)]">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute -top-32 right-0 h-[600px] w-[600px] rounded-full opacity-50 blur-3xl"
-          style={{ background: 'var(--gradient-soft)' }}
-        />
-        <div
-          aria-hidden
-          className="pointer-events-none absolute -bottom-20 -left-20 h-[400px] w-[400px] rounded-full opacity-40 blur-3xl"
-          style={{ background: 'linear-gradient(135deg, #f4efff, #e8d9ff)' }}
-        />
+      <section className="relative overflow-hidden bg-white">
         <div className="container relative mx-auto max-w-6xl px-4 py-12 pb-20 sm:px-6 sm:py-20 sm:pb-24 md:py-28 md:pb-32">
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
             <div className="space-y-6 text-center sm:space-y-8 lg:text-left">
               <div className="flex justify-center lg:justify-start">
-                <span className="inline-flex items-center gap-2 rounded-full border border-[var(--palette-mid)]/30 bg-[var(--palette-mid)]/10 px-4 py-1.5 text-sm font-medium text-[var(--palette-mid)]">
-                  <Star className="size-3.5 fill-current" />
+                <span className="inline-flex items-center gap-2 rounded-full border border-[var(--border-color)] bg-[var(--bg-warm-2)] px-4 py-1.5 text-xs font-medium text-[var(--text-secondary)] sm:text-sm">
+                  <CheckCircle className="size-3.5 text-[var(--success)]" />
                   {hero.badge}
                 </span>
               </div>
-              <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
-                {hero.title}{' '}
-                <span
-                  className="bg-clip-text text-transparent"
-                  style={{ backgroundImage: 'var(--gradient-primary)' }}
-                >
+              <h1 className="text-3xl font-bold leading-[1.1] tracking-tight text-[#111111] sm:text-4xl md:text-5xl lg:text-6xl">
+                {hero.title}{" "}
+                <span className="text-[var(--palette-mid)]">
                   {hero.titleHighlight}
-                </span>{' '}
+                </span>{" "}
                 {hero.titleSuffix}
               </h1>
-              <p className="text-base text-[var(--text-secondary)] sm:text-lg md:text-xl">
+              <p className="text-base leading-relaxed text-[var(--text-secondary)] sm:text-lg md:text-xl">
                 {hero.subtitle}
               </p>
               <p className="text-sm text-[var(--text-muted)]">
@@ -176,11 +165,6 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
               </div>
             </div>
             <div className="relative flex justify-center">
-              <div
-                aria-hidden
-                className="pointer-events-none absolute inset-0 scale-75 rounded-full opacity-60 blur-2xl"
-                style={{ background: 'var(--gradient-soft)' }}
-              />
               <Image
                 src={asset1}
                 alt="Catálogo e pedidos no WhatsApp"
@@ -196,41 +180,57 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
 
       <section
         id="beneficios"
-        className="border-t border-[hsl(var(--border))] py-16 sm:py-24"
-        style={{ background: 'var(--gradient-soft)' }}
+        className="border-t border-[var(--border-color)] bg-[var(--bg-warm-2)] py-16 sm:py-24"
       >
         <div className="container mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-2xl font-bold tracking-tight text-[var(--foreground)] sm:text-3xl md:text-4xl">
+            <h2 className="text-2xl font-bold tracking-tight text-[#111111] sm:text-3xl md:text-4xl">
               {benefits.title}
             </h2>
-            <p className="mt-4 text-base text-[var(--text-secondary)] sm:text-lg">
+            <p className="mt-4 text-base leading-relaxed text-[var(--text-secondary)] sm:text-lg">
               {benefits.subtitle}
             </p>
           </div>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {benefits.cards.map((item, i) => {
-              const Icon = benefitIcons[i]
+              const Icon = benefitIcons[i];
+              const iconStyles = [
+                {
+                  bg: "bg-[var(--palette-mid)]/10",
+                  text: "text-[var(--palette-mid)]",
+                },
+                {
+                  bg: "bg-[var(--success-soft)]",
+                  text: "text-[var(--success)]",
+                },
+                {
+                  bg: "bg-[var(--accent-amber-soft)]",
+                  text: "text-[var(--accent-amber)]",
+                },
+              ];
+              const style = iconStyles[i % iconStyles.length];
               return (
                 <Card
                   key={item.title}
-                  className="border border-[hsl(var(--border))] bg-white/80 backdrop-blur-sm transition-shadow hover:shadow-[var(--shadow-card)]"
+                  className="border border-[var(--border-color)] bg-white transition-shadow hover:shadow-[var(--shadow-card)]"
                 >
                   <CardHeader className="pb-3">
-                    <div className="mb-3 flex size-12 items-center justify-center rounded-xl bg-[var(--palette-mid)]/10">
-                      <Icon className="size-6 text-[var(--palette-mid)]" />
+                    <div
+                      className={`mb-3 flex size-12 items-center justify-center rounded-xl ${style.bg}`}
+                    >
+                      <Icon className={`size-6 ${style.text}`} />
                     </div>
-                    <h3 className="text-lg font-semibold text-[var(--foreground)]">
+                    <h3 className="text-lg font-semibold text-[#111111]">
                       {item.title}
                     </h3>
                   </CardHeader>
                   <CardContent className="pt-0">
-                    <p className="text-[var(--text-secondary)]">
+                    <p className="leading-relaxed text-[var(--text-secondary)]">
                       {item.description}
                     </p>
                   </CardContent>
                 </Card>
-              )
+              );
             })}
           </div>
           <div className="mt-12 flex flex-col items-center gap-4 text-center sm:flex-row sm:justify-center">
@@ -243,7 +243,7 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
               variant="outline"
               size="lg"
               asChild
-              className="w-full sm:w-auto bg-white/60"
+              className="w-full sm:w-auto"
             >
               <Link href="/#preco">{benefits.ctaSecondary}</Link>
             </Button>
@@ -254,35 +254,32 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
         </div>
       </section>
 
-      <section className="border-t border-[hsl(var(--border))] bg-[var(--background)] py-16 sm:py-24">
+      <section className="border-t border-[var(--border-color)] bg-white py-16 sm:py-24">
         <div className="container mx-auto max-w-6xl px-4 sm:px-6">
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
             <div className="space-y-10">
               <div>
-                <span className="inline-block rounded-full bg-[var(--palette-mid)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[var(--palette-mid)]">
+                <span className="inline-block rounded-full bg-[var(--bg-warm-2)] px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[var(--text-secondary)]">
                   {howItWorks.badge}
                 </span>
-                <h2 className="mt-4 text-2xl font-bold tracking-tight text-[var(--foreground)] sm:text-3xl md:text-4xl">
+                <h2 className="mt-4 text-2xl font-bold tracking-tight text-[#111111] sm:text-3xl md:text-4xl">
                   {howItWorks.title}
                 </h2>
-                <p className="mt-3 text-base text-[var(--text-secondary)] sm:text-lg">
+                <p className="mt-3 text-base leading-relaxed text-[var(--text-secondary)] sm:text-lg">
                   {howItWorks.subtitle}
                 </p>
               </div>
               <ol className="space-y-7">
                 {howItWorks.steps.map((item) => (
                   <li key={item.step} className="flex gap-5">
-                    <span
-                      className="flex size-10 shrink-0 items-center justify-center rounded-full text-base font-bold text-white shadow-[var(--shadow-soft)]"
-                      style={{ background: 'var(--gradient-primary)' }}
-                    >
+                    <span className="flex size-10 shrink-0 items-center justify-center rounded-full bg-[var(--palette-mid)] text-base font-bold text-white shadow-[var(--shadow-soft)]">
                       {item.step}
                     </span>
                     <div className="pt-1">
-                      <p className="font-semibold text-[var(--foreground)]">
+                      <p className="font-semibold text-[#111111]">
                         {item.title}
                       </p>
-                      <p className="mt-1 text-sm text-[var(--text-secondary)]">
+                      <p className="mt-1 leading-relaxed text-sm text-[var(--text-secondary)]">
                         {item.description}
                       </p>
                     </div>
@@ -291,11 +288,6 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
               </ol>
             </div>
             <div className="relative flex justify-center lg:justify-end">
-              <div
-                aria-hidden
-                className="pointer-events-none absolute inset-0 rounded-3xl opacity-50 blur-2xl"
-                style={{ background: 'var(--gradient-soft)' }}
-              />
               <Image
                 src={asset2}
                 alt="Configure seu catálogo facilmente"
@@ -308,57 +300,44 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
         </div>
       </section>
 
-      <section
-        className="relative overflow-hidden py-16 sm:py-24"
-        style={{ background: 'var(--color-surface-dark)' }}
-      >
+      <section className="relative overflow-hidden bg-[#1a1a1a] py-16 sm:py-24">
         <div
           aria-hidden
           className="pointer-events-none absolute -top-40 right-0 h-[500px] w-[500px] rounded-full opacity-20 blur-3xl"
-          style={{ background: 'var(--gradient-primary)' }}
-        />
-        <div
-          aria-hidden
-          className="pointer-events-none absolute bottom-0 left-0 h-[300px] w-[300px] rounded-full opacity-15 blur-3xl"
-          style={{ background: '#8132ae' }}
+          style={{ background: "var(--palette-mid)" }}
         />
         <div className="container relative mx-auto max-w-6xl px-4 sm:px-6">
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
             <div className="space-y-8 text-center lg:text-left">
               <div>
-                <span className="inline-block rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white/80">
+                <span className="inline-block rounded-full border border-white/20 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white/80">
                   {results.badge}
                 </span>
                 <h2 className="mt-4 text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl">
                   {results.title}
                 </h2>
-                <p className="mt-3 text-base text-white/70 sm:text-lg">
+                <p className="mt-3 text-base leading-relaxed text-white/75 sm:text-lg">
                   {results.subtitle}
                 </p>
               </div>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 lg:grid-cols-1">
                 {results.stats.map((stat, i) => {
-                  const Icon = resultsIcons[i]
+                  const Icon = resultsIcons[i];
                   return (
                     <div
                       key={stat.label}
-                      className="flex items-center gap-3 rounded-xl border border-white/15 bg-white/8 px-4 py-3 backdrop-blur-sm"
+                      className="flex items-center gap-3 rounded-xl border border-white/15 bg-white/5 px-4 py-3"
                     >
-                      <Icon className="size-5 shrink-0 text-[var(--palette-mid)]" />
+                      <Icon className="size-5 shrink-0 text-[var(--success)]" />
                       <span className="text-sm font-medium text-white">
                         {stat.label}
                       </span>
                     </div>
-                  )
+                  );
                 })}
               </div>
               <CheckoutTrigger asChild location="results">
-                <Button
-                  type="button"
-                  variant="dark"
-                  size="lg"
-                  className="w-full sm:w-auto"
-                >
+                <Button type="button" size="lg" className="w-full sm:w-auto">
                   {results.cta}
                 </Button>
               </CheckoutTrigger>
@@ -376,31 +355,89 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
         </div>
       </section>
 
-      <section
-        className="border-t border-[hsl(var(--border))] py-16 sm:py-24"
-        style={{ background: 'var(--gradient-soft)' }}
-      >
+      {testimonials && testimonials.items.length > 0 && (
+        <section className="border-t border-[var(--border-color)] bg-[var(--bg-warm-2)] py-16 sm:py-24">
+          <div className="container mx-auto max-w-6xl px-4 sm:px-6">
+            <div className="mx-auto max-w-2xl text-center">
+              {testimonials.badge && (
+                <span className="inline-block rounded-full bg-white px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[var(--text-secondary)]">
+                  {testimonials.badge}
+                </span>
+              )}
+              <h2 className="mt-4 text-2xl font-bold tracking-tight text-[#111111] sm:text-3xl md:text-4xl">
+                {testimonials.title}
+              </h2>
+              {testimonials.subtitle && (
+                <p className="mt-4 text-base leading-relaxed text-[var(--text-secondary)] sm:text-lg">
+                  {testimonials.subtitle}
+                </p>
+              )}
+            </div>
+            <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {testimonials.items.map((item) => {
+                const initials = item.name
+                  .split(" ")
+                  .map((part) => part[0])
+                  .filter(Boolean)
+                  .slice(0, 2)
+                  .join("")
+                  .toUpperCase();
+                return (
+                  <figure
+                    key={`${item.name}-${item.city}`}
+                    className="flex h-full flex-col rounded-2xl border border-[var(--border-color)] bg-white p-6 shadow-[var(--shadow-soft)]"
+                  >
+                    <div
+                      aria-hidden
+                      className="mb-3 flex gap-0.5 text-[var(--accent-amber)]"
+                    >
+                      {Array.from({ length: 5 }).map((_, starIndex) => (
+                        <Star key={starIndex} className="size-4 fill-current" />
+                      ))}
+                    </div>
+                    <blockquote className="flex-1 text-sm leading-relaxed text-[var(--text-secondary)]">
+                      &ldquo;{item.quote}&rdquo;
+                    </blockquote>
+                    <figcaption className="mt-5 flex items-center gap-3 border-t border-[var(--border-color)] pt-4">
+                      <span
+                        aria-hidden
+                        className="flex size-10 shrink-0 items-center justify-center rounded-full bg-[var(--palette-mid)]/10 text-xs font-semibold text-[var(--palette-mid)]"
+                      >
+                        {initials}
+                      </span>
+                      <div>
+                        <p className="text-sm font-semibold text-[#111111]">
+                          {item.name}
+                        </p>
+                        <p className="text-xs text-[var(--text-muted)]">
+                          {item.city}
+                          {item.business ? ` · ${item.business}` : ""}
+                        </p>
+                      </div>
+                    </figcaption>
+                  </figure>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="border-t border-[var(--border-color)] bg-white py-16 sm:py-24">
         <div className="container mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mx-auto max-w-2xl text-center">
-            <span className="inline-flex items-center gap-2 rounded-full bg-[var(--palette-mid)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[var(--palette-mid)]">
-              <Smartphone className="size-3.5" />
+            <span className="inline-flex items-center gap-2 rounded-full bg-[var(--bg-warm-2)] px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[var(--text-secondary)]">
+              <Smartphone className="size-3.5 text-[var(--palette-mid)]" />
               {multiDevice.badge}
             </span>
-            <h2 className="mt-4 text-2xl font-bold tracking-tight text-[var(--foreground)] sm:text-3xl md:text-4xl">
+            <h2 className="mt-4 text-2xl font-bold tracking-tight text-[#111111] sm:text-3xl md:text-4xl">
               {multiDevice.title}
             </h2>
-            <p className="mt-4 text-base text-[var(--text-secondary)] sm:text-lg">
+            <p className="mt-4 text-base leading-relaxed text-[var(--text-secondary)] sm:text-lg">
               {multiDevice.subtitle}
             </p>
           </div>
           <div className="relative mt-12 flex justify-center">
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-8 rounded-3xl opacity-60 blur-3xl"
-              style={{
-                background: 'linear-gradient(135deg, #e8d9ff, #f4efff)',
-              }}
-            />
             <Image
               src={asset4}
               alt="Minha Loojinha em múltiplos dispositivos"
@@ -421,14 +458,14 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
 
       <section
         id="preco"
-        className="border-t border-[hsl(var(--border))] bg-[var(--background)] py-12 sm:py-24"
+        className="border-t border-[var(--border-color)] bg-[var(--bg-warm-1)] py-12 sm:py-24"
       >
         <div className="container mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mx-auto mb-10 max-w-2xl text-center">
-            <span className="inline-block rounded-full border border-yellow-400/40 bg-yellow-400/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-yellow-600">
+            <span className="inline-block rounded-full border border-[var(--success)]/30 bg-[var(--success-soft)] px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[var(--success)]">
               {pricing.badge}
             </span>
-            <h2 className="mt-4 text-2xl font-bold tracking-tight text-[var(--foreground)] sm:text-3xl">
+            <h2 className="mt-4 text-2xl font-bold tracking-tight text-[#111111] sm:text-3xl">
               {pricing.title}
             </h2>
           </div>
@@ -437,53 +474,42 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
               <div
                 key={plan.id}
                 className={[
-                  'relative flex flex-col overflow-hidden rounded-2xl border shadow-[var(--shadow-card)] transition-shadow hover:shadow-lg',
+                  "relative flex flex-col overflow-hidden rounded-2xl bg-white shadow-[var(--shadow-card)] transition-shadow hover:shadow-lg",
                   plan.destaque
-                    ? 'border-[var(--palette-mid)] ring-2 ring-[var(--palette-mid)]'
-                    : 'border-[hsl(var(--border))]',
-                ].join(' ')}
+                    ? "border-2 border-[var(--palette-mid)]"
+                    : "border border-[var(--border-color)]",
+                ].join(" ")}
               >
-                {plan.destaque && (
-                  <div
-                    className="py-1.5 text-center text-xs font-semibold uppercase tracking-wider text-white"
-                    style={{ background: 'var(--gradient-primary)' }}
-                  >
-                    Mais popular
+                {plan.destaque && plan.savingsBadge && (
+                  <div className="bg-[var(--accent-amber)] py-1.5 text-center text-xs font-semibold uppercase tracking-wider text-[#111111]">
+                    {plan.savingsBadge}
                   </div>
                 )}
-                <div
-                  className="px-6 py-6 text-center text-white"
-                  style={{ background: 'var(--gradient-primary)' }}
-                >
-                  <p className="text-sm font-semibold uppercase tracking-wider opacity-80">
+                <div className="border-b border-[var(--border-color)] px-6 py-6 text-center">
+                  <p className="text-sm font-semibold uppercase tracking-wider text-[var(--text-muted)]">
                     {plan.name}
                   </p>
-                  <p className="mt-2 flex items-end justify-center gap-1">
+                  <p className="mt-2 flex items-end justify-center gap-1 text-[#111111]">
                     <span className="text-4xl font-bold tracking-tight">
                       R$ {plan.price}
                     </span>
-                    <span className="mb-1 text-base font-normal opacity-70">
+                    <span className="mb-1 text-base font-normal text-[var(--text-muted)]">
                       {plan.priceSuffix}
                     </span>
                   </p>
-                  {plan.savingsBadge && (
-                    <span className="mt-2 inline-block rounded-full bg-yellow-400/30 px-2.5 py-0.5 text-xs font-semibold text-yellow-200">
-                      {plan.savingsBadge}
-                    </span>
-                  )}
-                  <p className="mt-2 text-xs text-white/60">
+                  <p className="mt-2 text-xs text-[var(--text-muted)]">
                     {plan.billingNote}
                   </p>
                 </div>
-                <div className="flex flex-1 flex-col gap-6 bg-white p-6">
+                <div className="flex flex-1 flex-col gap-6 p-6">
                   <ul className="space-y-3">
                     {plan.features.map((item) => (
                       <li
                         key={item}
-                        className="flex items-center gap-3 text-sm text-[var(--text-secondary)]"
+                        className="flex items-start gap-3 text-sm leading-relaxed text-[var(--text-secondary)]"
                       >
-                        <CheckCircle className="size-4 shrink-0 text-[var(--palette-mid)]" />
-                        {item}
+                        <CheckCircle className="mt-0.5 size-4 shrink-0 text-[var(--success)]" />
+                        <span>{item}</span>
                       </li>
                     ))}
                   </ul>
@@ -492,7 +518,7 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
                       type="button"
                       size="lg"
                       className="mt-auto w-full"
-                      variant={plan.destaque ? 'default' : 'outline'}
+                      variant={plan.destaque ? "default" : "outline"}
                     >
                       {plan.cta}
                     </Button>
@@ -503,7 +529,7 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
           </div>
           <div className="mx-auto mt-8 max-w-3xl space-y-2 text-center">
             <p className="flex items-center justify-center gap-2 text-sm font-medium text-[var(--text-secondary)]">
-              <Lock className="size-4 text-[var(--palette-mid)]" />
+              <Lock className="size-4 text-[var(--success)]" />
               {pricing.guarantee}
             </p>
             <p className="text-xs text-[var(--text-muted)]">
@@ -515,21 +541,21 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
 
       <section
         id="duvidas"
-        className="relative overflow-hidden border-t border-[hsl(var(--border))] py-12 sm:py-24"
+        className="relative overflow-hidden border-t border-[var(--border-color)] bg-[var(--bg-warm-2)] py-12 sm:py-24"
       >
         <Image
           src={asset5}
           alt=""
           aria-hidden
           fill
-          className="pointer-events-none object-cover opacity-[0.35]"
+          className="pointer-events-none object-cover opacity-[0.10]"
           sizes="100vw"
         />
         <div className="container relative mx-auto max-w-3xl px-4 sm:px-6">
-          <h2 className="text-center text-2xl font-bold tracking-tight text-[var(--foreground)] sm:text-3xl">
+          <h2 className="text-center text-2xl font-bold tracking-tight text-[#111111] sm:text-3xl">
             {faq.title}
           </h2>
-          <div className="mt-10 rounded-2xl border border-[hsl(var(--border))] bg-white/80 px-4 backdrop-blur-sm sm:px-8">
+          <div className="mt-10 rounded-2xl border border-[var(--border-color)] bg-white px-4 shadow-[var(--shadow-soft)] sm:px-8">
             <Accordion type="single" collapsible>
               {faq.items.map((item, i) => (
                 <AccordionItem key={i} value={`faq-${i}`}>
@@ -540,7 +566,7 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
             </Accordion>
           </div>
           <div className="mt-12 flex flex-col items-center gap-4 text-center">
-            <p className="text-lg font-medium text-[var(--foreground)]">
+            <p className="text-lg font-medium text-[#111111]">
               {faq.ctaPrompt}
             </p>
             <CheckoutTrigger asChild location="faq">
@@ -552,5 +578,5 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
         </div>
       </section>
     </div>
-  )
+  );
 }

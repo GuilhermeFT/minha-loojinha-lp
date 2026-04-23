@@ -22,8 +22,8 @@ export default function TermosDeUsoPage() {
           </h2>
           <p className="mt-2">
             Ao acessar o site e/ou utilizar o serviço Minha Loojinha
-            (&quot;Serviço&quot;), você concorda com estes Termos de Uso. Se
-            não concordar, não utilize o Serviço.
+            (&quot;Serviço&quot;), você concorda com estes Termos de Uso. Se não
+            concordar, não utilize o Serviço.
           </p>
         </section>
 
@@ -59,9 +59,9 @@ export default function TermosDeUsoPage() {
           <p className="mt-2">
             Os valores, periodicidade e condições de cobrança são os informados
             no site no momento da contratação. O pagamento é processado por
-            terceiros (provedor de pagamento). O usuário é responsável por manter dados
-            de pagamento válidos. Falhas de cobrança podem resultar em
-            suspensão ou cancelamento do acesso ao Serviço.
+            terceiros (provedor de pagamento). O usuário é responsável por
+            manter dados de pagamento válidos. Falhas de cobrança podem resultar
+            em suspensão ou cancelamento do acesso ao Serviço.
           </p>
         </section>
 
@@ -70,10 +70,10 @@ export default function TermosDeUsoPage() {
             5. Cancelamento
           </h2>
           <p className="mt-2">
-            O usuário pode cancelar a assinatura a qualquer momento, pelos
-            meios disponibilizados (ex.: área logada ou contato). O acesso
-            permanece até o fim do período já pago. Não há reembolso de valores
-            já cobrados, salvo disposição em contrário na oferta ou na lei.
+            O usuário pode cancelar a assinatura a qualquer momento, pelos meios
+            disponibilizados (ex.: área logada ou contato). O acesso permanece
+            até o fim do período já pago. Não há reembolso de valores já
+            cobrados, salvo disposição em contrário na oferta ou na lei.
           </p>
         </section>
 
@@ -85,8 +85,8 @@ export default function TermosDeUsoPage() {
             O usuário compromete-se a utilizar o Serviço de forma lícita, sem
             violar direitos de terceiros nem leis aplicáveis. É proibido uso
             para atividades ilegais, abusivas, fraudulentas ou que prejudiquem a
-            infraestrutura ou a experiência de outros usuários. Reservamo-nos
-            o direito de suspender ou encerrar contas em caso de violação.
+            infraestrutura ou a experiência de outros usuários. Reservamo-nos o
+            direito de suspender ou encerrar contas em caso de violação.
           </p>
         </section>
 

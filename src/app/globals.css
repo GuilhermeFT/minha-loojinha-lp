@@ -1,41 +1,57 @@
 @import "tailwindcss";
 
 :root {
-  /* Paleta: #27003E #530083 #8132AE #656FBE */
+  /* Paleta roxo — usada agora exclusivamente em conversão/destaque */
   --palette-darkest: #27003e;
   --palette-dark: #530083;
-  --palette-mid: #8132ae;
-  --palette-light: #656fbe;
-  --background: #faf8fc;
-  --foreground: #1f003d;
+  --palette-mid: #6b21d6;
+  --palette-light: #8a4cdf;
+
+  /* Neutros quentes — substituem o roxo como fundo */
+  --bg-warm-1: #fafaf8; /* off-white quente — fundo principal */
+  --bg-warm-2: #f3f1ee; /* cinza-areia sutil — seções alternadas */
+  --bg-warm-3: #ece9e4; /* tom mais terroso — detalhes */
+
+  /* Acento âmbar (destaque plano anual, estrelas, badges humanizados) */
+  --accent-amber: #f5a623;
+  --accent-amber-soft: #fff4df;
+
+  /* Verde semântico (checkmarks, "sem taxa") */
+  --success: #16a34a;
+  --success-soft: #e7f6ec;
+
+  --background: var(--bg-warm-1);
+  --foreground: #111111;
   --primary: 270 100% 12%;
   --primary-foreground: #ffffff;
-  --muted: 270 20% 96%;
-  --muted-foreground: 270 30% 40%;
-  --accent: 262 65% 42%;
+  --muted: 30 12% 94%;
+  --muted-foreground: 0 0% 32%;
+  --accent: 262 78% 48%;
   --accent-foreground: #ffffff;
   --card: #ffffff;
-  --card-foreground: #1f003d;
-  --border: 270 20% 90%;
-  --input: 270 20% 90%;
-  --ring: 270 100% 35%;
+  --card-foreground: #111111;
+  --border: 30 10% 88%;
+  --input: 30 10% 88%;
+  --ring: 262 78% 48%;
   --radius-sm: 0.5rem;
   --radius-md: 0.75rem;
   --radius-lg: 1rem;
   --radius-xl: 1.25rem;
   --radius-2xl: 1.5rem;
-  --shadow-soft: 0 4px 20px -2px rgb(39 0 62 / 0.08), 0 2px 8px -2px rgb(39 0 62 / 0.04);
-  --shadow-card: 0 8px 30px -8px rgb(39 0 62 / 0.12), 0 4px 12px -4px rgb(83 0 131 / 0.08);
-  --shadow-button: 0 10px 30px rgba(83, 0, 131, 0.25);
+  --shadow-soft:
+    0 4px 20px -2px rgb(17 17 17 / 0.06), 0 2px 8px -2px rgb(17 17 17 / 0.04);
+  --shadow-card:
+    0 8px 30px -8px rgb(17 17 17 / 0.1), 0 4px 12px -4px rgb(17 17 17 / 0.06);
+  --shadow-button: 0 10px 30px rgba(107, 33, 214, 0.28);
   /* Extended DS tokens */
-  --color-primary-deep: #1f003d;
-  --color-bg-soft: #fdfbff;
-  --color-surface-dark: #27003e;
-  --gradient-primary: linear-gradient(135deg, #530083, #8132ae);
-  --gradient-soft: linear-gradient(135deg, #fdfbff, #f4efff);
-  --text-secondary: #484848;
-  --text-muted: #888888;
-  --border-color: #e8e8e8;
+  --color-primary-deep: #1a1a1a;
+  --color-bg-soft: var(--bg-warm-1);
+  --color-surface-dark: #1a1a1a;
+  --gradient-primary: linear-gradient(135deg, #6b21d6, #8a4cdf);
+  --gradient-soft: linear-gradient(135deg, #fafaf8, #f3f1ee);
+  --text-secondary: #4b4b4b;
+  --text-muted: #8a8a8a;
+  --border-color: #e5e2dc;
 }
 
 .dark {
@@ -72,6 +88,13 @@
   --color-palette-light: var(--palette-light);
   --color-surface-dark: var(--color-surface-dark);
   --color-bg-soft: var(--color-bg-soft);
+  --color-bg-warm-1: var(--bg-warm-1);
+  --color-bg-warm-2: var(--bg-warm-2);
+  --color-bg-warm-3: var(--bg-warm-3);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-accent-amber: var(--accent-amber);
+  --color-accent-amber-soft: var(--accent-amber-soft);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --radius-sm: var(--radius-sm);
@@ -90,8 +113,27 @@ body {
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
+h1 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+h2 {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
 button {
   cursor: pointer;
+}
+
+::selection {
+  background-color: var(--palette-mid);
+  color: #ffffff;
+}
+::-moz-selection {
+  background-color: var(--palette-mid);
+  color: #ffffff;
 }
 
 @keyframes accordion-down {

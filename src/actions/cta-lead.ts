@@ -9,13 +9,11 @@ export async function submitCtaLead(formData: FormData) {
   const phone = (formData.get("phone") as string) ?? "";
   const result = ctaLeadSchema.safeParse({ name, email, phone });
 
-
   if (!result.success) {
     const first = result.error.flatten().fieldErrors;
     return {
       ok: false,
-      message:
-        first.email?.[0] ?? first.name?.[0] ?? "Preencha nome e e-mail.",
+      message: first.email?.[0] ?? first.name?.[0] ?? "Preencha nome e e-mail.",
     };
   }
   try {

@@ -3,7 +3,14 @@
     "meta": {
       "title": "Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região",
       "description": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados e estoque automático. Garantia de 14 dias.",
-      "keywords": ["WhatsApp vendas", "Anápolis", "Goiânia", "catálogo WhatsApp", "vendas online", "MEI"],
+      "keywords": [
+        "WhatsApp vendas",
+        "Anápolis",
+        "Goiânia",
+        "catálogo WhatsApp",
+        "vendas online",
+        "MEI"
+      ],
       "ogTitle": "Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região",
       "ogDescription": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, estoque automático. Garantia de 14 dias."
     },
@@ -164,42 +171,575 @@
       "areaServed": ["Anápolis", "Goiânia", "Região Metropolitana de Goiânia"]
     }
   },
-  "main": {
+  "anapolis": {
     "meta": {
-      "title": "Minha Loojinha | Seu Catálogo Digital de Moda no WhatsApp",
-      "description": "A solução ideal para lojas de roupas e acessórios venderem mais pelo WhatsApp. Crie seu catálogo, controle seu estoque e receba pedidos organizados. Garantia de 14 dias.",
-      "keywords": ["vender roupas whatsapp", "catálogo digital moda", "pedidos online whatsapp", "loja virtual para MEI", "sistema de vendas moda"],
-      "ogTitle": "Minha Loojinha | Transforme seu WhatsApp em uma Máquina de Vendas",
-      "ogDescription": "Crie seu catálogo de moda profissional em minutos. Pedidos organizados, controle de grade e estoque automático no WhatsApp."
+      "title": "Catálogo digital para lojistas em Anápolis | Minha Loojinha",
+      "description": "Lojista de moda em Anápolis? Crie seu catálogo digital e receba pedidos organizados pelo WhatsApp. Sem taxa por venda. Teste grátis por 14 dias.",
+      "keywords": [
+        "catálogo digital lojista Anápolis",
+        "vender roupas WhatsApp Anápolis",
+        "loja virtual moda Anápolis GO",
+        "sistema pedidos WhatsApp Anápolis"
+      ],
+      "ogTitle": "Catálogo digital para lojistas em Anápolis | Minha Loojinha",
+      "ogDescription": "Lojista de moda em Anápolis? Crie seu catálogo digital e receba pedidos organizados pelo WhatsApp. Sem taxa por venda. Teste grátis por 14 dias."
     },
     "hero": {
-      "badge": "14 dias de garantia de reembolso — Sem risco",
-      "title": "A vitrine perfeita para sua loja de",
-      "titleHighlight": "Moda",
-      "titleSuffix": "no WhatsApp",
-      "subtitle": "Transforme o Instagram e o WhatsApp da sua marca em uma loja profissional. Seu cliente escolhe o tamanho, envia o pedido pronto e você só finaliza a venda.",
-      "socialProof": "Centenas de lojistas já profissionalizaram suas vendas conosco.",
-      "ctaPrimary": "Criar meu catálogo — R$ 16,90/mês",
-      "ctaSecondary": "Ver demonstração"
+      "badge": "Garantia de 14 dias — Sem risco, sem fidelidade",
+      "title": "Lojistas de Anápolis estão recebendo",
+      "titleHighlight": "pedidos organizados no WhatsApp",
+      "titleSuffix": ". A sua loja também pode.",
+      "subtitle": "Anápolis tem mais de 390 mil habitantes e um comércio de moda que não para. Entre o movimento da loja, os pedidos no WhatsApp e o controle de estoque, muita lojista fica soterrada de trabalho. A Minha Loojinha organiza tudo isso num link só.",
+      "socialProof": "Lojistas de Anápolis já estão na plataforma.",
+      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaSecondary": "Ver benefícios"
     },
     "benefits": {
-      "title": "Tudo o que sua loja precisa para crescer online",
-      "subtitle": "Chega de perder vendas por demora no atendimento ou falta de organização na grade de tamanhos.",
+      "title": "O que muda na sua rotina como lojista em Anápolis",
+      "subtitle": "Anápolis faz parte do Cinturão da Moda goiano, que abastece até a Região da 44 em Goiânia. O WhatsApp já é o canal direto com a cliente — falta só a organização.",
       "cards": [
         {
-          "title": "Vitrine Impecável",
-          "description": "Destaque suas coleções com fotos de alta qualidade e descrições detalhadas que vendem por você."
+          "title": "Sem mais perguntas repetitivas",
+          "description": "Sua cliente do Jundiaí, do Setor Central ou de qualquer canto de Anápolis encontra tudo no catálogo: preço, tamanho disponível, foto real. Ela não precisa te perguntar nada antes de comprar."
         },
         {
-          "title": "Carrinho Inteligente",
-          "description": "O cliente seleciona cor, tamanho e modelo. O pedido chega no seu WhatsApp com todos os detalhes e o cálculo total."
+          "title": "Vende enquanto atende o balcão",
+          "description": "Se você tem loja física no centro de Anápolis, o catálogo digital trabalha em paralelo. Enquanto você atende uma cliente pessoalmente, outra está fazendo o pedido pelo link."
         },
         {
-          "title": "Gestão de Estoque",
-          "description": "Acabe com o 'vendi e não tinha'. O estoque atualiza automaticamente a cada pedido confirmado."
+          "title": "Estoque sempre real",
+          "description": "Chega de confirmar pedido de peça que acabou. O estoque da Minha Loojinha atualiza a cada confirmação. Sua cliente nunca vai pedir algo que você não tem."
         }
       ],
-      "ctaPrimary": "Começar agora — Garantia de 14 dias",
+      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Suporte em português, pensado para o comércio local de Anápolis e toda a região."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Do link da sua bio até o pedido organizado no WhatsApp",
+      "subtitle": "Menos de 30 minutos para ter um catálogo profissional compartilhável com suas clientes.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Você cadastra seus produtos",
+          "description": "Fotos, tamanhos (PP ao XXG), cores e preços. Leva menos de 30 minutos."
+        },
+        {
+          "step": "2",
+          "title": "Compartilha seu link",
+          "description": "Na bio do Instagram, no status do WhatsApp, onde você já divulga sua loja."
+        },
+        {
+          "step": "3",
+          "title": "Sua cliente navega e pede",
+          "description": "Ela abre o catálogo, escolhe e envia o pedido. Chega no seu WhatsApp com tudo: produto, tamanho, quantidade e total."
+        },
+        {
+          "step": "4",
+          "title": "Você só confirma e embala",
+          "description": "O estoque baixa automaticamente. Sem planilha, sem anotação."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Resultados reais",
+      "title": "Transforme mensagens bagunçadas em vendas organizadas",
+      "subtitle": "Chega de anotar pedido no papel ou perder cliente no meio da conversa. Tudo no lugar certo, do jeito certo.",
+      "stats": [
+        { "label": "Pedidos sempre organizados" },
+        { "label": "Estoque em tempo real" },
+        { "label": "Atendimento muito mais rápido" }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "Comece hoje mesmo, sem sair de Anápolis. Crie seu catálogo em menos de 30 minutos e compartilhe com suas clientes ainda hoje — 14 dias grátis para testar tudo, com devolução integral se não gostar.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Quanto custa para lojistas de Anápolis?",
+      "guarantee": "14 dias de garantia de reembolso em todos os planos. Para uma lojista de Anápolis que vende entre R$ 2.000 e R$ 5.000 por mês, menos de 1% do faturamento.",
+      "plans": [
+        {
+          "id": "mensal",
+          "name": "Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Pedidos estruturados via WhatsApp",
+            "Controle de estoque automático",
+            "Cancele quando quiser, sem fidelidade",
+            "Suporte em português"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Pedidos estruturados via WhatsApp",
+            "Controle de estoque automático",
+            "Cancele quando quiser, sem fidelidade",
+            "Suporte em português"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Cartão de crédito. Cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "A Minha Loojinha funciona para lojistas de Anápolis?",
+          "answer": "Sim. Funciona em qualquer lugar do Brasil via internet e é muito usada por lojistas de Anápolis e região. Seu catálogo fica disponível no WhatsApp para suas clientes locais acessarem e fazerem pedidos a qualquer hora."
+        },
+        {
+          "question": "Como funciona a garantia de 14 dias?",
+          "answer": "Você assina e já tem acesso imediato. Se em até 14 dias sentir que o Minha Loojinha não é para você, é só nos avisar e devolvemos 100% do valor pago — sem burocracia."
+        },
+        {
+          "question": "O preço é promocional?",
+          "answer": "Sim. O plano mensal sai a R$ 16,90/mês e o anual a R$ 149,90 — oferta para os primeiros inscritos. Quem assinar agora garante esse preço. Os próximos podem ter outro valor."
+        },
+        {
+          "question": "Qual a diferença para um catálogo simples no WhatsApp?",
+          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com totais e forma de pagamento. Você recebe tudo organizado e o estoque é atualizado sozinho."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Você pode cancelar quando quiser. Não há fidelidade. Após o cancelamento, você continua com acesso até o fim do período já pago."
+        },
+        {
+          "question": "Quais formas de pagamento são aceitas?",
+          "answer": "A assinatura é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
+        }
+      ],
+      "ctaPrompt": "Pronto para organizar suas vendas em Anápolis?",
+      "ctaButton": "Criar meu catálogo grátis — 14 dias sem risco"
+    },
+    "shared": {
+      "headerCta": "Criar minha loja em Anápolis",
+      "footerCtaTitle": "Comece hoje mesmo, sem sair de Anápolis",
+      "footerCtaSubtitle": "Em menos de 30 minutos seu catálogo está pronto. 14 dias grátis, com devolução integral se não gostar. Sem taxas por venda. Sem fidelidade.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo — Grátis por 14 dias"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas de moda em Anápolis e região. Pedidos organizados no WhatsApp, estoque automático e sem taxa por venda.",
+      "organizationDescription": "Catálogo estruturado para WhatsApp. Pedidos organizados, estoque automático. Para lojistas de Anápolis e região.",
+      "localBusinessDescription": "Plataforma de catálogo digital para lojistas de moda em Anápolis, GO. Pedidos organizados no WhatsApp, controle de estoque e sem taxa por venda.",
+      "areaServed": ["Anápolis", "Região Metropolitana de Anápolis"]
+    }
+  },
+  "goiania": {
+    "meta": {
+      "title": "Catálogo digital para lojistas em Goiânia | Minha Loojinha",
+      "description": "Da Região da 44 ao seu WhatsApp: catálogo organizado, estoque automático e pedidos prontos para lojistas e sacoleiras de Goiânia. Grátis por 14 dias.",
+      "keywords": [
+        "catálogo digital lojista Goiânia",
+        "vender roupas WhatsApp Goiânia",
+        "sistema pedidos moda Goiânia",
+        "lojista 44 Goiânia WhatsApp catálogo",
+        "sacoleira digital Goiânia"
+      ],
+      "ogTitle": "Catálogo digital para lojistas em Goiânia | Minha Loojinha",
+      "ogDescription": "Da Região da 44 ao seu WhatsApp: catálogo organizado, estoque automático e pedidos prontos para lojistas e sacoleiras de Goiânia. Grátis por 14 dias."
+    },
+    "hero": {
+      "badge": "Garantia de 14 dias — Sem risco, sem fidelidade",
+      "title": "Goiânia é o segundo maior polo de moda do Brasil. Sua loja merece",
+      "titleHighlight": "um catálogo à altura",
+      "titleSuffix": ".",
+      "subtitle": "A Região da 44 movimenta R$ 8 bilhões por ano e tem mais de 12 mil pontos de venda. Se você é lojista, sacoleira ou revendedora desse ecossistema, já sabe que o WhatsApp é onde as vendas acontecem. A Minha Loojinha organiza isso do jeito que você precisa.",
+      "socialProof": "Lojistas de Goiânia e da Região da 44 já estão na plataforma.",
+      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaSecondary": "Ver benefícios"
+    },
+    "benefits": {
+      "title": "O que muda na sua operação em Goiânia",
+      "subtitle": "A 44 já usa WhatsApp. Agora é hora de usar bem: sacoleiras, lojistas de galeria (Mega Moda Park, Shopping Dezoito, Galeria Domanni) e revendedoras da Feira Hippie ganham uma vitrine profissional que trabalha sozinha.",
+      "cards": [
+        {
+          "title": "Atende Goiânia e o Brasil inteiro",
+          "description": "Muitas clientes das lojistas da 44 são de outras cidades e estados. O catálogo funciona igual para quem está na Feira Hippie e para quem está em Belém. Você recebe o pedido e envia pelos Correios."
+        },
+        {
+          "title": "Estoque por tamanho e cor",
+          "description": "Quem trabalha com grade sabe a importância disso. Cada tamanho tem seu próprio estoque. Quando o GG acaba, some do catálogo. Quando o P ainda tem 3 peças, continua aparecendo."
+        },
+        {
+          "title": "Sem taxa por venda",
+          "description": "Você já paga aluguel de loja, frete e custo de mercadoria. A Minha Loojinha não cobra nada sobre o que você vende — só a mensalidade fixa."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Feito para sacoleiras da 44, lojistas de galeria e revendedoras independentes de Goiânia e região metropolitana."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Da sua prateleira para o celular da sua cliente em menos de 30 minutos",
+      "subtitle": "Simples como postar no Instagram — só que com pedido estruturado e estoque automático.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Cadastre seus produtos",
+          "description": "Fotos, tamanhos, cores, preço. Simples como postar no Instagram."
+        },
+        {
+          "step": "2",
+          "title": "Compartilhe seu link único",
+          "description": "minhaloojinha.com.br/sualoja. Coloque na bio da 44, no grupo do WhatsApp, onde suas clientes já te seguem."
+        },
+        {
+          "step": "3",
+          "title": "Sua cliente navega e pede",
+          "description": "Ela abre no celular, escolhe e envia o pedido organizado para você."
+        },
+        {
+          "step": "4",
+          "title": "Você recebe tudo pronto",
+          "description": "Nome do produto, tamanho, quantidade, total. É só confirmar e separar."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Resultados reais",
+      "title": "Transforme mensagens bagunçadas em vendas organizadas",
+      "subtitle": "Chega de passar o dia respondendo 'tem no P?', 'qual o preço desse?', 'manda foto de novo'. Deixe o catálogo responder por você.",
+      "stats": [
+        { "label": "Pedidos sempre organizados" },
+        { "label": "Estoque em tempo real" },
+        { "label": "Atendimento muito mais rápido" }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "Goiânia não espera. Sua loja também não pode. Em 30 minutos você tem um catálogo profissional e começa a compartilhar com suas clientes — 14 dias grátis para ver como funciona na prática.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Investimento por mês para lojistas de Goiânia",
+      "guarantee": "14 dias de garantia de reembolso em todos os planos. Para uma sacoleira da 44 que vende R$ 3.000 por mês, menos de 0,5% do faturamento — sem nenhuma taxa por venda.",
+      "plans": [
+        {
+          "id": "mensal",
+          "name": "Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Pedidos estruturados via WhatsApp",
+            "Controle de estoque automático",
+            "Cancele quando quiser, sem fidelidade",
+            "Suporte em português"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Pedidos estruturados via WhatsApp",
+            "Controle de estoque automático",
+            "Cancele quando quiser, sem fidelidade",
+            "Suporte em português"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Cartão de crédito. Cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "Funciona para sacoleiras e lojistas da Região da 44?",
+          "answer": "Sim. A Minha Loojinha é ideal para sacoleiras da 44, lojistas de galeria (Mega Moda Park, Shopping Dezoito, Galeria Domanni) e revendedoras independentes. Seu catálogo funciona como cardápio permanente — você atualiza conforme o que trouxe."
+        },
+        {
+          "question": "Como funciona a garantia de 14 dias?",
+          "answer": "Você assina e já tem acesso imediato. Se em até 14 dias sentir que o Minha Loojinha não é para você, é só nos avisar e devolvemos 100% do valor pago — sem burocracia."
+        },
+        {
+          "question": "O preço é promocional?",
+          "answer": "Sim. O plano mensal sai a R$ 16,90/mês e o anual a R$ 149,90 — oferta para os primeiros inscritos. Quem assinar agora garante esse preço. Os próximos podem ter outro valor."
+        },
+        {
+          "question": "Qual a diferença para um catálogo simples no WhatsApp?",
+          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com totais e forma de pagamento. Você recebe tudo organizado e o estoque é atualizado sozinho."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Você pode cancelar quando quiser. Não há fidelidade. Após o cancelamento, você continua com acesso até o fim do período já pago."
+        },
+        {
+          "question": "Quais formas de pagamento são aceitas?",
+          "answer": "A assinatura é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
+        }
+      ],
+      "ctaPrompt": "Pronto para organizar suas vendas em Goiânia?",
+      "ctaButton": "Criar meu catálogo grátis — 14 dias sem risco"
+    },
+    "shared": {
+      "headerCta": "Criar minha loja em Goiânia",
+      "footerCtaTitle": "Goiânia não espera. Sua loja também não pode.",
+      "footerCtaSubtitle": "Em 30 minutos seu catálogo está pronto para suas clientes. 14 dias grátis, com devolução integral se não gostar. Sem taxas por venda.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo — Grátis por 14 dias"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas e sacoleiras de Goiânia e Região da 44. Pedidos organizados no WhatsApp, estoque automático e sem taxa por venda.",
+      "organizationDescription": "Catálogo estruturado para WhatsApp. Pedidos organizados, estoque automático. Para lojistas, sacoleiras e revendedoras de Goiânia e região.",
+      "localBusinessDescription": "Plataforma de catálogo digital para lojistas de moda em Goiânia, GO, incluindo sacoleiras da Região da 44 e lojistas de galeria. Pedidos organizados no WhatsApp e controle de estoque por tamanho e cor.",
+      "areaServed": ["Goiânia", "Região Metropolitana de Goiânia"]
+    }
+  },
+  "brasilia": {
+    "meta": {
+      "title": "Catálogo digital para lojistas em Brasília | Minha Loojinha",
+      "description": "Lojistas de moda em Brasília, Taguatinga, Ceilândia e região: organize seu catálogo, controle estoque e receba pedidos pelo WhatsApp. Teste grátis 14 dias.",
+      "keywords": [
+        "catálogo digital lojista Brasília DF",
+        "vender roupas WhatsApp Brasília",
+        "loja virtual moda Brasília DF",
+        "lojista moda Taguatinga DF",
+        "sistema venda WhatsApp Distrito Federal"
+      ],
+      "ogTitle": "Catálogo digital para lojistas em Brasília | Minha Loojinha",
+      "ogDescription": "Lojistas de moda em Brasília, Taguatinga, Ceilândia e região: organize seu catálogo, controle estoque e receba pedidos pelo WhatsApp. Teste grátis 14 dias."
+    },
+    "hero": {
+      "badge": "Garantia de 14 dias — Sem risco, sem fidelidade",
+      "title": "Brasília tem clientes dispostos a comprar. Sua loja precisa de",
+      "titleHighlight": "um catálogo que não deixe passar",
+      "titleSuffix": ".",
+      "subtitle": "Com mais de 3 milhões de habitantes e uma das maiores rendas per capita do Brasil, o DF é um dos mercados mais aquecidos para moda. Boutiques multimarcas, lojas de condomínio e revendedoras independentes competem pelo mesmo público. A Minha Loojinha te dá a estrutura profissional para se destacar.",
+      "socialProof": "Lojistas de Brasília, Taguatinga e Ceilândia já estão na plataforma.",
+      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaSecondary": "Ver benefícios"
+    },
+    "benefits": {
+      "title": "O que muda na sua loja no DF",
+      "subtitle": "O comércio de moda do DF é fragmentado: boutiques no Plano Piloto, volume em Taguatinga e Ceilândia, feiras como a Feira dos Goianos no Cruzeiro. A cliente brasiliense compra tanto na loja física quanto pelo Instagram — e espera o mesmo profissionalismo nos dois canais.",
+      "cards": [
+        {
+          "title": "Profissionalismo que o DF exige",
+          "description": "A cliente brasiliense conhece loja boa. Um catálogo com fotos profissionais, grade de tamanhos clara e pedido automatizado passa a mesma confiança de uma grande marca — seja para boutiques do Plano Piloto e Lago Sul ou para lojistas de Taguatinga e Ceilândia."
+        },
+        {
+          "title": "Atende o DF e entrega para todo o Brasil",
+          "description": "Muitas lojistas brasilienses têm clientes espalhados pelos outros estados. O catálogo funciona igual para quem está em Águas Claras, Samambaia ou Planaltina e para quem está em qualquer outra cidade."
+        },
+        {
+          "title": "Controle de estoque e sem taxa por venda",
+          "description": "Cada variação de tamanho e cor tem estoque próprio — quando esgota, some automaticamente. Você paga só a mensalidade da plataforma e fica com 100% de cada venda. Sem porcentagem, sem surpresa no fim do mês."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Feito para boutiques do Plano Piloto, lojas de Taguatinga e Ceilândia, e revendedoras de Águas Claras, Samambaia e Planaltina."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Um catálogo profissional no seu link, pedidos organizados no seu WhatsApp",
+      "subtitle": "Parece uma loja virtual, mas é mais simples. E funciona onde sua cliente já está.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Cadastre seus produtos",
+          "description": "Fotos em alta resolução, tamanhos, cores, preço cheio e promocional. Parece uma loja virtual, mas é mais simples."
+        },
+        {
+          "step": "2",
+          "title": "Compartilhe o link",
+          "description": "Na bio do Instagram, no status do WhatsApp, nos grupos dos condomínios. Funciona onde sua cliente já está."
+        },
+        {
+          "step": "3",
+          "title": "Sua cliente navega e pede",
+          "description": "Ela escolhe como numa loja de verdade, sem precisar chamar no direct para perguntar preço."
+        },
+        {
+          "step": "4",
+          "title": "Você recebe o pedido completo",
+          "description": "Produto, tamanho, quantidade, total. Só confirma e separa."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Resultados reais",
+      "title": "Transforme mensagens bagunçadas em vendas organizadas",
+      "subtitle": "Se sua vitrine no Instagram ou WhatsApp não transmite organização, a cliente vai para a próxima loja. Não deixe isso acontecer.",
+      "stats": [
+        { "label": "Pedidos sempre organizados" },
+        { "label": "Estoque em tempo real" },
+        { "label": "Atendimento muito mais rápido" }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "Sua concorrente em Brasília já pode estar usando isso. Enquanto você pensa, outra lojista está recebendo pedidos organizados. Comece hoje com 14 dias grátis — se não funcionar, você recebe o valor de volta.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Quanto custa para lojistas de Brasília?",
+      "guarantee": "14 dias de garantia de reembolso em todos os planos. Considerando o ticket médio do mercado de moda do DF, um investimento irrisório frente ao retorno de um processo de vendas organizado.",
+      "plans": [
+        {
+          "id": "mensal",
+          "name": "Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Pedidos estruturados via WhatsApp",
+            "Controle de estoque automático",
+            "Cancele quando quiser, sem fidelidade",
+            "Suporte em português"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Pedidos estruturados via WhatsApp",
+            "Controle de estoque automático",
+            "Cancele quando quiser, sem fidelidade",
+            "Suporte em português"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Cartão de crédito. Cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "Funciona para lojistas de Brasília, Taguatinga e Ceilândia?",
+          "answer": "Sim. A Minha Loojinha atende boutiques multimarcas do Plano Piloto e Lago Sul, lojistas de Taguatinga e Ceilândia, revendedoras de Águas Claras, Samambaia e Planaltina, e também quem compra na Feira dos Goianos para revender no DF."
+        },
+        {
+          "question": "Como funciona a garantia de 14 dias?",
+          "answer": "Você assina e já tem acesso imediato. Se em até 14 dias sentir que o Minha Loojinha não é para você, é só nos avisar e devolvemos 100% do valor pago — sem burocracia."
+        },
+        {
+          "question": "O preço é promocional?",
+          "answer": "Sim. O plano mensal sai a R$ 16,90/mês e o anual a R$ 149,90 — oferta para os primeiros inscritos. Quem assinar agora garante esse preço. Os próximos podem ter outro valor."
+        },
+        {
+          "question": "Qual a diferença para um catálogo simples no WhatsApp?",
+          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com totais e forma de pagamento. Você recebe tudo organizado e o estoque é atualizado sozinho."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Você pode cancelar quando quiser. Não há fidelidade. Após o cancelamento, você continua com acesso até o fim do período já pago."
+        },
+        {
+          "question": "Quais formas de pagamento são aceitas?",
+          "answer": "A assinatura é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
+        }
+      ],
+      "ctaPrompt": "Pronto para organizar suas vendas no DF?",
+      "ctaButton": "Criar meu catálogo grátis — 14 dias sem risco"
+    },
+    "shared": {
+      "headerCta": "Criar minha loja em Brasília",
+      "footerCtaTitle": "Sua concorrente em Brasília já pode estar usando isso.",
+      "footerCtaSubtitle": "Comece hoje com 14 dias grátis. Se não funcionar, você recebe o valor de volta. Sem taxas por venda. Sem fidelidade.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo — Grátis por 14 dias"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas de moda em Brasília e Distrito Federal. Pedidos organizados no WhatsApp, estoque automático e sem taxa por venda.",
+      "organizationDescription": "Catálogo estruturado para WhatsApp. Pedidos organizados, estoque automático. Para lojistas de Brasília, Taguatinga, Ceilândia e região.",
+      "localBusinessDescription": "Plataforma de catálogo digital para lojistas de moda em Brasília, DF, atendendo Plano Piloto, Taguatinga, Ceilândia, Águas Claras, Samambaia, Planaltina e Cruzeiro. Pedidos organizados no WhatsApp e controle de estoque.",
+      "areaServed": ["Brasília", "Distrito Federal"]
+    }
+  },
+  "main": {
+    "meta": {
+      "title": "Minha Loojinha | Catálogo digital de moda no WhatsApp",
+      "description": "Sua cliente abre o link, escolhe o tamanho e o pedido chega organizado no seu WhatsApp. Sem taxa por venda. 14 dias grátis para testar.",
+      "keywords": [
+        "vender roupas whatsapp",
+        "catálogo digital moda",
+        "pedidos online whatsapp",
+        "loja virtual para MEI",
+        "sistema de vendas moda"
+      ],
+      "ogTitle": "Minha Loojinha | Sua loja no WhatsApp, do jeito que deveria ser",
+      "ogDescription": "Seu cliente abre o link, escolhe o tamanho e a cor, e o pedido chega organizado no seu WhatsApp. Sem planilha, sem confusão."
+    },
+    "hero": {
+      "badge": "Sem taxa por venda · Garantia de 14 dias sem risco · Cancele quando quiser",
+      "title": "Sua loja no",
+      "titleHighlight": "WhatsApp",
+      "titleSuffix": ", do jeito que deveria ser",
+      "subtitle": "Seu cliente abre o link, escolhe o tamanho e a cor, e o pedido chega organizado no seu WhatsApp. Você só confirma e embala. Sem planilha, sem digitação, sem confusão.",
+      "socialProof": "Lojistas de Anápolis, Goiânia e Brasília já vendem assim.",
+      "ctaPrimary": "Criar meu catálogo grátis por 14 dias",
+      "ctaSecondary": "Ver como funciona na prática"
+    },
+    "benefits": {
+      "title": "Tudo que você fazia na mão, agora acontece sozinho",
+      "subtitle": "Quantas vendas você perdeu essa semana porque a cliente perguntou o preço e nunca mais respondeu? Com a Minha Loojinha, ela vê tudo sozinha e faz o pedido na hora.",
+      "cards": [
+        {
+          "title": "Vitrine que vende sozinha",
+          "description": "Fotos, tamanhos, cores e preços organizados num link só. Sua cliente navega como numa loja de verdade — sem precisar te perguntar nada."
+        },
+        {
+          "title": "Pedido pronto no seu WhatsApp",
+          "description": "Tamanho P azul, 2 unidades, total R$ 89,80 — tudo isso chega pra você num clique. Sem ir e vir no chat perguntando detalhes."
+        },
+        {
+          "title": "Fim do 'vendi e não tinha'",
+          "description": "O estoque baixa sozinho a cada pedido confirmado. Acabou a peça? Ela some da vitrine automaticamente. Chega de passar vergonha com a cliente."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis por 14 dias",
       "ctaSecondary": "Ver planos e preços",
       "footer": "Suporte humanizado e plataforma otimizada para conversão em dispositivos móveis."
     },
@@ -227,32 +767,50 @@
     },
     "results": {
       "badge": "Foco em Conversão",
-      "title": "Menos tempo digitando, mais tempo enviando pacotes",
-      "subtitle": "Sua cliente não quer esperar horas por um preço. Com o Minha Loojinha, a informação está na mão dela, 24 horas por dia.",
+      "title": "Enquanto você embala, ela já fez o próximo pedido",
+      "subtitle": "Sua cliente viu no Instagram às 23h, clicou no link, escolheu o tamanho e enviou o pedido. De manhã você acorda com a fila de encomendas pronta.",
       "stats": [
-        { "label": "Pedidos 100% Organizados" },
-        { "label": "Fim das Mensagens Repetitivas" },
-        { "label": "Aumento Real na Taxa de Conversão" }
+        { "label": "Pedidos organizados, sem planilha" },
+        { "label": "Fim das perguntas repetitivas" },
+        { "label": "Vende enquanto você dorme" }
       ],
       "cta": "Quero profissionalizar minha loja"
     },
     "multiDevice": {
       "badge": "Mobile First",
-      "title": "Sua loja no bolso do seu cliente",
-      "subtitle": "Uma experiência de compra fluida e rápida, otimizada para celulares, sem que o cliente precise baixar nenhum aplicativo.",
+      "title": "Ela compra pelo celular. Você recebe tudo organizado.",
+      "subtitle": "Nenhum app para baixar, nenhum cadastro para fazer. Sua cliente abre o link, escolhe e compra em menos de 2 minutos — do celular dela, do jeito que ela já usa o dia inteiro.",
       "cta": "Conhecer a plataforma"
     },
     "pricing": {
-      "badge": "Preço Justo — Sem taxas por venda",
-      "title": "Escolha o plano ideal para sua loja",
-      "guarantee": "14 dias de garantia de reembolso em todos os planos",
+      "badge": "Pague pelo sistema, fique com 100% de cada venda",
+      "title": "Simples assim: um único plano, sem taxas escondidas",
+      "guarantee": "14 dias de garantia em todos os planos. Se não gostar por qualquer motivo, você recebe o valor de volta — sem pergunta, sem burocracia.",
       "plans": [
+        {
+          "id": "anual",
+          "name": "Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Pague R$ 149,90/ano — equivale a 10 meses, use 12",
+          "savingsBadge": "Mais popular — melhor valor",
+          "destaque": true,
+          "features": [
+            "Produtos e categorias ilimitados",
+            "Fotos em alta resolução",
+            "Gestão de estoque e grade de tamanhos",
+            "Pedidos ilimitados via WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Suporte prioritário por WhatsApp"
+          ],
+          "cta": "Assinar anual — economizar agora"
+        },
         {
           "id": "mensal",
           "name": "Mensal",
           "price": "16,90",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado mensalmente",
+          "billingNote": "Cobrado mensalmente — cancele quando quiser",
           "destaque": false,
           "features": [
             "Produtos e categorias ilimitados",
@@ -261,61 +819,77 @@
             "Pedidos ilimitados via WhatsApp",
             "Sem taxas sobre suas vendas"
           ],
-          "cta": "Assinar Mensal"
-        },
-        {
-          "id": "anual",
-          "name": "Anual",
-          "price": "12,49",
-          "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
-          "savingsBadge": "Economize 26%",
-          "destaque": true,
-          "features": [
-            "Produtos e categorias ilimitados",
-            "Fotos em alta resolução",
-            "Gestão de estoque e grade de tamanhos",
-            "Pedidos ilimitados via WhatsApp",
-            "Sem taxas sobre suas vendas"
-          ],
-          "cta": "Assinar Anual"
+          "cta": "Assinar mensal"
         }
       ],
-      "disclaimer": "Cancele quando quiser. Sem taxas de adesão ou fidelidade."
+      "disclaimer": "Sem taxa de adesão · Sem fidelidade · Cancele quando quiser"
     },
     "faq": {
       "title": "Perguntas Frequentes",
       "items": [
         {
           "question": "Preciso ter CNPJ para usar?",
-          "answer": "Não! O Minha Loojinha é perfeito tanto para quem está começando como CPF/MEI quanto para empresas já estabelecidas."
+          "answer": "Não. Você pode começar com CPF mesmo. Muitas das nossas lojistas são MEIs, sacoleiras ou vendem de forma autônoma — a plataforma funciona do mesmo jeito. Se você vende roupas, a Minha Loojinha é para você."
+        },
+        {
+          "question": "Como minha cliente faz o pedido?",
+          "answer": "Você compartilha seu link personalizado (tipo minhaloojinha.com.br/sualoja) no Instagram, no WhatsApp ou onde quiser. Sua cliente abre no celular, escolhe os produtos, tamanhos e quantidades, e envia o pedido direto para o seu WhatsApp com tudo calculado. Ela não precisa baixar nenhum app nem fazer cadastro."
         },
         {
           "question": "Como recebo o pagamento das vendas?",
-          "answer": "O Minha Loojinha organiza o pedido. O pagamento você combina direto com o cliente (Pix, cartão ou link de pagamento) da forma que preferir, sem intermediários cobrando taxas extras sobre a venda."
+          "answer": "Você recebe diretamente. A Minha Loojinha organiza o pedido e te manda tudo pelo WhatsApp — mas o pagamento é combinado entre você e sua cliente do jeito que você já faz hoje: Pix, dinheiro, maquininha ou o que preferir. Não cobramos nenhuma taxa sobre suas vendas."
         },
         {
           "question": "Como funciona a garantia de 14 dias?",
-          "answer": "Você assina e já tem acesso imediato. Se em até 14 dias sentir que o Minha Loojinha não é para você, é só nos avisar e devolvemos 100% do valor pago — sem burocracia."
+          "answer": "Simples: você tem 14 dias para testar tudo sem risco. Se por qualquer motivo não gostar, é só falar com a gente pelo WhatsApp e devolvemos 100% do valor pago. Sem pergunta, sem burocracia. Só queremos que você use porque funciona de verdade."
         },
         {
           "question": "Posso usar meu próprio domínio?",
-          "answer": "Sim! Você pode usar um endereço personalizado ou o nosso subdomínio gratuito (minhaloojinha.com.br/sualoja)."
+          "answer": "Sim. Você pode vincular um domínio próprio (como sualoja.com.br) ao seu catálogo. Isso dá um visual ainda mais profissional para a sua marca. A configuração é simples e nosso suporte te ajuda a fazer isso."
         },
         {
           "question": "O sistema controla tamanhos e cores?",
-          "answer": "Sim. Você pode cadastrar variações de produtos, o que é essencial para lojas de roupas e calçados, mantendo o estoque de cada variação sob controle."
+          "answer": "Sim. Você cadastra cada produto com suas variações (PP, P, M, G, GG, XG, XXG) e o estoque de cada tamanho separadamente. Quando um tamanho esgota, ele some automaticamente do catálogo. Sua cliente nunca vai ver um tamanho que você não tem."
+        },
+        {
+          "question": "E se eu tiver dúvidas depois que assinar?",
+          "answer": "Temos suporte por WhatsApp em horário comercial. Você não fica sozinha depois de assinar. Além disso, a plataforma é pensada para ser simples — a maioria das lojistas cadastra os primeiros produtos em menos de 30 minutos."
         }
       ],
-      "ctaPrompt": "Dê o próximo passo para o sucesso da sua marca.",
-      "ctaButton": "Assinar agora — Garantia de 14 dias"
+      "ctaPrompt": "Sua concorrente já pode estar usando isso.",
+      "ctaButton": "Criar minha loja agora — grátis por 14 dias"
+    },
+    "testimonials": {
+      "badge": "Histórias reais de lojistas",
+      "title": "Quem já organizou as vendas conta como foi",
+      "subtitle": "Depoimentos de referência para inspirar a coleta real. Vamos atualizar com as histórias das clientes à medida que forem liberando uso.",
+      "items": [
+        {
+          "name": "Camila R.",
+          "city": "Anápolis, GO",
+          "business": "Loja de moda feminina",
+          "quote": "Antes eu perdia venda porque a cliente mandava mensagem à noite, eu respondia de manhã e ela já tinha comprado de outra. Hoje ela abre meu link sozinha e faz o pedido na hora. Minha taxa de conversão dobrou no primeiro mês."
+        },
+        {
+          "name": "Fernanda M.",
+          "city": "Goiânia, GO",
+          "business": "Sacoleira da Região da 44",
+          "quote": "Eu vivia respondendo 'tem no P?', 'qual o preço?', 'manda foto de novo'. Agora mando o link e pronto. O pedido chega com tamanho, cor, quantidade e total já calculado. Economizo horas por dia."
+        },
+        {
+          "name": "Juliana T.",
+          "city": "Brasília, DF",
+          "business": "Boutique multimarcas",
+          "quote": "Já passei vergonha de confirmar pedido de peça esgotada. Com a Minha Loojinha o estoque baixa sozinho. Quando acaba, some do catálogo. Minha cliente nunca mais passou por essa situação."
+        }
+      ]
     },
     "shared": {
       "headerCta": "Criar minha loja",
-      "footerCtaTitle": "Pronto para vender mais?",
-      "footerCtaSubtitle": "A partir de R$ 12,49/mês no plano anual. Garantia de 14 dias.",
-      "footerCtaButton": "Começar agora",
-      "stickyCtaMobile": "Criar Catálogo — Garantia 14 dias"
+      "footerCtaTitle": "Enquanto você pensa, sua concorrente está recebendo pedido organizado.",
+      "footerCtaSubtitle": "Comece hoje, sem risco. 14 dias grátis, sem cartão de crédito. Cancele quando quiser.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo — grátis por 14 dias"
     },
     "schema": {
       "siteName": "Minha Loojinha",

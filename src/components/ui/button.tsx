@@ -9,13 +9,14 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-[linear-gradient(135deg,#530083,#8132ae)] text-white shadow-[var(--shadow-soft)] hover:brightness-110 hover:shadow-[var(--shadow-button)] active:scale-[0.98] rounded-2xl",
+          "bg-[var(--palette-mid)] text-white shadow-[var(--shadow-soft)] hover:brightness-90 hover:shadow-[var(--shadow-button)] active:scale-[0.98] rounded-2xl",
         secondary:
-          "bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))] rounded-2xl hover:bg-[hsl(var(--muted))]/80",
+          "bg-[hsl(var(--muted))] text-[var(--foreground)] rounded-2xl hover:bg-[hsl(var(--muted))]/80",
         outline:
-          "border-2 border-[hsl(var(--border))] bg-transparent text-[var(--foreground)] rounded-2xl hover:bg-[hsl(var(--muted))]",
-        ghost: "text-[var(--foreground)] rounded-2xl hover:bg-[hsl(var(--muted))]",
-        link: "text-[hsl(var(--primary))] underline-offset-4 hover:underline rounded-2xl",
+          "border-2 border-[var(--palette-mid)] bg-transparent text-[var(--palette-mid)] rounded-2xl hover:bg-[var(--palette-mid)]/5",
+        ghost:
+          "text-[var(--foreground)] rounded-2xl hover:bg-[hsl(var(--muted))]",
+        link: "text-[var(--palette-mid)] underline-offset-4 hover:underline rounded-2xl",
         dark: "border-2 border-white/30 bg-white/10 text-white backdrop-blur-sm rounded-2xl hover:bg-white/20 hover:border-white/50",
       },
       size: {
@@ -30,11 +31,12 @@ const buttonVariants = cva(
       variant: "default",
       size: "default",
     },
-  }
+  },
 );
 
 export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
+  extends
+    React.ButtonHTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof buttonVariants> {
   asChild?: boolean;
 }
@@ -49,7 +51,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         {...props}
       />
     );
-  }
+  },
 );
 Button.displayName = "Button";
 

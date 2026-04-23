@@ -27,32 +27,50 @@ export function Footer() {
             <h3 className="font-semibold text-white/90">Links</h3>
             <ul className="mt-3 space-y-2 text-sm text-white/60">
               <li>
-                <Link href="/#beneficios" className="transition-colors hover:text-white">
+                <Link
+                  href="/#beneficios"
+                  className="transition-colors hover:text-white"
+                >
                   Benefícios
                 </Link>
               </li>
               <li>
-                <Link href="/#preco" className="transition-colors hover:text-white">
+                <Link
+                  href="/#preco"
+                  className="transition-colors hover:text-white"
+                >
                   Preço
                 </Link>
               </li>
               <li>
-                <Link href="/#duvidas" className="transition-colors hover:text-white">
+                <Link
+                  href="/#duvidas"
+                  className="transition-colors hover:text-white"
+                >
                   Dúvidas frequentes
                 </Link>
               </li>
               <li>
-                <Link href="/feedback" className="transition-colors hover:text-white">
+                <Link
+                  href="/feedback"
+                  className="transition-colors hover:text-white"
+                >
                   Enviar feedback
                 </Link>
               </li>
               <li>
-                <Link href="/politica-de-privacidade" className="transition-colors hover:text-white">
+                <Link
+                  href="/politica-de-privacidade"
+                  className="transition-colors hover:text-white"
+                >
                   Política de Privacidade
                 </Link>
               </li>
               <li>
-                <Link href="/termos-de-uso" className="transition-colors hover:text-white">
+                <Link
+                  href="/termos-de-uso"
+                  className="transition-colors hover:text-white"
+                >
                   Termos de Uso
                 </Link>
               </li>

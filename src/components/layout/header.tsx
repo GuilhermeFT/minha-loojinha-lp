@@ -15,6 +15,7 @@ const navLinks = [
   { href: "/#beneficios", label: "Benefícios" },
   { href: "/#preco", label: "Preço" },
   { href: "/#duvidas", label: "Dúvidas" },
+  { href: "/blog", label: "Blog" },
   { href: "/politica-de-privacidade", label: "Privacidade" },
   { href: "/termos-de-uso", label: "Termos" },
 ];
@@ -52,7 +53,10 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-[hsl(var(--border))] bg-[var(--background)]/95 backdrop-blur supports-[backdrop-filter]:bg-[var(--background)]/80">
       <div className="container mx-auto flex h-14 min-h-14 max-w-6xl items-center justify-between gap-2 px-3 sm:h-16 sm:px-6">
-        <Link href="/" className="flex min-w-0 shrink items-center gap-1.5 sm:gap-2">
+        <Link
+          href="/"
+          className="flex min-w-0 shrink items-center gap-1.5 sm:gap-2"
+        >
           <Image
             src={logoLight}
             alt="Minha Loojinha"

@@ -22,12 +22,12 @@ export function FeedbackForm({
   const [state, formAction, isPending] = useActionState(
     async (
       _prev: { message: string; ok: boolean } | null,
-      formData: FormData
+      formData: FormData,
     ) => {
       const result = await submitFeedback(formData);
       return { message: result.message, ok: result.ok };
     },
-    null as { message: string; ok: boolean } | null
+    null as { message: string; ok: boolean } | null,
   );
 
   useEffect(() => {
@@ -50,7 +50,7 @@ export function FeedbackForm({
             "text-sm",
             state.ok
               ? "text-[hsl(var(--primary))]"
-              : "text-red-600 dark:text-red-400"
+              : "text-red-600 dark:text-red-400",
           )}
         >
           {state.message}

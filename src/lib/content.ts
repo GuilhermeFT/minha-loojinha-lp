@@ -93,6 +93,20 @@ export type LpContentSchema = {
   areaServed: string[];
 };
 
+export type LpContentTestimonialItem = {
+  name: string;
+  city: string;
+  business?: string;
+  quote: string;
+};
+
+export type LpContentTestimonials = {
+  badge?: string;
+  title: string;
+  subtitle?: string;
+  items: LpContentTestimonialItem[];
+};
+
 export type LpContentPath = {
   meta: LpContentMeta;
   hero: LpContentHero;
@@ -104,6 +118,7 @@ export type LpContentPath = {
   faq: LpContentFaq;
   shared: LpContentShared;
   schema: LpContentSchema;
+  testimonials?: LpContentTestimonials;
 };
 
 type LpContentMap = Record<string, LpContentPath>;
@@ -115,7 +130,9 @@ const DEFAULT_PATH = "main";
 export function getLpContent(path: string): LpContentPath {
   const data = contentMap[path] ?? contentMap[DEFAULT_PATH];
   if (!data) {
-    throw new Error(`LP content not found for path "${path}" and fallback "${DEFAULT_PATH}" is missing.`);
+    throw new Error(
+      `LP content not found for path "${path}" and fallback "${DEFAULT_PATH}" is missing.`,
+    );
   }
   return data;
 }
@@ -137,7 +154,11 @@ export function mergeWithLivePrices(
 
   const plans = content.pricing.plans.map((plan) => {
     if (plan.id === "mensal")
-      return { ...plan, price: prices.monthly.price, billingNote: prices.monthly.billingNote };
+      return {
+        ...plan,
+        price: prices.monthly.price,
+        billingNote: prices.monthly.billingNote,
+      };
     if (plan.id === "anual")
       return {
         ...plan,

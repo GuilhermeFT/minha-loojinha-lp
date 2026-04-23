@@ -2,7 +2,11 @@
 
 import { createContext, useContext, useMemo } from "react";
 import { usePathname } from "next/navigation";
-import { getLpContent, getLpContentPaths, type LpContentShared } from "@/lib/content";
+import {
+  getLpContent,
+  getLpContentPaths,
+  type LpContentShared,
+} from "@/lib/content";
 
 type LpContentContextValue = LpContentShared;
 

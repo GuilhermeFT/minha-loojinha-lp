@@ -35,17 +35,17 @@ export default function PoliticaDePrivacidadePage() {
           <p>Podemos coletar os seguintes dados:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>
-              <strong>Formulários (site):</strong> nome e e-mail quando você
-              se cadastra na lista de espera ou em formulários de contato.
+              <strong>Formulários (site):</strong> nome e e-mail quando você se
+              cadastra na lista de espera ou em formulários de contato.
             </li>
             <li>
               <strong>Assinatura e pagamento:</strong> dados de pagamento
-              (processados pelo provedor de pagamento), e-mail e nome associados à conta e à
-              cobrança.
+              (processados pelo provedor de pagamento), e-mail e nome associados
+              à conta e à cobrança.
             </li>
             <li>
-              <strong>Uso do serviço:</strong> dados de acesso, uso do
-              catálogo e do produto, quando aplicável.
+              <strong>Uso do serviço:</strong> dados de acesso, uso do catálogo
+              e do produto, quando aplicável.
             </li>
             <li>
               <strong>Cookies e tecnologias semelhantes:</strong> para
@@ -61,8 +61,8 @@ export default function PoliticaDePrivacidadePage() {
           <p>
             Usamos os dados para: prestar o serviço, processar pagamentos,
             enviar comunicações sobre a conta e ofertas (com base no
-            consentimento ou no legítimo interesse), melhorar o site e o
-            produto e cumprir obrigações legais. A base legal inclui execução de
+            consentimento ou no legítimo interesse), melhorar o site e o produto
+            e cumprir obrigações legais. A base legal inclui execução de
             contrato, consentimento e legítimo interesse, conforme o caso.
           </p>
         </section>
@@ -72,8 +72,8 @@ export default function PoliticaDePrivacidadePage() {
             4. Compartilhamento
           </h2>
           <p>
-            Podemos compartilhar dados com: (a) processador de pagamentos
-            de pagamento, para cobrança; (b) ferramentas de e-mail e infraestrutura
+            Podemos compartilhar dados com: (a) processador de pagamentos de
+            pagamento, para cobrança; (b) ferramentas de e-mail e infraestrutura
             (quando aplicável); (c) autoridades quando exigido por lei. Não
             vendemos seus dados pessoais.
           </p>
