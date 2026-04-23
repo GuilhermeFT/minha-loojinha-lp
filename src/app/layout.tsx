@@ -10,6 +10,7 @@ import { Footer } from '@/components/layout/footer'
 import { StickyCtaMobile } from '@/components/sticky-cta-mobile'
 import { CheckoutProvider } from '@/components/checkout-provider'
 import { LpContentProvider } from '@/components/lp-content-context'
+import { CookieConsent } from '@/components/cookie-consent'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -98,6 +99,7 @@ export default function RootLayout({
             {children}
             <Footer />
             <StickyCtaMobile />
+            <CookieConsent />
           </LpContentProvider>
         </CheckoutProvider>
         <Analytics />
