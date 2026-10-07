@@ -4,6 +4,8 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { GoogleTagManager } from '@next/third-parties/google'
+import { Suspense } from 'react'
+import { MetaPixel } from '@/components/meta-pixel'
 import { BetaBanner } from '@/components/beta-banner'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
@@ -103,6 +105,10 @@ export default function RootLayout({
           </LpContentProvider>
         </CheckoutProvider>
         <Analytics />
+        {/* useSearchParams exige Suspense para não forçar renderização dinâmica */}
+        <Suspense fallback={null}>
+          <MetaPixel />
+        </Suspense>
         {process.env.NEXT_PUBLIC_GTAG_MANAGER_ID ? (
           <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTAG_MANAGER_ID} />
         ) : null}

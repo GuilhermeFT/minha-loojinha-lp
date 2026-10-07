@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext } from "react";
+import { panelSignupUrl } from "@/lib/panel-url";
 
 type CheckoutContextValue = {
   openCheckout: () => void;
@@ -10,9 +11,7 @@ const CheckoutContext = createContext<CheckoutContextValue | null>(null);
 
 export function CheckoutProvider({ children }: { children: React.ReactNode }) {
   const openCheckout = () => {
-    const url =
-      process.env.NEXT_PUBLIC_PANEL_URL ?? "https://painel.minhaloojinha.com/";
-    window.location.href = url;
+    window.location.href = panelSignupUrl();
   };
 
   return (

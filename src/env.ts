@@ -4,6 +4,7 @@ const envSchema = z.object({
   NEXT_PUBLIC_URL: z.string(),
   NEXT_PUBLIC_PANEL_URL: z.string().optional(),
   NEXT_PUBLIC_GA_MEASUREMENT_ID: z.string().optional(),
+  NEXT_PUBLIC_META_PIXEL_ID: z.string().optional(),
   NEXT_PUBLIC_SUPABASE_URL: z.string().optional(),
   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: z.string().optional(),
   GOOGLE_CLIENT_EMAIL: z.string(),
