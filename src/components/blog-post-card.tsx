@@ -4,6 +4,7 @@ import type { BlogPostMeta } from "@/lib/blog";
 
 export function BlogPostCard({ post }: { post: BlogPostMeta }) {
   const formatted = new Date(post.publishedAt).toLocaleDateString("pt-BR", {
+    timeZone: "UTC",
     day: "numeric",
     month: "long",
     year: "numeric",

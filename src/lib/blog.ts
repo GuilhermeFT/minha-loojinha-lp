@@ -12,6 +12,11 @@ export type BlogPostFrontmatter = {
   publishedAt: string;
   coverImage: string;
   author: string;
+  /** Data da última revisão (ISO); entra no dateModified e no sitemap. */
+  updatedAt?: string;
+  /** Resposta direta à pergunta do post, mostrada no topo: é o trecho que buscadores e IAs citam. */
+  summary?: string;
+  faq?: { question: string; answer: string }[];
 };
 
 export type BlogPostMeta = BlogPostFrontmatter & {
