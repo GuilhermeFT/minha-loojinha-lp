@@ -22,9 +22,9 @@ export function GET() {
 - Personalização: logo, banners, cor da vitrine, modo claro ou escuro, horários, redes sociais e endereços para retirada.
 
 ## Preço
-- R$ 16,90 por mês ou R$ 149,90 por ano.
-- 14 dias grátis para testar (cartão no cadastro, nada é cobrado durante o teste, cancela quando quiser, sem fidelidade).
-- Produtos, categorias e pedidos ilimitados. Sem taxa por venda.
+- Plano grátis, sem cartão de crédito: até 10 produtos, com o selo "Feito com Minha Loojinha" no rodapé da vitrine.
+- Plano Loojinha: R$ 16,90 por mês ou R$ 149,90 por ano, com produtos ilimitados e sem o selo. Dá para testar 14 dias antes de pagar; cancela quando quiser, sem fidelidade.
+- Sem taxa por venda em nenhum plano.
 
 ## O que a Minha Loojinha não faz
 - Não processa pagamento: o pagamento é combinado direto entre a loja e a cliente (Pix, cartão na entrega etc.).
@@ -36,7 +36,7 @@ Lojas de roupa pequenas, sacoleiras e revendedoras que já vendem pelo WhatsApp 
 
 ## Links
 - [Site](${siteUrl}): apresentação, preços e perguntas frequentes
-- [Criar conta (14 dias grátis)](https://painel.minhaloojinha.com.br/signup)
+- [Criar conta grátis, sem cartão](https://painel.minhaloojinha.com.br/signup)
 - [Blog](${siteUrl}/blog)
 
 ## Blog

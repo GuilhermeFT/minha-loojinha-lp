@@ -8,8 +8,8 @@ export function CtaInline() {
         Pronta para organizar suas vendas?
       </h3>
       <p className="mt-2 text-[var(--text-secondary)]">
-        Crie seu catálogo em 30 minutos e teste grátis por 14 dias. Sem taxa por
-        venda.
+        Crie seu catálogo em 30 minutos e comece grátis, sem cartão. Sem taxa
+        por venda.
       </p>
       <div className="mt-4">
         <CheckoutTrigger asChild location="blog_inline">

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     template: '%s | Minha Loojinha',
   },
   description:
-    'Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados, pagamento online e estoque automático. 90 dias grátis.',
+    'Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados e estoque automático. Comece grátis, sem cartão.',
   keywords: [
     'WhatsApp vendas',
     'Anápolis',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região',
     description:
-      'Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pagamento online, estoque automático.',
+      'Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, estoque automático. Comece grátis, sem cartão.',
     url: siteUrl,
     siteName: 'Minha Loojinha',
     type: 'website',

@@ -2,7 +2,7 @@
   "catalogo-para-whatsapp-goiania-anapolis": {
     "meta": {
       "title": "Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região",
-      "description": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados e estoque automático. Garantia de 14 dias.",
+      "description": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, pedidos organizados e estoque automático. Comece grátis, sem cartão.",
       "keywords": [
         "WhatsApp vendas",
         "Anápolis",
@@ -12,16 +12,16 @@
         "MEI"
       ],
       "ogTitle": "Minha Loojinha | Venda no WhatsApp em Anápolis, Goiânia e região",
-      "ogDescription": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, estoque automático. Garantia de 14 dias."
+      "ogDescription": "Solução para MEIs e lojistas de Anápolis, Goiânia e região venderem online no WhatsApp. Catálogo estruturado, estoque automático. Comece grátis, sem cartão."
     },
     "hero": {
-      "badge": "Garantia de 14 dias — Sem risco, sem fidelidade",
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
       "title": "Venda mais no",
       "titleHighlight": "WhatsApp",
       "titleSuffix": "em Anápolis, Goiânia e região",
       "subtitle": "Seu cliente escolhe os produtos, envia o pedido pronto e paga online. Você recebe tudo organizado com controle de estoque automático — sem mensagem bagunçada.",
       "socialProof": "Lojistas da região já estão na plataforma.",
-      "ctaPrimary": "Acessar a plataforma — R$ 16,90/mês",
+      "ctaPrimary": "Começar grátis, sem cartão",
       "ctaSecondary": "Ver benefícios"
     },
     "benefits": {
@@ -41,7 +41,7 @@
           "description": "Menos tempo enviando foto e preço. Mais tempo atendendo e fechando vendas."
         }
       ],
-      "ctaPrimary": "Acessar a plataforma — R$ 16,90/mês",
+      "ctaPrimary": "Começar grátis, sem cartão",
       "ctaSecondary": "Ver planos e preços",
       "footer": "Suporte em português, pensado para o comércio local de Anápolis, Goiânia e toda a região."
     },
@@ -87,17 +87,35 @@
     "pricing": {
       "badge": "Planos que cabem no seu bolso",
       "title": "Escolha o plano ideal para sua loja",
-      "guarantee": "14 dias de garantia de reembolso em todos os planos",
+      "guarantee": "Comece grátis, sem cartão. No plano Loojinha, teste 14 dias antes de pagar.",
       "plans": [
         {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
           "id": "mensal",
-          "name": "Mensal",
+          "name": "Loojinha Mensal",
           "price": "16,90",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
           "features": [
             "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
             "Pedidos estruturados via WhatsApp",
             "Controle de estoque automático",
             "Cancele quando quiser, sem fidelidade",
@@ -107,7 +125,7 @@
         },
         {
           "id": "anual",
-          "name": "Anual",
+          "name": "Loojinha Anual",
           "price": "12,49",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
@@ -115,6 +133,8 @@
           "destaque": true,
           "features": [
             "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
             "Pedidos estruturados via WhatsApp",
             "Controle de estoque automático",
             "Cancele quando quiser, sem fidelidade",
@@ -123,18 +143,18 @@
           "cta": "Assinar Anual"
         }
       ],
-      "disclaimer": "Cartão de crédito. Cancele a qualquer momento."
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
     },
     "faq": {
       "title": "Dúvidas frequentes",
       "items": [
         {
-          "question": "Como funciona a garantia de 14 dias?",
-          "answer": "Você assina e já tem acesso imediato. Se em até 14 dias sentir que o Minha Loojinha não é para você, é só nos avisar e devolvemos 100% do valor pago — sem burocracia."
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
         },
         {
-          "question": "O preço é promocional?",
-          "answer": "Sim. O plano mensal sai a R$ 16,90/mês e o anual a R$ 149,90 — oferta para os primeiros inscritos. Quem assinar agora garante esse preço. Os próximos podem ter outro valor."
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
@@ -150,18 +170,18 @@
         },
         {
           "question": "Quais formas de pagamento são aceitas?",
-          "answer": "A assinatura é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
+          "answer": "O plano grátis não tem cobrança. A assinatura do plano Loojinha é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
         }
       ],
       "ctaPrompt": "Pronto para organizar suas vendas no WhatsApp?",
-      "ctaButton": "Acessar a plataforma — R$ 16,90/mês"
+      "ctaButton": "Começar grátis, sem cartão"
     },
     "shared": {
-      "headerCta": "Acessar o painel — R$ 16,90/mês",
+      "headerCta": "Começar grátis",
       "footerCtaTitle": "Acessar a plataforma",
-      "footerCtaSubtitle": "A partir de R$ 12,49/mês no plano anual. Garantia de 14 dias.",
+      "footerCtaSubtitle": "Comece grátis, sem cartão. Produtos ilimitados a partir de R$ 12,49/mês no plano anual.",
       "footerCtaButton": "Começar agora",
-      "stickyCtaMobile": "Acessar o painel — R$ 16,90/mês"
+      "stickyCtaMobile": "Começar grátis"
     },
     "schema": {
       "siteName": "Minha Loojinha",
@@ -174,7 +194,7 @@
   "anapolis": {
     "meta": {
       "title": "Catálogo digital para lojistas em Anápolis | Minha Loojinha",
-      "description": "Lojista de moda em Anápolis? Crie seu catálogo digital e receba pedidos organizados pelo WhatsApp. Sem taxa por venda. Teste grátis por 14 dias.",
+      "description": "Lojista de moda em Anápolis? Crie seu catálogo digital e receba pedidos organizados pelo WhatsApp. Sem taxa por venda. Comece grátis, sem cartão.",
       "keywords": [
         "catálogo digital lojista Anápolis",
         "vender roupas WhatsApp Anápolis",
@@ -182,16 +202,16 @@
         "sistema pedidos WhatsApp Anápolis"
       ],
       "ogTitle": "Catálogo digital para lojistas em Anápolis | Minha Loojinha",
-      "ogDescription": "Lojista de moda em Anápolis? Crie seu catálogo digital e receba pedidos organizados pelo WhatsApp. Sem taxa por venda. Teste grátis por 14 dias."
+      "ogDescription": "Lojista de moda em Anápolis? Crie seu catálogo digital e receba pedidos organizados pelo WhatsApp. Sem taxa por venda. Comece grátis, sem cartão."
     },
     "hero": {
-      "badge": "Garantia de 14 dias — Sem risco, sem fidelidade",
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
       "title": "Lojistas de Anápolis estão recebendo",
       "titleHighlight": "pedidos organizados no WhatsApp",
       "titleSuffix": ". A sua loja também pode.",
       "subtitle": "Anápolis tem mais de 390 mil habitantes e um comércio de moda que não para. Entre o movimento da loja, os pedidos no WhatsApp e o controle de estoque, muita lojista fica soterrada de trabalho. A Minha Loojinha organiza tudo isso num link só.",
       "socialProof": "Lojistas de Anápolis já estão na plataforma.",
-      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
       "ctaSecondary": "Ver benefícios"
     },
     "benefits": {
@@ -211,7 +231,7 @@
           "description": "Chega de confirmar pedido de peça que acabou. O estoque da Minha Loojinha atualiza a cada confirmação. Sua cliente nunca vai pedir algo que você não tem."
         }
       ],
-      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
       "ctaSecondary": "Ver planos e preços",
       "footer": "Suporte em português, pensado para o comércio local de Anápolis e toda a região."
     },
@@ -256,23 +276,41 @@
     "multiDevice": {
       "badge": "Funciona em qualquer dispositivo",
       "title": "Sua loja em qualquer lugar",
-      "subtitle": "Comece hoje mesmo, sem sair de Anápolis. Crie seu catálogo em menos de 30 minutos e compartilhe com suas clientes ainda hoje — 14 dias grátis para testar tudo, com devolução integral se não gostar.",
+      "subtitle": "Comece hoje mesmo, sem sair de Anápolis. Crie seu catálogo em menos de 30 minutos e compartilhe com suas clientes ainda hoje — grátis e sem cartão.",
       "cta": "Criar minha loja agora"
     },
     "pricing": {
       "badge": "Planos que cabem no seu bolso",
       "title": "Quanto custa para lojistas de Anápolis?",
-      "guarantee": "14 dias de garantia de reembolso em todos os planos. Para uma lojista de Anápolis que vende entre R$ 2.000 e R$ 5.000 por mês, menos de 1% do faturamento.",
+      "guarantee": "Comece grátis, sem cartão. Quando quiser produtos ilimitados, o plano Loojinha custa menos de 1% do faturamento de uma lojista de Anápolis que vende entre R$ 2.000 e R$ 5.000 por mês.",
       "plans": [
         {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
           "id": "mensal",
-          "name": "Mensal",
+          "name": "Loojinha Mensal",
           "price": "16,90",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
           "features": [
             "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
             "Pedidos estruturados via WhatsApp",
             "Controle de estoque automático",
             "Cancele quando quiser, sem fidelidade",
@@ -282,7 +320,7 @@
         },
         {
           "id": "anual",
-          "name": "Anual",
+          "name": "Loojinha Anual",
           "price": "12,49",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
@@ -290,6 +328,8 @@
           "destaque": true,
           "features": [
             "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
             "Pedidos estruturados via WhatsApp",
             "Controle de estoque automático",
             "Cancele quando quiser, sem fidelidade",
@@ -298,7 +338,7 @@
           "cta": "Assinar Anual"
         }
       ],
-      "disclaimer": "Cartão de crédito. Cancele a qualquer momento."
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
     },
     "faq": {
       "title": "Dúvidas frequentes",
@@ -308,12 +348,12 @@
           "answer": "Sim. Funciona em qualquer lugar do Brasil via internet e é muito usada por lojistas de Anápolis e região. Seu catálogo fica disponível no WhatsApp para suas clientes locais acessarem e fazerem pedidos a qualquer hora."
         },
         {
-          "question": "Como funciona a garantia de 14 dias?",
-          "answer": "Você assina e já tem acesso imediato. Se em até 14 dias sentir que o Minha Loojinha não é para você, é só nos avisar e devolvemos 100% do valor pago — sem burocracia."
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
         },
         {
-          "question": "O preço é promocional?",
-          "answer": "Sim. O plano mensal sai a R$ 16,90/mês e o anual a R$ 149,90 — oferta para os primeiros inscritos. Quem assinar agora garante esse preço. Os próximos podem ter outro valor."
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
@@ -325,18 +365,18 @@
         },
         {
           "question": "Quais formas de pagamento são aceitas?",
-          "answer": "A assinatura é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
+          "answer": "O plano grátis não tem cobrança. A assinatura do plano Loojinha é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
         }
       ],
       "ctaPrompt": "Pronto para organizar suas vendas em Anápolis?",
-      "ctaButton": "Criar meu catálogo grátis — 14 dias sem risco"
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
     },
     "shared": {
       "headerCta": "Criar minha loja em Anápolis",
       "footerCtaTitle": "Comece hoje mesmo, sem sair de Anápolis",
-      "footerCtaSubtitle": "Em menos de 30 minutos seu catálogo está pronto. 14 dias grátis, com devolução integral se não gostar. Sem taxas por venda. Sem fidelidade.",
+      "footerCtaSubtitle": "Em menos de 30 minutos seu catálogo está pronto. Comece grátis, sem cartão. Sem taxas por venda. Sem fidelidade.",
       "footerCtaButton": "Criar minha loja agora",
-      "stickyCtaMobile": "Criar catálogo — Grátis por 14 dias"
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
     },
     "schema": {
       "siteName": "Minha Loojinha",
@@ -349,7 +389,7 @@
   "goiania": {
     "meta": {
       "title": "Catálogo digital para lojistas em Goiânia | Minha Loojinha",
-      "description": "Da Região da 44 ao seu WhatsApp: catálogo organizado, estoque automático e pedidos prontos para lojistas e sacoleiras de Goiânia. Grátis por 14 dias.",
+      "description": "Da Região da 44 ao seu WhatsApp: catálogo organizado, estoque automático e pedidos prontos para lojistas e sacoleiras de Goiânia. Comece grátis, sem cartão.",
       "keywords": [
         "catálogo digital lojista Goiânia",
         "vender roupas WhatsApp Goiânia",
@@ -358,16 +398,16 @@
         "sacoleira digital Goiânia"
       ],
       "ogTitle": "Catálogo digital para lojistas em Goiânia | Minha Loojinha",
-      "ogDescription": "Da Região da 44 ao seu WhatsApp: catálogo organizado, estoque automático e pedidos prontos para lojistas e sacoleiras de Goiânia. Grátis por 14 dias."
+      "ogDescription": "Da Região da 44 ao seu WhatsApp: catálogo organizado, estoque automático e pedidos prontos para lojistas e sacoleiras de Goiânia. Comece grátis, sem cartão."
     },
     "hero": {
-      "badge": "Garantia de 14 dias — Sem risco, sem fidelidade",
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
       "title": "Goiânia é o segundo maior polo de moda do Brasil. Sua loja merece",
       "titleHighlight": "um catálogo à altura",
       "titleSuffix": ".",
       "subtitle": "A Região da 44 movimenta R$ 8 bilhões por ano e tem mais de 12 mil pontos de venda. Se você é lojista, sacoleira ou revendedora desse ecossistema, já sabe que o WhatsApp é onde as vendas acontecem. A Minha Loojinha organiza isso do jeito que você precisa.",
       "socialProof": "Lojistas de Goiânia e da Região da 44 já estão na plataforma.",
-      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
       "ctaSecondary": "Ver benefícios"
     },
     "benefits": {
@@ -387,7 +427,7 @@
           "description": "Você já paga aluguel de loja, frete e custo de mercadoria. A Minha Loojinha não cobra nada sobre o que você vende — só a mensalidade fixa."
         }
       ],
-      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
       "ctaSecondary": "Ver planos e preços",
       "footer": "Feito para sacoleiras da 44, lojistas de galeria e revendedoras independentes de Goiânia e região metropolitana."
     },
@@ -432,23 +472,41 @@
     "multiDevice": {
       "badge": "Funciona em qualquer dispositivo",
       "title": "Sua loja em qualquer lugar",
-      "subtitle": "Goiânia não espera. Sua loja também não pode. Em 30 minutos você tem um catálogo profissional e começa a compartilhar com suas clientes — 14 dias grátis para ver como funciona na prática.",
+      "subtitle": "Goiânia não espera. Sua loja também não pode. Em 30 minutos você tem um catálogo profissional e começa a compartilhar com suas clientes — comece grátis, sem cartão, e veja como funciona na prática.",
       "cta": "Criar minha loja agora"
     },
     "pricing": {
       "badge": "Planos que cabem no seu bolso",
       "title": "Investimento por mês para lojistas de Goiânia",
-      "guarantee": "14 dias de garantia de reembolso em todos os planos. Para uma sacoleira da 44 que vende R$ 3.000 por mês, menos de 0,5% do faturamento — sem nenhuma taxa por venda.",
+      "guarantee": "Comece grátis, sem cartão. Para uma sacoleira da 44 que vende R$ 3.000 por mês, o plano Loojinha custa menos de 1% do faturamento — sem nenhuma taxa por venda.",
       "plans": [
         {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
           "id": "mensal",
-          "name": "Mensal",
+          "name": "Loojinha Mensal",
           "price": "16,90",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
           "features": [
             "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
             "Pedidos estruturados via WhatsApp",
             "Controle de estoque automático",
             "Cancele quando quiser, sem fidelidade",
@@ -458,7 +516,7 @@
         },
         {
           "id": "anual",
-          "name": "Anual",
+          "name": "Loojinha Anual",
           "price": "12,49",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
@@ -466,6 +524,8 @@
           "destaque": true,
           "features": [
             "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
             "Pedidos estruturados via WhatsApp",
             "Controle de estoque automático",
             "Cancele quando quiser, sem fidelidade",
@@ -474,7 +534,7 @@
           "cta": "Assinar Anual"
         }
       ],
-      "disclaimer": "Cartão de crédito. Cancele a qualquer momento."
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
     },
     "faq": {
       "title": "Dúvidas frequentes",
@@ -484,12 +544,12 @@
           "answer": "Sim. A Minha Loojinha é ideal para sacoleiras da 44, lojistas de galeria (Mega Moda Park, Shopping Dezoito, Galeria Domanni) e revendedoras independentes. Seu catálogo funciona como cardápio permanente — você atualiza conforme o que trouxe."
         },
         {
-          "question": "Como funciona a garantia de 14 dias?",
-          "answer": "Você assina e já tem acesso imediato. Se em até 14 dias sentir que o Minha Loojinha não é para você, é só nos avisar e devolvemos 100% do valor pago — sem burocracia."
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
         },
         {
-          "question": "O preço é promocional?",
-          "answer": "Sim. O plano mensal sai a R$ 16,90/mês e o anual a R$ 149,90 — oferta para os primeiros inscritos. Quem assinar agora garante esse preço. Os próximos podem ter outro valor."
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
@@ -501,18 +561,18 @@
         },
         {
           "question": "Quais formas de pagamento são aceitas?",
-          "answer": "A assinatura é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
+          "answer": "O plano grátis não tem cobrança. A assinatura do plano Loojinha é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
         }
       ],
       "ctaPrompt": "Pronto para organizar suas vendas em Goiânia?",
-      "ctaButton": "Criar meu catálogo grátis — 14 dias sem risco"
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
     },
     "shared": {
       "headerCta": "Criar minha loja em Goiânia",
       "footerCtaTitle": "Goiânia não espera. Sua loja também não pode.",
-      "footerCtaSubtitle": "Em 30 minutos seu catálogo está pronto para suas clientes. 14 dias grátis, com devolução integral se não gostar. Sem taxas por venda.",
+      "footerCtaSubtitle": "Em 30 minutos seu catálogo está pronto para suas clientes. Comece grátis, sem cartão. Sem taxas por venda.",
       "footerCtaButton": "Criar minha loja agora",
-      "stickyCtaMobile": "Criar catálogo — Grátis por 14 dias"
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
     },
     "schema": {
       "siteName": "Minha Loojinha",
@@ -525,7 +585,7 @@
   "brasilia": {
     "meta": {
       "title": "Catálogo digital para lojistas em Brasília | Minha Loojinha",
-      "description": "Lojistas de moda em Brasília, Taguatinga, Ceilândia e região: organize seu catálogo, controle estoque e receba pedidos pelo WhatsApp. Teste grátis 14 dias.",
+      "description": "Lojistas de moda em Brasília, Taguatinga, Ceilândia e região: organize seu catálogo, controle estoque e receba pedidos pelo WhatsApp. Comece grátis, sem cartão.",
       "keywords": [
         "catálogo digital lojista Brasília DF",
         "vender roupas WhatsApp Brasília",
@@ -534,16 +594,16 @@
         "sistema venda WhatsApp Distrito Federal"
       ],
       "ogTitle": "Catálogo digital para lojistas em Brasília | Minha Loojinha",
-      "ogDescription": "Lojistas de moda em Brasília, Taguatinga, Ceilândia e região: organize seu catálogo, controle estoque e receba pedidos pelo WhatsApp. Teste grátis 14 dias."
+      "ogDescription": "Lojistas de moda em Brasília, Taguatinga, Ceilândia e região: organize seu catálogo, controle estoque e receba pedidos pelo WhatsApp. Comece grátis, sem cartão."
     },
     "hero": {
-      "badge": "Garantia de 14 dias — Sem risco, sem fidelidade",
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
       "title": "Brasília tem clientes dispostos a comprar. Sua loja precisa de",
       "titleHighlight": "um catálogo que não deixe passar",
       "titleSuffix": ".",
       "subtitle": "Com mais de 3 milhões de habitantes e uma das maiores rendas per capita do Brasil, o DF é um dos mercados mais aquecidos para moda. Boutiques multimarcas, lojas de condomínio e revendedoras independentes competem pelo mesmo público. A Minha Loojinha te dá a estrutura profissional para se destacar.",
       "socialProof": "Lojistas de Brasília, Taguatinga e Ceilândia já estão na plataforma.",
-      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
       "ctaSecondary": "Ver benefícios"
     },
     "benefits": {
@@ -563,7 +623,7 @@
           "description": "Cada variação de tamanho e cor tem estoque próprio — quando esgota, some automaticamente. Você paga só a mensalidade da plataforma e fica com 100% de cada venda. Sem porcentagem, sem surpresa no fim do mês."
         }
       ],
-      "ctaPrimary": "Criar meu catálogo grátis — 14 dias sem risco",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
       "ctaSecondary": "Ver planos e preços",
       "footer": "Feito para boutiques do Plano Piloto, lojas de Taguatinga e Ceilândia, e revendedoras de Águas Claras, Samambaia e Planaltina."
     },
@@ -608,23 +668,41 @@
     "multiDevice": {
       "badge": "Funciona em qualquer dispositivo",
       "title": "Sua loja em qualquer lugar",
-      "subtitle": "Sua concorrente em Brasília já pode estar usando isso. Enquanto você pensa, outra lojista está recebendo pedidos organizados. Comece hoje com 14 dias grátis — se não funcionar, você recebe o valor de volta.",
+      "subtitle": "Sua concorrente em Brasília já pode estar usando isso. Enquanto você pensa, outra lojista está recebendo pedidos organizados. Comece hoje, grátis e sem cartão de crédito.",
       "cta": "Criar minha loja agora"
     },
     "pricing": {
       "badge": "Planos que cabem no seu bolso",
       "title": "Quanto custa para lojistas de Brasília?",
-      "guarantee": "14 dias de garantia de reembolso em todos os planos. Considerando o ticket médio do mercado de moda do DF, um investimento irrisório frente ao retorno de um processo de vendas organizado.",
+      "guarantee": "Comece grátis, sem cartão. Considerando o ticket médio do mercado de moda do DF, o plano Loojinha é um investimento irrisório frente ao retorno de um processo de vendas organizado.",
       "plans": [
         {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
           "id": "mensal",
-          "name": "Mensal",
+          "name": "Loojinha Mensal",
           "price": "16,90",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
           "features": [
             "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
             "Pedidos estruturados via WhatsApp",
             "Controle de estoque automático",
             "Cancele quando quiser, sem fidelidade",
@@ -634,7 +712,7 @@
         },
         {
           "id": "anual",
-          "name": "Anual",
+          "name": "Loojinha Anual",
           "price": "12,49",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
@@ -642,6 +720,8 @@
           "destaque": true,
           "features": [
             "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
             "Pedidos estruturados via WhatsApp",
             "Controle de estoque automático",
             "Cancele quando quiser, sem fidelidade",
@@ -650,7 +730,7 @@
           "cta": "Assinar Anual"
         }
       ],
-      "disclaimer": "Cartão de crédito. Cancele a qualquer momento."
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
     },
     "faq": {
       "title": "Dúvidas frequentes",
@@ -660,12 +740,12 @@
           "answer": "Sim. A Minha Loojinha atende boutiques multimarcas do Plano Piloto e Lago Sul, lojistas de Taguatinga e Ceilândia, revendedoras de Águas Claras, Samambaia e Planaltina, e também quem compra na Feira dos Goianos para revender no DF."
         },
         {
-          "question": "Como funciona a garantia de 14 dias?",
-          "answer": "Você assina e já tem acesso imediato. Se em até 14 dias sentir que o Minha Loojinha não é para você, é só nos avisar e devolvemos 100% do valor pago — sem burocracia."
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
         },
         {
-          "question": "O preço é promocional?",
-          "answer": "Sim. O plano mensal sai a R$ 16,90/mês e o anual a R$ 149,90 — oferta para os primeiros inscritos. Quem assinar agora garante esse preço. Os próximos podem ter outro valor."
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
@@ -677,18 +757,18 @@
         },
         {
           "question": "Quais formas de pagamento são aceitas?",
-          "answer": "A assinatura é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
+          "answer": "O plano grátis não tem cobrança. A assinatura do plano Loojinha é cobrada no cartão de crédito (Visa, Mastercard, etc.) de forma recorrente mensal ou anual. O pagamento é processado de forma segura na página de checkout."
         }
       ],
       "ctaPrompt": "Pronto para organizar suas vendas no DF?",
-      "ctaButton": "Criar meu catálogo grátis — 14 dias sem risco"
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
     },
     "shared": {
       "headerCta": "Criar minha loja em Brasília",
       "footerCtaTitle": "Sua concorrente em Brasília já pode estar usando isso.",
-      "footerCtaSubtitle": "Comece hoje com 14 dias grátis. Se não funcionar, você recebe o valor de volta. Sem taxas por venda. Sem fidelidade.",
+      "footerCtaSubtitle": "Comece hoje grátis, sem cartão. Sem taxas por venda. Sem fidelidade.",
       "footerCtaButton": "Criar minha loja agora",
-      "stickyCtaMobile": "Criar catálogo — Grátis por 14 dias"
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
     },
     "schema": {
       "siteName": "Minha Loojinha",
@@ -701,7 +781,7 @@
   "main": {
     "meta": {
       "title": "Minha Loojinha | Catálogo digital de moda no WhatsApp",
-      "description": "Sua cliente abre o link, escolhe o tamanho e o pedido chega organizado no seu WhatsApp. Sem taxa por venda. 14 dias grátis para testar.",
+      "description": "Sua cliente abre o link, escolhe o tamanho e o pedido chega organizado no seu WhatsApp. Sem taxa por venda. Comece grátis, sem cartão.",
       "keywords": [
         "vender roupas whatsapp",
         "catálogo digital moda",
@@ -713,13 +793,13 @@
       "ogDescription": "Seu cliente abre o link, escolhe o tamanho e a cor, e o pedido chega organizado no seu WhatsApp. Sem planilha, sem confusão."
     },
     "hero": {
-      "badge": "Sem taxa por venda · Garantia de 14 dias sem risco · Cancele quando quiser",
+      "badge": "Comece grátis, sem cartão · Sem taxa por venda · Sem fidelidade",
       "title": "Sua loja no",
       "titleHighlight": "WhatsApp",
       "titleSuffix": ", do jeito que deveria ser",
       "subtitle": "Seu cliente abre o link, escolhe o tamanho e a cor, e o pedido chega organizado no seu WhatsApp. Você só confirma e embala. Sem planilha, sem digitação, sem confusão.",
       "socialProof": "Lojistas de Anápolis, Goiânia e Brasília já vendem assim.",
-      "ctaPrimary": "Criar meu catálogo grátis por 14 dias",
+      "ctaPrimary": "Criar meu catálogo grátis",
       "ctaSecondary": "Ver como funciona na prática"
     },
     "benefits": {
@@ -739,7 +819,7 @@
           "description": "O estoque baixa sozinho a cada pedido confirmado. Acabou a peça? Ela some da vitrine automaticamente. Chega de passar vergonha com a cliente."
         }
       ],
-      "ctaPrimary": "Criar meu catálogo grátis por 14 dias",
+      "ctaPrimary": "Criar meu catálogo grátis",
       "ctaSecondary": "Ver planos e preços",
       "footer": "Suporte humanizado e plataforma otimizada para conversão em dispositivos móveis."
     },
@@ -784,12 +864,28 @@
     },
     "pricing": {
       "badge": "Pague pelo sistema, fique com 100% de cada venda",
-      "title": "Simples assim: um único plano, sem taxas escondidas",
-      "guarantee": "14 dias de garantia em todos os planos. Se não gostar por qualquer motivo, você recebe o valor de volta — sem pergunta, sem burocracia.",
+      "title": "Comece grátis. Mude de plano quando a loja crescer.",
+      "guarantee": "Comece no plano grátis, sem cartão de crédito. Quando quiser produtos ilimitados, mude para o plano Loojinha e teste 14 dias antes de pagar.",
       "plans": [
         {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
           "id": "anual",
-          "name": "Anual",
+          "name": "Loojinha Anual",
           "price": "12,49",
           "priceSuffix": "/mês",
           "billingNote": "Pague R$ 149,90/ano — equivale a 10 meses, use 12",
@@ -797,6 +893,8 @@
           "destaque": true,
           "features": [
             "Produtos e categorias ilimitados",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
             "Fotos em alta resolução",
             "Gestão de estoque e grade de tamanhos",
             "Pedidos ilimitados via WhatsApp",
@@ -807,13 +905,15 @@
         },
         {
           "id": "mensal",
-          "name": "Mensal",
+          "name": "Loojinha Mensal",
           "price": "16,90",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente — cancele quando quiser",
           "destaque": false,
           "features": [
             "Produtos e categorias ilimitados",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
             "Fotos em alta resolução",
             "Gestão de estoque e grade de tamanhos",
             "Pedidos ilimitados via WhatsApp",
@@ -840,8 +940,8 @@
           "answer": "Você recebe diretamente. A Minha Loojinha organiza o pedido e te manda tudo pelo WhatsApp — mas o pagamento é combinado entre você e sua cliente do jeito que você já faz hoje: Pix, dinheiro, maquininha ou o que preferir. Não cobramos nenhuma taxa sobre suas vendas."
         },
         {
-          "question": "Como funciona a garantia de 14 dias?",
-          "answer": "Simples: você tem 14 dias para testar tudo sem risco. Se por qualquer motivo não gostar, é só falar com a gente pelo WhatsApp e devolvemos 100% do valor pago. Sem pergunta, sem burocracia. Só queremos que você use porque funciona de verdade."
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha (R$ 16,90/mês ou R$ 149,90/ano) e teste 14 dias antes de pagar."
         },
         {
           "question": "Posso usar meu próprio domínio?",
@@ -857,7 +957,7 @@
         }
       ],
       "ctaPrompt": "Sua concorrente já pode estar usando isso.",
-      "ctaButton": "Criar minha loja agora — grátis por 14 dias"
+      "ctaButton": "Criar minha loja grátis — sem cartão"
     },
     "testimonials": {
       "badge": "Histórias reais de lojistas",
@@ -887,9 +987,9 @@
     "shared": {
       "headerCta": "Criar minha loja",
       "footerCtaTitle": "Enquanto você pensa, sua concorrente está recebendo pedido organizado.",
-      "footerCtaSubtitle": "Comece hoje, sem risco. 14 dias grátis: nada é cobrado no teste e você cancela quando quiser.",
+      "footerCtaSubtitle": "Comece hoje, sem risco: o plano grátis não pede cartão. Quando quiser produtos ilimitados, o plano Loojinha custa R$ 16,90/mês.",
       "footerCtaButton": "Criar minha loja agora",
-      "stickyCtaMobile": "Criar catálogo — grátis por 14 dias"
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
     },
     "schema": {
       "siteName": "Minha Loojinha",

@@ -469,7 +469,14 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
               {pricing.title}
             </h2>
           </div>
-          <div className="mx-auto grid max-w-3xl gap-6 sm:grid-cols-2">
+          <div
+            className={[
+              "mx-auto grid gap-6",
+              pricing.plans.length > 2
+                ? "max-w-5xl md:grid-cols-3"
+                : "max-w-3xl sm:grid-cols-2",
+            ].join(" ")}
+          >
             {pricing.plans.map((plan) => (
               <div
                 key={plan.id}
