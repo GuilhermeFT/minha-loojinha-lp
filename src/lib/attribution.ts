@@ -43,7 +43,7 @@ export function attributionToMetadata(attr: Attribution): Record<string, string>
   return out
 }
 
-/** Navegador: registra a visita atual se ela trouxer UTM ou id de clique. */
+/** Navegador: registra a origem da visita atual (UTM/id de clique, senão o referrer). */
 export function captureAttribution(): void {
   if (typeof window === 'undefined') return
   const params = new URLSearchParams(window.location.search)
@@ -56,9 +56,22 @@ export function captureAttribution(): void {
       hasSignal = true
     }
   }
-  if (!hasSignal) return
+  // Sem UTM (Google orgânico, blog, link colado no Instagram): a origem vem do referrer
+  if (!hasSignal) {
+    const source = referrerSource()
+    if (source) {
+      Object.assign(touch, source)
+      hasSignal = true
+    }
+  }
 
   const current = parseAttribution(readCookie(ATTRIBUTION_COOKIE))
+  if (!hasSignal) {
+    // Visita direta só vira primeiro toque; não apaga uma origem já conhecida
+    if (current.first) return
+    touch.utm_source = '(direct)'
+    touch.utm_medium = '(none)'
+  }
   const next: Attribution = { first: current.first ?? touch, last: touch }
 
   // Domínio raiz para a LP (minhaloojinha.com.br) e o painel (painel.minhaloojinha.com.br) lerem o mesmo cookie
@@ -67,6 +80,26 @@ export function captureAttribution(): void {
   document.cookie =
     `${ATTRIBUTION_COOKIE}=${encodeURIComponent(JSON.stringify(next))}; path=/; max-age=${MAX_AGE_DAYS * 86400}; SameSite=Lax${domain}` +
     (window.location.protocol === 'https:' ? '; Secure' : '')
+}
+
+const SEARCH_ENGINES = ['google.', 'bing.', 'yahoo.', 'duckduckgo.', 'ecosia.', 'yandex.']
+// O referrer não muda nas trocas de rota do Next: só vale na primeira captura do carregamento
+let referrerSeen = false
+
+/** utm_source/utm_medium a partir do referrer externo; null se veio de dentro da Loojinha ou sem referrer. */
+function referrerSource(): Pick<Touch, 'utm_source' | 'utm_medium'> | null {
+  if (referrerSeen) return null
+  referrerSeen = true
+  if (!document.referrer) return null
+  let host: string
+  try {
+    host = new URL(document.referrer).hostname.replace(/^www\./, '')
+  } catch {
+    return null
+  }
+  if (!host || host.endsWith('minhaloojinha.com.br') || host === window.location.hostname) return null
+  const medium = SEARCH_ENGINES.some((engine) => host.includes(engine)) ? 'organic' : 'referral'
+  return { utm_source: host.slice(0, 200), utm_medium: medium }
 }
 
 export function readCookie(name: string): string | undefined {
