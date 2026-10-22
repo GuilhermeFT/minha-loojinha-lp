@@ -19,8 +19,8 @@
       "title": "Venda mais no",
       "titleHighlight": "WhatsApp",
       "titleSuffix": "em Anápolis, Goiânia e região",
-      "subtitle": "Seu cliente escolhe os produtos, envia o pedido pronto e paga online. Você recebe tudo organizado com controle de estoque automático — sem mensagem bagunçada.",
-      "socialProof": "Lojistas da região já estão na plataforma.",
+      "subtitle": "Seu cliente escolhe os produtos e envia o pedido pronto. Você recebe tudo organizado com controle de estoque automático — sem mensagem bagunçada.",
+      "socialProof": "Funciona para lojistas de qualquer cidade: só precisa de internet.",
       "ctaPrimary": "Começar grátis, sem cartão",
       "ctaSecondary": "Ver benefícios"
     },
@@ -798,7 +798,7 @@
       "titleHighlight": "WhatsApp",
       "titleSuffix": ", do jeito que deveria ser",
       "subtitle": "Seu cliente abre o link, escolhe o tamanho e o pedido chega organizado no seu WhatsApp. Você só confirma e embala. Sem planilha, sem digitação, sem confusão.",
-      "socialProof": "Lojistas de Anápolis, Goiânia e Brasília já vendem assim.",
+      "socialProof": "Funciona para lojistas de qualquer cidade: só precisa de internet.",
       "ctaPrimary": "Criar meu catálogo grátis",
       "ctaSecondary": "Ver como funciona na prática"
     },
@@ -944,10 +944,6 @@
           "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha (R$ 16,90/mês ou R$ 149,90/ano) e teste 14 dias antes de pagar."
         },
         {
-          "question": "Posso usar meu próprio domínio?",
-          "answer": "Sim. Você pode vincular um domínio próprio (como sualoja.com.br) ao seu catálogo. Isso dá um visual ainda mais profissional para a sua marca. A configuração é simples e nosso suporte te ajuda a fazer isso."
-        },
-        {
           "question": "O sistema controla os tamanhos?",
           "answer": "Sim. Você cadastra cada produto com suas variações (PP, P, M, G, GG, XG, XXG) e o estoque de cada tamanho separadamente. Quando um tamanho esgota, ele some automaticamente do catálogo. Sua cliente nunca vai ver um tamanho que você não tem."
         },
@@ -958,31 +954,6 @@
       ],
       "ctaPrompt": "Sua concorrente já pode estar usando isso.",
       "ctaButton": "Criar minha loja grátis — sem cartão"
-    },
-    "testimonials": {
-      "badge": "Histórias reais de lojistas",
-      "title": "Quem já organizou as vendas conta como foi",
-      "subtitle": "Depoimentos de referência para inspirar a coleta real. Vamos atualizar com as histórias das clientes à medida que forem liberando uso.",
-      "items": [
-        {
-          "name": "Camila R.",
-          "city": "Anápolis, GO",
-          "business": "Loja de moda feminina",
-          "quote": "Antes eu perdia venda porque a cliente mandava mensagem à noite, eu respondia de manhã e ela já tinha comprado de outra. Hoje ela abre meu link sozinha e faz o pedido na hora. Minha taxa de conversão dobrou no primeiro mês."
-        },
-        {
-          "name": "Fernanda M.",
-          "city": "Goiânia, GO",
-          "business": "Sacoleira da Região da 44",
-          "quote": "Eu vivia respondendo 'tem no P?', 'qual o preço?', 'manda foto de novo'. Agora mando o link e pronto. O pedido chega com tamanho, cor, quantidade e total já calculado. Economizo horas por dia."
-        },
-        {
-          "name": "Juliana T.",
-          "city": "Brasília, DF",
-          "business": "Boutique multimarcas",
-          "quote": "Já passei vergonha de confirmar pedido de peça esgotada. Com a Minha Loojinha o estoque baixa sozinho. Quando acaba, some do catálogo. Minha cliente nunca mais passou por essa situação."
-        }
-      ]
     },
     "shared": {
       "headerCta": "Criar minha loja",
