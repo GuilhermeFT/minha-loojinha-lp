@@ -2,12 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 import logoDark from "@/assets/minhaloojinha-logo-dark.svg";
 import { FooterCta } from "@/components/footer-cta";
+import { CITY_PAGES } from "@/lib/cities";
 
 export function Footer() {
   return (
     <footer style={{ background: "var(--color-surface-dark)" }}>
       <div className="container mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
-        <div className="grid gap-8 sm:gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <Link href="/" className="inline-block">
               <Image
@@ -74,6 +75,21 @@ export function Footer() {
                   Termos de Uso
                 </Link>
               </li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-semibold text-white/90">Cidades</h3>
+            <ul className="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-white/60">
+              {CITY_PAGES.map((city) => (
+                <li key={city.slug}>
+                  <Link
+                    href={`/${city.slug}`}
+                    className="transition-colors hover:text-white"
+                  >
+                    {city.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
           <div>

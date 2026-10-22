@@ -33,6 +33,7 @@ export function GET() {
 
 ## Para quem é
 Lojas de roupa pequenas, sacoleiras e revendedoras que já vendem pelo WhatsApp e Instagram.
+Funciona em qualquer cidade do Brasil, só com internet; há páginas para lojistas de São Paulo, Rio de Janeiro, Belo Horizonte, Curitiba, Porto Alegre, Salvador, Recife, Fortaleza, Brasília, Goiânia e Anápolis (${siteUrl}/sao-paulo, ${siteUrl}/rio-de-janeiro etc.).
 
 ## Links
 - [Site](${siteUrl}): apresentação, preços e perguntas frequentes

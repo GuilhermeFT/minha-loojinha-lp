@@ -158,7 +158,7 @@
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
-          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com totais e forma de pagamento. Você recebe tudo organizado e o estoque é atualizado sozinho."
+          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com tamanhos, quantidades e total. Você recebe tudo organizado e o estoque é atualizado sozinho."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -210,7 +210,7 @@
       "titleHighlight": "pedidos organizados no WhatsApp",
       "titleSuffix": ". A sua loja também pode.",
       "subtitle": "Anápolis tem mais de 390 mil habitantes e um comércio de moda que não para. Entre o movimento da loja, os pedidos no WhatsApp e o controle de estoque, muita lojista fica soterrada de trabalho. A Minha Loojinha organiza tudo isso num link só.",
-      "socialProof": "Lojistas de Anápolis já estão na plataforma.",
+      "socialProof": "Funciona para quem vende em Anápolis e para clientes de qualquer cidade.",
       "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
       "ctaSecondary": "Ver benefícios"
     },
@@ -243,7 +243,7 @@
         {
           "step": "1",
           "title": "Você cadastra seus produtos",
-          "description": "Fotos, tamanhos (PP ao XXG), cores e preços. Leva menos de 30 minutos."
+          "description": "Fotos, tamanhos (PP ao XXG) e preços. Leva menos de 30 minutos."
         },
         {
           "step": "2",
@@ -345,7 +345,7 @@
       "items": [
         {
           "question": "A Minha Loojinha funciona para lojistas de Anápolis?",
-          "answer": "Sim. Funciona em qualquer lugar do Brasil via internet e é muito usada por lojistas de Anápolis e região. Seu catálogo fica disponível no WhatsApp para suas clientes locais acessarem e fazerem pedidos a qualquer hora."
+          "answer": "Sim. Funciona em qualquer lugar do Brasil via internet, inclusive para lojistas de Anápolis e região. Seu catálogo fica disponível no WhatsApp para suas clientes locais acessarem e fazerem pedidos a qualquer hora."
         },
         {
           "question": "Preciso de cartão de crédito para começar?",
@@ -357,7 +357,7 @@
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
-          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com totais e forma de pagamento. Você recebe tudo organizado e o estoque é atualizado sozinho."
+          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com tamanhos, quantidades e total. Você recebe tudo organizado e o estoque é atualizado sozinho."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -406,7 +406,7 @@
       "titleHighlight": "um catálogo à altura",
       "titleSuffix": ".",
       "subtitle": "A Região da 44 movimenta R$ 8 bilhões por ano e tem mais de 12 mil pontos de venda. Se você é lojista, sacoleira ou revendedora desse ecossistema, já sabe que o WhatsApp é onde as vendas acontecem. A Minha Loojinha organiza isso do jeito que você precisa.",
-      "socialProof": "Lojistas de Goiânia e da Região da 44 já estão na plataforma.",
+      "socialProof": "Funciona para quem vende em Goiânia, na Região da 44 e para clientes de qualquer cidade.",
       "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
       "ctaSecondary": "Ver benefícios"
     },
@@ -419,7 +419,7 @@
           "description": "Muitas clientes das lojistas da 44 são de outras cidades e estados. O catálogo funciona igual para quem está na Feira Hippie e para quem está em Belém. Você recebe o pedido e envia pelos Correios."
         },
         {
-          "title": "Estoque por tamanho e cor",
+          "title": "Estoque por tamanho",
           "description": "Quem trabalha com grade sabe a importância disso. Cada tamanho tem seu próprio estoque. Quando o GG acaba, some do catálogo. Quando o P ainda tem 3 peças, continua aparecendo."
         },
         {
@@ -439,7 +439,7 @@
         {
           "step": "1",
           "title": "Cadastre seus produtos",
-          "description": "Fotos, tamanhos, cores, preço. Simples como postar no Instagram."
+          "description": "Fotos, tamanhos e preço. Simples como postar no Instagram."
         },
         {
           "step": "2",
@@ -553,7 +553,7 @@
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
-          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com totais e forma de pagamento. Você recebe tudo organizado e o estoque é atualizado sozinho."
+          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com tamanhos, quantidades e total. Você recebe tudo organizado e o estoque é atualizado sozinho."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -578,7 +578,7 @@
       "siteName": "Minha Loojinha",
       "siteDescription": "Catálogo digital para lojistas e sacoleiras de Goiânia e Região da 44. Pedidos organizados no WhatsApp, estoque automático e sem taxa por venda.",
       "organizationDescription": "Catálogo estruturado para WhatsApp. Pedidos organizados, estoque automático. Para lojistas, sacoleiras e revendedoras de Goiânia e região.",
-      "localBusinessDescription": "Plataforma de catálogo digital para lojistas de moda em Goiânia, GO, incluindo sacoleiras da Região da 44 e lojistas de galeria. Pedidos organizados no WhatsApp e controle de estoque por tamanho e cor.",
+      "localBusinessDescription": "Plataforma de catálogo digital para lojistas de moda em Goiânia, GO, incluindo sacoleiras da Região da 44 e lojistas de galeria. Pedidos organizados no WhatsApp e controle de estoque por tamanho.",
       "areaServed": ["Goiânia", "Região Metropolitana de Goiânia"]
     }
   },
@@ -602,7 +602,7 @@
       "titleHighlight": "um catálogo que não deixe passar",
       "titleSuffix": ".",
       "subtitle": "Com mais de 3 milhões de habitantes e uma das maiores rendas per capita do Brasil, o DF é um dos mercados mais aquecidos para moda. Boutiques multimarcas, lojas de condomínio e revendedoras independentes competem pelo mesmo público. A Minha Loojinha te dá a estrutura profissional para se destacar.",
-      "socialProof": "Lojistas de Brasília, Taguatinga e Ceilândia já estão na plataforma.",
+      "socialProof": "Funciona para quem vende em Brasília, Taguatinga, Ceilândia e para clientes de qualquer cidade.",
       "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
       "ctaSecondary": "Ver benefícios"
     },
@@ -620,7 +620,7 @@
         },
         {
           "title": "Controle de estoque e sem taxa por venda",
-          "description": "Cada variação de tamanho e cor tem estoque próprio — quando esgota, some automaticamente. Você paga só a mensalidade da plataforma e fica com 100% de cada venda. Sem porcentagem, sem surpresa no fim do mês."
+          "description": "Cada tamanho tem estoque próprio — quando esgota, some automaticamente. Você paga só a mensalidade da plataforma e fica com 100% de cada venda. Sem porcentagem, sem surpresa no fim do mês."
         }
       ],
       "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
@@ -635,7 +635,7 @@
         {
           "step": "1",
           "title": "Cadastre seus produtos",
-          "description": "Fotos em alta resolução, tamanhos, cores, preço cheio e promocional. Parece uma loja virtual, mas é mais simples."
+          "description": "Fotos em alta resolução, tamanhos, preço cheio e promocional. Parece uma loja virtual, mas é mais simples."
         },
         {
           "step": "2",
@@ -749,7 +749,7 @@
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
-          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com totais e forma de pagamento. Você recebe tudo organizado e o estoque é atualizado sozinho."
+          "answer": "No catálogo simples, o cliente manda mensagem solta com itens e você precisa interpretar e organizar. No Minha Loojinha, o cliente monta o pedido no catálogo e envia já estruturado, com tamanhos, quantidades e total. Você recebe tudo organizado e o estoque é atualizado sozinho."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -790,14 +790,14 @@
         "sistema de vendas moda"
       ],
       "ogTitle": "Minha Loojinha | Sua loja no WhatsApp, do jeito que deveria ser",
-      "ogDescription": "Seu cliente abre o link, escolhe o tamanho e a cor, e o pedido chega organizado no seu WhatsApp. Sem planilha, sem confusão."
+      "ogDescription": "Seu cliente abre o link, escolhe o tamanho e o pedido chega organizado no seu WhatsApp. Sem planilha, sem confusão."
     },
     "hero": {
       "badge": "Comece grátis, sem cartão · Sem taxa por venda · Sem fidelidade",
       "title": "Sua loja no",
       "titleHighlight": "WhatsApp",
       "titleSuffix": ", do jeito que deveria ser",
-      "subtitle": "Seu cliente abre o link, escolhe o tamanho e a cor, e o pedido chega organizado no seu WhatsApp. Você só confirma e embala. Sem planilha, sem digitação, sem confusão.",
+      "subtitle": "Seu cliente abre o link, escolhe o tamanho e o pedido chega organizado no seu WhatsApp. Você só confirma e embala. Sem planilha, sem digitação, sem confusão.",
       "socialProof": "Lojistas de Anápolis, Goiânia e Brasília já vendem assim.",
       "ctaPrimary": "Criar meu catálogo grátis",
       "ctaSecondary": "Ver como funciona na prática"
@@ -808,7 +808,7 @@
       "cards": [
         {
           "title": "Vitrine que vende sozinha",
-          "description": "Fotos, tamanhos, cores e preços organizados num link só. Sua cliente navega como numa loja de verdade — sem precisar te perguntar nada."
+          "description": "Fotos, tamanhos e preços organizados num link só. Sua cliente navega como numa loja de verdade — sem precisar te perguntar nada."
         },
         {
           "title": "Pedido pronto no seu WhatsApp",
@@ -892,7 +892,7 @@
           "savingsBadge": "Mais popular — melhor valor",
           "destaque": true,
           "features": [
-            "Produtos e categorias ilimitados",
+            "Produtos ilimitados",
             "Sem o selo da Minha Loojinha na vitrine",
             "Teste 14 dias antes de pagar",
             "Fotos em alta resolução",
@@ -911,7 +911,7 @@
           "billingNote": "Cobrado mensalmente — cancele quando quiser",
           "destaque": false,
           "features": [
-            "Produtos e categorias ilimitados",
+            "Produtos ilimitados",
             "Sem o selo da Minha Loojinha na vitrine",
             "Teste 14 dias antes de pagar",
             "Fotos em alta resolução",
@@ -948,7 +948,7 @@
           "answer": "Sim. Você pode vincular um domínio próprio (como sualoja.com.br) ao seu catálogo. Isso dá um visual ainda mais profissional para a sua marca. A configuração é simples e nosso suporte te ajuda a fazer isso."
         },
         {
-          "question": "O sistema controla tamanhos e cores?",
+          "question": "O sistema controla os tamanhos?",
           "answer": "Sim. Você cadastra cada produto com suas variações (PP, P, M, G, GG, XG, XXG) e o estoque de cada tamanho separadamente. Quando um tamanho esgota, ele some automaticamente do catálogo. Sua cliente nunca vai ver um tamanho que você não tem."
         },
         {

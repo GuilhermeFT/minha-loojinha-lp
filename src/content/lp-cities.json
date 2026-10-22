@@ -1,0 +1,1650 @@
+{
+  "sao-paulo": {
+    "meta": {
+      "title": "Catálogo digital para lojistas de moda em São Paulo | Minha Loojinha",
+      "description": "Revende roupa do Brás ou do Bom Retiro pelo WhatsApp? Crie seu catálogo por link, controle o estoque por tamanho e receba pedidos organizados. Grátis, sem cartão.",
+      "keywords": [
+        "catálogo digital loja de roupas São Paulo",
+        "vender roupas pelo WhatsApp São Paulo",
+        "revender roupas do Brás",
+        "catálogo para revendedora Bom Retiro",
+        "loja virtual moda SP"
+      ],
+      "ogTitle": "Catálogo digital para lojistas de moda em São Paulo | Minha Loojinha",
+      "ogDescription": "Revende roupa do Brás ou do Bom Retiro pelo WhatsApp? Crie seu catálogo por link, controle o estoque por tamanho e receba pedidos organizados. Grátis, sem cartão."
+    },
+    "hero": {
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
+      "title": "Do Brás para o celular da sua cliente:",
+      "titleHighlight": "um catálogo com link próprio",
+      "titleSuffix": "e pedidos já organizados no WhatsApp.",
+      "subtitle": "Em São Paulo, muita loja de roupa começa com uma sacola do Brás ou do Bom Retiro e um grupo de WhatsApp do bairro. Quando as peças chegam, chegam também dezenas de mensagens perguntando preço e tamanho. Com a Minha Loojinha, suas peças ficam num catálogo por link: a cliente escolhe e o pedido chega pronto no seu WhatsApp.",
+      "socialProof": "Funciona da Zona Leste à Zona Sul, e para clientes de qualquer cidade: só precisa de internet.",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver benefícios"
+    },
+    "benefits": {
+      "title": "O que muda para quem vende moda em São Paulo",
+      "subtitle": "A capital concentra os maiores polos de atacado de moda do país: o Brás, com a Rua Oriente e a Feirinha da Madrugada, e o Bom Retiro, com a José Paulino. Quem revende compra rápido, em grade, e precisa postar logo. O gargalo não é achar peça: é dar conta de responder todo mundo que pergunta.",
+      "cards": [
+        {
+          "title": "Postou a novidade, o link já está pronto",
+          "description": "Voltou do atacado com peças novas? Cadastre com foto, preço e tamanhos pelo celular e a peça aparece no seu catálogo na hora. Em vez de mandar foto por foto no privado, você manda um link."
+        },
+        {
+          "title": "Grade de tamanhos que se controla sozinha",
+          "description": "Atacado vende em grade: P, M, G, GG. Cada tamanho tem estoque próprio e baixa a cada pedido. Quando o M acaba, ele some do catálogo e ninguém pede o que você não tem mais."
+        },
+        {
+          "title": "Margem de revenda intacta",
+          "description": "Sem taxa por venda: o que a cliente paga é seu. Comece grátis com até 10 produtos e, quando o catálogo crescer, passe para o plano Loojinha com produtos ilimitados."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Para revendedoras que compram no Brás e no Bom Retiro, lojas de bairro da Zona Leste à Zona Oeste e quem vende só pelo Instagram, sem loja física."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Do atacado ao pedido no WhatsApp em quatro passos",
+      "subtitle": "Sem site para montar e sem aplicativo para a cliente baixar.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Cadastre as peças da semana",
+          "description": "Foto, preço, preço promocional e tamanhos. Dá para fazer tudo pelo celular, ainda na volta do Brás."
+        },
+        {
+          "step": "2",
+          "title": "Divulgue o link",
+          "description": "Na bio do Instagram, no status do WhatsApp e nos grupos de revenda do bairro ou do trabalho."
+        },
+        {
+          "step": "3",
+          "title": "A cliente monta o carrinho",
+          "description": "Ela vê o que tem em cada tamanho, escolhe e envia o pedido sem precisar perguntar no privado."
+        },
+        {
+          "step": "4",
+          "title": "O pedido chega no seu WhatsApp",
+          "description": "Com peças, tamanhos, total, nome e telefone da cliente, e se é retirada ou entrega. Você combina o pagamento e separa."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Mais organização",
+      "title": "Menos “quanto custa?”, mais pedido fechado",
+      "subtitle": "Numa cidade em que a cliente tem mil lojas no feed, quem responde rápido vende. Com o catálogo, a resposta já está no link.",
+      "stats": [
+        {
+          "label": "Pedidos sempre organizados"
+        },
+        {
+          "label": "Estoque em tempo real"
+        },
+        {
+          "label": "Atendimento muito mais rápido"
+        }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "A cliente abre o catálogo no celular, no metrô ou no intervalo do trabalho. Você gerencia pelo celular ou pelo computador. Comece hoje, grátis e sem cartão.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Quanto custa para vender moda em São Paulo?",
+      "guarantee": "Comece grátis, sem cartão, com até 10 produtos. Quando o catálogo crescer, o plano Loojinha libera produtos ilimitados, sem taxa por venda.",
+      "plans": [
+        {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
+          "id": "mensal",
+          "name": "Loojinha Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Loojinha Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "Funciona para revendedora que compra no Brás ou no Bom Retiro?",
+          "answer": "Sim. Você cadastra as peças que comprou, com o seu preço de revenda e a quantidade de cada tamanho, e divulga o link. A Minha Loojinha não é fornecedor nem marketplace: é o seu catálogo, com o nome da sua loja e o seu WhatsApp."
+        },
+        {
+          "question": "Consigo vender para clientes de outros bairros ou de outras cidades?",
+          "answer": "Sim. O catálogo funciona pela internet para qualquer pessoa com o link. A cliente informa no pedido se vai retirar ou o endereço de entrega. O frete e a forma de envio você combina com ela pelo WhatsApp: a plataforma não calcula frete."
+        },
+        {
+          "question": "A cliente paga pelo catálogo?",
+          "answer": "Não. A Minha Loojinha não processa pagamento: o pedido chega no seu WhatsApp e você combina Pix, dinheiro ou cartão na entrega direto com a cliente. Por isso não existe taxa por venda."
+        },
+        {
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
+        },
+        {
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Não há fidelidade. Após o cancelamento, você continua com acesso ao plano Loojinha até o fim do período já pago."
+        }
+      ],
+      "ctaPrompt": "Vamos organizar suas vendas em São Paulo?",
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
+    },
+    "shared": {
+      "headerCta": "Criar meu catálogo grátis",
+      "footerCtaTitle": "Seu catálogo pronto antes da próxima ida ao Brás",
+      "footerCtaSubtitle": "Comece hoje grátis, sem cartão. Sem taxa por venda. Sem fidelidade.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas e revendedoras de moda em São Paulo. Pedidos organizados no WhatsApp, estoque por tamanho e sem taxa por venda.",
+      "organizationDescription": "Catálogo digital por link para lojistas de moda que vendem pelo WhatsApp. Pedidos organizados, estoque por tamanho e sem taxa por venda.",
+      "localBusinessDescription": "Plataforma online de catálogo digital para lojistas e revendedoras de moda de São Paulo, SP, incluindo quem compra no Brás e no Bom Retiro. Pedidos organizados no WhatsApp e controle de estoque por tamanho.",
+      "areaServed": [
+        "São Paulo",
+        "Grande São Paulo"
+      ]
+    }
+  },
+  "rio-de-janeiro": {
+    "meta": {
+      "title": "Catálogo digital para lojistas de moda no Rio de Janeiro | Minha Loojinha",
+      "description": "Vende moda praia, fitness ou peças do Saara pelo WhatsApp no Rio? Catálogo por link, estoque por tamanho e pedidos organizados. Comece grátis, sem cartão.",
+      "keywords": [
+        "catálogo digital loja de roupas Rio de Janeiro",
+        "vender moda praia pelo WhatsApp",
+        "vender roupas WhatsApp RJ",
+        "catálogo moda fitness Rio de Janeiro",
+        "revender roupas do Saara"
+      ],
+      "ogTitle": "Catálogo digital para lojistas de moda no Rio de Janeiro | Minha Loojinha",
+      "ogDescription": "Vende moda praia, fitness ou peças do Saara pelo WhatsApp no Rio? Catálogo por link, estoque por tamanho e pedidos organizados. Comece grátis, sem cartão."
+    },
+    "hero": {
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
+      "title": "No Rio, a vitrine é o story. Faltava",
+      "titleHighlight": "um catálogo para fechar o pedido",
+      "titleSuffix": "sem vai e vem no direct.",
+      "subtitle": "Biquíni, saída de praia, moda fitness, peça garimpada no Saara: a carioca compra pelo story e quer saber na hora se tem o tamanho dela. A Minha Loojinha transforma suas peças num catálogo por link, e o pedido chega organizado no seu WhatsApp.",
+      "socialProof": "Serve para quem vende na Zona Norte, na Zona Sul, na Baixada ou em Niterói, e para clientes de qualquer lugar.",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver benefícios"
+    },
+    "benefits": {
+      "title": "O que muda para quem vende moda no Rio",
+      "subtitle": "O comércio de moda carioca vai do Saara, no Centro, ao Mercadão de Madureira, passando pelas lojas de Copacabana, da Tijuca e da Barra e por muita marca própria que só existe no Instagram. Em comum: a venda acontece na conversa, e a conversa vira bagunça quando o movimento aumenta.",
+      "cards": [
+        {
+          "title": "Tamanho de biquíni sem confusão",
+          "description": "Moda praia vende por tamanho, e muitas vezes top e calcinha são vendidos separados. Cadastre cada peça com os tamanhos e a quantidade de cada um; quando um tamanho acaba, ele sai do catálogo sozinho."
+        },
+        {
+          "title": "O story atrai, o link fecha",
+          "description": "Poste a peça no story com o link do catálogo. A cliente toca, vê o preço, escolhe o tamanho e envia o pedido. Você para de responder “qual o valor?” vinte vezes por dia."
+        },
+        {
+          "title": "Verão cheio sem planilha",
+          "description": "Na alta temporada o volume dispara. Cada pedido chega no WhatsApp com peças, tamanhos, total e dados da cliente, e o estoque baixa sozinho. Sem taxa por venda, o lucro do verão fica com você."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Para quem compra no Saara e revende, marcas de moda praia e fitness que vendem pelo Instagram e lojas de bairro da Zona Norte, da Zona Oeste e da Baixada."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Do story ao pedido organizado",
+      "subtitle": "Seu catálogo fica num link só seu: minhaloojinha.com/nome-da-sua-loja.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Cadastre as peças",
+          "description": "Fotos, preço, preço promocional e tamanhos. Dá para fazer tudo pelo celular."
+        },
+        {
+          "step": "2",
+          "title": "Coloque o link no story e na bio",
+          "description": "E também no status do WhatsApp, nos grupos de clientes e onde mais você divulga."
+        },
+        {
+          "step": "3",
+          "title": "A cliente escolhe sozinha",
+          "description": "Ela vê só os tamanhos que têm estoque, monta o carrinho e envia."
+        },
+        {
+          "step": "4",
+          "title": "Você recebe e combina",
+          "description": "O pedido chega no seu WhatsApp com tudo. Pagamento e entrega ou retirada você acerta direto com a cliente."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Mais organização",
+      "title": "Do direct lotado ao pedido pronto",
+      "subtitle": "Quando a cliente precisa esperar resposta para saber preço e tamanho, ela vai para o próximo perfil. Com o catálogo, a resposta está no link.",
+      "stats": [
+        {
+          "label": "Pedidos sempre organizados"
+        },
+        {
+          "label": "Estoque em tempo real"
+        },
+        {
+          "label": "Atendimento muito mais rápido"
+        }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "A cliente abre o link no celular, na praia ou no trem. Você atualiza o catálogo de onde estiver. Comece hoje, grátis e sem cartão.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Quanto custa para vender moda no Rio?",
+      "guarantee": "Comece grátis, sem cartão, com até 10 produtos: dá para testar com a coleção de praia antes de assinar. Produtos ilimitados no plano Loojinha, sem taxa por venda.",
+      "plans": [
+        {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
+          "id": "mensal",
+          "name": "Loojinha Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Loojinha Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "Serve para quem vende moda praia e moda fitness?",
+          "answer": "Sim. Cada peça tem seus tamanhos com estoque próprio. Se você vende top e calcinha separados, cadastre cada um como um produto. A variação é por tamanho: a plataforma não tem seleção de cor, então a mesma peça em cores diferentes entra como produtos separados."
+        },
+        {
+          "question": "Compro no Saara para revender. Funciona para mim?",
+          "answer": "Sim. Você cadastra o que comprou com o seu preço de revenda e a quantidade por tamanho e divulga o link. O catálogo é seu, com o nome da sua loja e o seu WhatsApp; a Minha Loojinha não é marketplace."
+        },
+        {
+          "question": "Como fica a entrega para Niterói, a Baixada ou outra cidade?",
+          "answer": "A cliente informa no pedido se vai retirar ou o endereço de entrega. O frete e a forma de envio você combina com ela pelo WhatsApp: a plataforma não calcula frete."
+        },
+        {
+          "question": "A cliente paga pelo catálogo?",
+          "answer": "Não. A Minha Loojinha não processa pagamento: o pedido chega no seu WhatsApp e você combina Pix, dinheiro ou cartão na entrega direto com a cliente. Por isso não existe taxa por venda."
+        },
+        {
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
+        },
+        {
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Não há fidelidade. Após o cancelamento, você continua com acesso ao plano Loojinha até o fim do período já pago."
+        }
+      ],
+      "ctaPrompt": "Vamos organizar suas vendas no Rio?",
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
+    },
+    "shared": {
+      "headerCta": "Criar meu catálogo grátis",
+      "footerCtaTitle": "Coloque sua coleção num link ainda hoje",
+      "footerCtaSubtitle": "Comece hoje grátis, sem cartão. Sem taxa por venda. Sem fidelidade.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas de moda no Rio de Janeiro, incluindo moda praia e fitness. Pedidos organizados no WhatsApp, estoque por tamanho e sem taxa por venda.",
+      "organizationDescription": "Catálogo digital por link para lojistas de moda que vendem pelo WhatsApp. Pedidos organizados, estoque por tamanho e sem taxa por venda.",
+      "localBusinessDescription": "Plataforma online de catálogo digital para lojistas e revendedoras de moda do Rio de Janeiro, RJ, de moda praia e fitness a quem compra no Saara. Pedidos organizados no WhatsApp e controle de estoque por tamanho.",
+      "areaServed": [
+        "Rio de Janeiro",
+        "Região Metropolitana do Rio de Janeiro"
+      ]
+    }
+  },
+  "belo-horizonte": {
+    "meta": {
+      "title": "Catálogo digital para lojistas de moda em Belo Horizonte | Minha Loojinha",
+      "description": "Compra no Barro Preto e vende pelo WhatsApp em BH? Crie seu catálogo por link, controle o estoque por tamanho e receba pedidos organizados. Grátis, sem cartão.",
+      "keywords": [
+        "catálogo digital loja de roupas Belo Horizonte",
+        "vender roupas WhatsApp BH",
+        "revender roupas Barro Preto",
+        "catálogo moda Belo Horizonte",
+        "loja virtual moda BH"
+      ],
+      "ogTitle": "Catálogo digital para lojistas de moda em Belo Horizonte | Minha Loojinha",
+      "ogDescription": "Compra no Barro Preto e vende pelo WhatsApp em BH? Crie seu catálogo por link, controle o estoque por tamanho e receba pedidos organizados. Grátis, sem cartão."
+    },
+    "hero": {
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
+      "title": "Do Barro Preto para o celular da sua cliente:",
+      "titleHighlight": "seu catálogo num link",
+      "titleSuffix": "e os pedidos organizados no WhatsApp.",
+      "subtitle": "Em BH, muita lojista e revendedora abastece a arara no Barro Preto e vende para a vizinhança, para as colegas de trabalho e para a clientela do Instagram. O problema é quando cada cliente quer ver foto, preço e tamanho no privado. A Minha Loojinha organiza tudo num catálogo por link.",
+      "socialProof": "Funciona para quem vende na capital, em Contagem, em Betim ou em qualquer lugar com internet.",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver benefícios"
+    },
+    "benefits": {
+      "title": "O que muda para quem vende moda em BH",
+      "subtitle": "O Barro Preto é um dos polos de moda mais conhecidos de Minas, com atacado e confecções lado a lado. Do outro lado do balcão estão as boutiques da Savassi e de Lourdes, as lojas de bairro da Pampulha e de Venda Nova e muita revendedora que trabalha de casa. Quase todas fecham venda no WhatsApp.",
+      "cards": [
+        {
+          "title": "Atende a freguesia sem repetir resposta",
+          "description": "A conversa com a cliente continua, mas preço, tamanho e foto ficam no catálogo. Você usa o WhatsApp para o que importa: fechar a venda e manter a cliente voltando."
+        },
+        {
+          "title": "Estoque certo antes de prometer",
+          "description": "Cada tamanho tem a sua quantidade e baixa a cada pedido. Acabou o G? Ele some do catálogo. Nada de vender peça que já foi para outra cliente."
+        },
+        {
+          "title": "Sem taxa e sem fidelidade",
+          "description": "Você não paga comissão por venda. Começa grátis com até 10 produtos e, se quiser catálogo ilimitado e sem o selo, assina o plano Loojinha e cancela quando quiser."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Para revendedoras que compram no Barro Preto, boutiques da Savassi e de Lourdes e lojas de bairro de BH, Contagem e Betim."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Seu catálogo no ar em quatro passos",
+      "subtitle": "Sem site para configurar e sem aplicativo para a cliente instalar.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Cadastre suas peças",
+          "description": "Foto, preço, preço promocional e tamanhos, pelo celular ou pelo computador."
+        },
+        {
+          "step": "2",
+          "title": "Mande o link",
+          "description": "No status, na bio do Instagram e nos grupos da família, da igreja e do trabalho."
+        },
+        {
+          "step": "3",
+          "title": "A cliente escolhe",
+          "description": "Ela navega pelo catálogo, vê os tamanhos com estoque e envia o pedido."
+        },
+        {
+          "step": "4",
+          "title": "Você confirma no WhatsApp",
+          "description": "O pedido chega com peças, tamanhos, total e dados da cliente. Retirada ou entrega, você combina com ela."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Mais organização",
+      "title": "Conversa boa, pedido organizado",
+      "subtitle": "O WhatsApp continua sendo o lugar da relação com a cliente. Só que agora o pedido chega pronto, sem você copiar nada para o caderno.",
+      "stats": [
+        {
+          "label": "Pedidos sempre organizados"
+        },
+        {
+          "label": "Estoque em tempo real"
+        },
+        {
+          "label": "Atendimento muito mais rápido"
+        }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "A cliente abre o catálogo no celular, sem baixar nada. Você atualiza as peças de onde estiver. Comece hoje, grátis e sem cartão.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Quanto custa para vender moda em BH?",
+      "guarantee": "Comece grátis, sem cartão, com até 10 produtos. Precisa de mais? O plano Loojinha libera produtos ilimitados e não cobra nada por venda.",
+      "plans": [
+        {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
+          "id": "mensal",
+          "name": "Loojinha Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Loojinha Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "Funciona para revendedora que compra no Barro Preto?",
+          "answer": "Sim. Você cadastra as peças com o seu preço de revenda e a quantidade de cada tamanho. A cliente vê só o que tem disponível. O catálogo leva o nome da sua loja e o pedido vai direto para o seu WhatsApp."
+        },
+        {
+          "question": "Tenho loja física. O catálogo atrapalha o balcão?",
+          "answer": "Não. O catálogo vende em paralelo: enquanto você atende no balcão, outra cliente monta o pedido pelo link. Você pode cadastrar o endereço da loja para retirada, e a cliente escolhe no pedido se vai buscar ou receber em casa."
+        },
+        {
+          "question": "A cliente paga pelo catálogo?",
+          "answer": "Não. A Minha Loojinha não processa pagamento: o pedido chega no seu WhatsApp e você combina Pix, dinheiro ou cartão na entrega direto com a cliente. Por isso não existe taxa por venda."
+        },
+        {
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
+        },
+        {
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Não há fidelidade. Após o cancelamento, você continua com acesso ao plano Loojinha até o fim do período já pago."
+        }
+      ],
+      "ctaPrompt": "Vamos organizar suas vendas em BH?",
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
+    },
+    "shared": {
+      "headerCta": "Criar meu catálogo grátis",
+      "footerCtaTitle": "Seu catálogo pronto hoje, sem complicação",
+      "footerCtaSubtitle": "Comece hoje grátis, sem cartão. Sem taxa por venda. Sem fidelidade.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas de moda em Belo Horizonte. Pedidos organizados no WhatsApp, estoque por tamanho e sem taxa por venda.",
+      "organizationDescription": "Catálogo digital por link para lojistas de moda que vendem pelo WhatsApp. Pedidos organizados, estoque por tamanho e sem taxa por venda.",
+      "localBusinessDescription": "Plataforma online de catálogo digital para lojistas e revendedoras de moda de Belo Horizonte, MG, incluindo quem compra no Barro Preto. Pedidos organizados no WhatsApp e controle de estoque por tamanho.",
+      "areaServed": [
+        "Belo Horizonte",
+        "Região Metropolitana de Belo Horizonte"
+      ]
+    }
+  },
+  "curitiba": {
+    "meta": {
+      "title": "Catálogo digital para lojistas de moda em Curitiba | Minha Loojinha",
+      "description": "Vende roupa pelo WhatsApp em Curitiba? Catálogo por link, estoque por tamanho a cada troca de coleção e pedidos organizados. Comece grátis, sem cartão.",
+      "keywords": [
+        "catálogo digital loja de roupas Curitiba",
+        "vender roupas WhatsApp Curitiba",
+        "loja virtual moda Curitiba PR",
+        "catálogo revendedora Curitiba",
+        "vender moda inverno pelo WhatsApp"
+      ],
+      "ogTitle": "Catálogo digital para lojistas de moda em Curitiba | Minha Loojinha",
+      "ogDescription": "Vende roupa pelo WhatsApp em Curitiba? Catálogo por link, estoque por tamanho a cada troca de coleção e pedidos organizados. Comece grátis, sem cartão."
+    },
+    "hero": {
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
+      "title": "Em Curitiba, a coleção muda com o tempo.",
+      "titleHighlight": "Seu catálogo acompanha",
+      "titleSuffix": "e o pedido chega pronto no WhatsApp.",
+      "subtitle": "Num dia é casaco e tricô, no outro é regata. A lojista curitibana troca a arara várias vezes por ano e precisa que a cliente veja logo o que chegou. Com a Minha Loojinha, as peças ficam num catálogo por link e cada pedido chega organizado no seu WhatsApp.",
+      "socialProof": "Funciona para quem vende em Curitiba, na Região Metropolitana ou para clientes de qualquer cidade.",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver benefícios"
+    },
+    "benefits": {
+      "title": "O que muda para quem vende moda em Curitiba",
+      "subtitle": "O comércio de moda de Curitiba vai do calçadão da Rua XV, no Centro, às lojas do Batel, passando pelas lojas de bairro do Portão, do Água Verde e do Boqueirão e por muita revendedora que abastece o estoque em polos como o Brás, em São Paulo, ou nas confecções de Santa Catarina. Com clima de quatro estações num dia só, a coleção gira rápido.",
+      "cards": [
+        {
+          "title": "Troca de coleção sem dor de cabeça",
+          "description": "Chegou o frio? Cadastre os casacos e zere o estoque das peças de verão em poucos toques. Tamanho sem estoque deixa de aparecer para a cliente e volta quando você repõe."
+        },
+        {
+          "title": "Informação completa, menos pergunta",
+          "description": "Foto, preço, preço promocional e tamanhos disponíveis no mesmo lugar. A cliente que gosta de pesquisar com calma encontra tudo sem precisar te chamar."
+        },
+        {
+          "title": "Pedido organizado, sem taxa",
+          "description": "Cada pedido chega no WhatsApp com peças, tamanhos, total, nome e telefone da cliente. Você não paga comissão sobre nenhuma venda."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Para lojas do Centro e do Batel, lojas de bairro de Curitiba e da Região Metropolitana e revendedoras que vendem de casa."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Quatro passos para ter seu catálogo no ar",
+      "subtitle": "Você não precisa montar site, e a cliente não precisa baixar aplicativo.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Cadastre a coleção",
+          "description": "Fotos, preço, preço promocional e tamanhos, pelo celular ou pelo computador."
+        },
+        {
+          "step": "2",
+          "title": "Divulgue o link",
+          "description": "Na bio do Instagram, no status do WhatsApp e nos grupos de clientes."
+        },
+        {
+          "step": "3",
+          "title": "A cliente escolhe com calma",
+          "description": "Ela navega, compara, vê o que tem no tamanho dela e envia o pedido."
+        },
+        {
+          "step": "4",
+          "title": "Você recebe tudo pronto",
+          "description": "Peças, tamanhos, total e se é retirada ou entrega. Você confirma e separa."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Mais organização",
+      "title": "Liquidação de fim de estação sem bagunça",
+      "subtitle": "Promoção atrai muita mensagem ao mesmo tempo. Com preço promocional no catálogo e estoque por tamanho, a cliente vê o desconto e o que sobrou, e o pedido chega pronto.",
+      "stats": [
+        {
+          "label": "Pedidos sempre organizados"
+        },
+        {
+          "label": "Estoque em tempo real"
+        },
+        {
+          "label": "Atendimento muito mais rápido"
+        }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "A cliente abre no celular, no ônibus ou em casa, no friozinho. Você atualiza de onde estiver. Comece hoje, grátis e sem cartão.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Quanto custa para vender moda em Curitiba?",
+      "guarantee": "Comece grátis, sem cartão, com até 10 produtos: dá para testar com as peças da estação. Produtos ilimitados no plano Loojinha, sem taxa por venda.",
+      "plans": [
+        {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
+          "id": "mensal",
+          "name": "Loojinha Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Loojinha Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "Dá para separar as peças por coleção ou estação?",
+          "answer": "O catálogo ainda não tem categorias. O que funciona hoje: manter no ar as peças da estação, zerar o estoque do que saiu de linha e usar os banners da vitrine para destacar a coleção nova."
+        },
+        {
+          "question": "Consigo fazer liquidação?",
+          "answer": "Sim. Cada produto tem preço cheio e preço promocional, e a cliente vê os dois no catálogo. Quando a liquidação acabar, é só tirar o preço promocional."
+        },
+        {
+          "question": "Vendo para clientes da Região Metropolitana. Como fica a entrega?",
+          "answer": "A cliente informa no pedido se vai retirar ou o endereço de entrega. O frete e a forma de envio você combina com ela pelo WhatsApp: a plataforma não calcula frete."
+        },
+        {
+          "question": "A cliente paga pelo catálogo?",
+          "answer": "Não. A Minha Loojinha não processa pagamento: o pedido chega no seu WhatsApp e você combina Pix, dinheiro ou cartão na entrega direto com a cliente. Por isso não existe taxa por venda."
+        },
+        {
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
+        },
+        {
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Não há fidelidade. Após o cancelamento, você continua com acesso ao plano Loojinha até o fim do período já pago."
+        }
+      ],
+      "ctaPrompt": "Vamos organizar suas vendas em Curitiba?",
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
+    },
+    "shared": {
+      "headerCta": "Criar meu catálogo grátis",
+      "footerCtaTitle": "Sua próxima coleção já pode entrar num link",
+      "footerCtaSubtitle": "Comece hoje grátis, sem cartão. Sem taxa por venda. Sem fidelidade.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas de moda em Curitiba. Pedidos organizados no WhatsApp, estoque por tamanho e sem taxa por venda.",
+      "organizationDescription": "Catálogo digital por link para lojistas de moda que vendem pelo WhatsApp. Pedidos organizados, estoque por tamanho e sem taxa por venda.",
+      "localBusinessDescription": "Plataforma online de catálogo digital para lojistas e revendedoras de moda de Curitiba, PR. Pedidos organizados no WhatsApp, preço promocional e controle de estoque por tamanho.",
+      "areaServed": [
+        "Curitiba",
+        "Região Metropolitana de Curitiba"
+      ]
+    }
+  },
+  "porto-alegre": {
+    "meta": {
+      "title": "Catálogo digital para lojistas de moda em Porto Alegre | Minha Loojinha",
+      "description": "Vende roupa ou calçado pelo WhatsApp em Porto Alegre? Catálogo por link, estoque por tamanho ou numeração e pedidos organizados. Comece grátis, sem cartão.",
+      "keywords": [
+        "catálogo digital loja de roupas Porto Alegre",
+        "vender roupas WhatsApp Porto Alegre",
+        "loja virtual moda POA",
+        "vender calçados pelo WhatsApp RS",
+        "catálogo revendedora Porto Alegre"
+      ],
+      "ogTitle": "Catálogo digital para lojistas de moda em Porto Alegre | Minha Loojinha",
+      "ogDescription": "Vende roupa ou calçado pelo WhatsApp em Porto Alegre? Catálogo por link, estoque por tamanho ou numeração e pedidos organizados. Comece grátis, sem cartão."
+    },
+    "hero": {
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
+      "title": "Malha da Serra, calçado do Vale, moda de inverno:",
+      "titleHighlight": "tudo num catálogo só",
+      "titleSuffix": "com pedido direto no seu WhatsApp.",
+      "subtitle": "Perto de Porto Alegre estão polos de moda conhecidos no país inteiro, como as malharias de Farroupilha e os calçados do Vale dos Sinos. Muita lojista e revendedora gaúcha compra nesses polos e vende pelo WhatsApp e pelo Instagram. A Minha Loojinha coloca essas peças num catálogo por link e organiza os pedidos.",
+      "socialProof": "Funciona em Porto Alegre, na Região Metropolitana e para clientes de qualquer cidade, só com internet.",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver benefícios"
+    },
+    "benefits": {
+      "title": "O que muda para quem vende moda em Porto Alegre",
+      "subtitle": "Do comércio popular do Centro Histórico às lojas da Padre Chagas, no Moinhos de Vento, passando por Canoas, Novo Hamburgo e pelos bairros da Zona Norte e da Zona Sul: quem vende moda no Rio Grande do Sul enfrenta inverno de verdade e coleção que gira rápido. E o WhatsApp é onde a venda acontece.",
+      "cards": [
+        {
+          "title": "Calçado e malha por numeração",
+          "description": "Calçado vende do 34 ao 40, malha do P ao GG. Cada número ou tamanho tem estoque próprio e baixa a cada pedido. Numeração esgotada sai do catálogo."
+        },
+        {
+          "title": "Inverno sem pedido perdido",
+          "description": "Quando esfria, todo mundo quer casaco ao mesmo tempo. Os pedidos chegam um a um no WhatsApp, já com peça, tamanho, total e dados da cliente, em vez de se perderem no meio da conversa."
+        },
+        {
+          "title": "Margem preservada",
+          "description": "Sem taxa por venda. Comece grátis com até 10 produtos; no plano Loojinha o catálogo é ilimitado e sai sem o selo da Minha Loojinha."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Para revendedoras que compram em Farroupilha e no Vale dos Sinos, lojas do Centro e do Moinhos de Vento e lojistas de Canoas, Novo Hamburgo e região."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Seu catálogo pronto em quatro passos",
+      "subtitle": "A cliente compra pelo link, sem baixar aplicativo e sem criar conta.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Cadastre peças e numerações",
+          "description": "Fotos, preço, preço promocional e cada tamanho ou numeração com a sua quantidade."
+        },
+        {
+          "step": "2",
+          "title": "Compartilhe o link",
+          "description": "Na bio do Instagram, no status, nos grupos de clientes e onde você já divulga."
+        },
+        {
+          "step": "3",
+          "title": "A cliente monta o pedido",
+          "description": "Ela vê o que tem no número dela e envia direto pelo catálogo."
+        },
+        {
+          "step": "4",
+          "title": "Você confirma no WhatsApp",
+          "description": "Combina pagamento e entrega ou retirada e separa a peça. O estoque já baixou."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Mais organização",
+      "title": "Menos mensagem solta, mais venda fechada",
+      "subtitle": "Quando a resposta demora, a cliente compra em outro lugar. Com o catálogo, preço e numeração estão a um toque.",
+      "stats": [
+        {
+          "label": "Pedidos sempre organizados"
+        },
+        {
+          "label": "Estoque em tempo real"
+        },
+        {
+          "label": "Atendimento muito mais rápido"
+        }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "Funciona no celular da cliente e no seu, no computador da loja ou no tablet do balcão. Comece hoje, grátis e sem cartão.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Quanto custa para vender moda em Porto Alegre?",
+      "guarantee": "Comece grátis, sem cartão, com até 10 produtos. Para catálogo ilimitado, o plano Loojinha custa R$ 16,90/mês ou R$ 149,90/ano, sem taxa por venda.",
+      "plans": [
+        {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
+          "id": "mensal",
+          "name": "Loojinha Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Loojinha Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "Serve para quem vende calçados?",
+          "answer": "Sim. Em vez de P, M e G, você cadastra as numerações (34, 35, 36…), cada uma com o seu estoque. A cliente só vê os números disponíveis."
+        },
+        {
+          "question": "Compro em Farroupilha ou no Vale dos Sinos para revender. Funciona?",
+          "answer": "Funciona. Você cadastra as peças com o seu preço de revenda e a quantidade por tamanho ou numeração. O catálogo é seu, com o nome da sua loja, e os pedidos vão para o seu WhatsApp."
+        },
+        {
+          "question": "A Minha Loojinha calcula frete para o interior do estado?",
+          "answer": "Não. A cliente informa o endereço no pedido e você combina o frete e o envio pelo WhatsApp. A plataforma também não processa pagamento: Pix, cartão na entrega ou outra forma você acerta direto com ela, e por isso não há taxa por venda."
+        },
+        {
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
+        },
+        {
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Não há fidelidade. Após o cancelamento, você continua com acesso ao plano Loojinha até o fim do período já pago."
+        }
+      ],
+      "ctaPrompt": "Vamos organizar suas vendas em Porto Alegre?",
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
+    },
+    "shared": {
+      "headerCta": "Criar meu catálogo grátis",
+      "footerCtaTitle": "Sua coleção de inverno num link, ainda hoje",
+      "footerCtaSubtitle": "Comece hoje grátis, sem cartão. Sem taxa por venda. Sem fidelidade.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas de moda e calçados em Porto Alegre. Pedidos organizados no WhatsApp, estoque por tamanho ou numeração e sem taxa por venda.",
+      "organizationDescription": "Catálogo digital por link para lojistas de moda que vendem pelo WhatsApp. Pedidos organizados, estoque por tamanho e sem taxa por venda.",
+      "localBusinessDescription": "Plataforma online de catálogo digital para lojistas e revendedoras de moda e calçados de Porto Alegre, RS. Pedidos organizados no WhatsApp e controle de estoque por tamanho ou numeração.",
+      "areaServed": [
+        "Porto Alegre",
+        "Região Metropolitana de Porto Alegre"
+      ]
+    }
+  },
+  "salvador": {
+    "meta": {
+      "title": "Catálogo digital para lojistas de moda em Salvador | Minha Loojinha",
+      "description": "Vende roupa pelo WhatsApp em Salvador? Monte seu catálogo por link, controle o estoque por tamanho e receba pedidos organizados. Grátis, sem cartão e sem taxa por venda.",
+      "keywords": [
+        "catálogo digital loja de roupas Salvador",
+        "vender roupas WhatsApp Salvador",
+        "loja virtual moda Salvador BA",
+        "catálogo revendedora Salvador",
+        "vender moda verão pelo WhatsApp Bahia"
+      ],
+      "ogTitle": "Catálogo digital para lojistas de moda em Salvador | Minha Loojinha",
+      "ogDescription": "Vende roupa pelo WhatsApp em Salvador? Monte seu catálogo por link, controle o estoque por tamanho e receba pedidos organizados. Grátis, sem cartão e sem taxa por venda."
+    },
+    "hero": {
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
+      "title": "Do verão ao Carnaval, sua cliente em Salvador quer",
+      "titleHighlight": "ver a peça e pedir na hora",
+      "titleSuffix": "pelo celular.",
+      "subtitle": "Em Salvador o calor dura o ano todo e a procura por roupa leve, moda praia e look de festa não para, ainda mais perto do verão e do Carnaval. Quem vende pelo WhatsApp sabe: nessa época as mensagens não param. A Minha Loojinha coloca suas peças num catálogo por link e o pedido chega organizado.",
+      "socialProof": "Funciona em Salvador, em Lauro de Freitas, em Camaçari e para clientes de qualquer cidade.",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver benefícios"
+    },
+    "benefits": {
+      "title": "O que muda para quem vende moda em Salvador",
+      "subtitle": "O comércio de moda soteropolitano passa pela Avenida Sete e pelo Centro, pelas lojas de bairro da Liberdade, de Itapuã e do Subúrbio, pelas lojas da Barra e da Pituba e por muita revendedora que abastece o estoque em polos como o Agreste pernambucano ou o Brás, em São Paulo. No fim, a venda se fecha no WhatsApp.",
+      "cards": [
+        {
+          "title": "Alta temporada sem caos",
+          "description": "No verão e na semana do Carnaval o volume dispara. Cada pedido chega no WhatsApp com peças, tamanhos, total, nome e telefone da cliente. Você só confirma e separa."
+        },
+        {
+          "title": "Estoque que acompanha a correria",
+          "description": "Cada tamanho tem a sua quantidade e baixa a cada pedido. Quando acaba, sai do catálogo, e você não precisa avisar cliente por cliente que a peça esgotou."
+        },
+        {
+          "title": "Sem taxa por venda",
+          "description": "O que a cliente paga é seu. Comece grátis com até 10 produtos e, quando o catálogo crescer, passe para o plano Loojinha, com produtos ilimitados."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Para lojas da Avenida Sete e do Centro, lojas da Barra e da Pituba, lojas de bairro e revendedoras de Salvador e da Região Metropolitana."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Seu catálogo no ar antes da alta temporada",
+      "subtitle": "Sem site para montar e sem aplicativo para a cliente baixar.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Cadastre suas peças",
+          "description": "Foto, preço, preço promocional e tamanhos, direto do celular."
+        },
+        {
+          "step": "2",
+          "title": "Divulgue o link",
+          "description": "Na bio do Instagram, no status do WhatsApp e nos grupos de clientes."
+        },
+        {
+          "step": "3",
+          "title": "A cliente escolhe e envia",
+          "description": "Ela vê o que tem no tamanho dela e manda o pedido pelo catálogo."
+        },
+        {
+          "step": "4",
+          "title": "Você recebe e combina",
+          "description": "Pagamento, retirada ou entrega você acerta com a cliente no WhatsApp."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Mais organização",
+      "title": "Mais venda com menos mensagem repetida",
+      "subtitle": "Quando a cliente pergunta preço e tamanho e fica esperando, ela desiste. Com o catálogo, ela resolve sozinha e você só confirma.",
+      "stats": [
+        {
+          "label": "Pedidos sempre organizados"
+        },
+        {
+          "label": "Estoque em tempo real"
+        },
+        {
+          "label": "Atendimento muito mais rápido"
+        }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "A cliente abre o catálogo no celular, sem instalar nada. Você atualiza as peças de onde estiver. Comece hoje, grátis e sem cartão.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Quanto custa para vender moda em Salvador?",
+      "guarantee": "Comece grátis, sem cartão, com até 10 produtos. O plano Loojinha libera produtos ilimitados e tira o selo da vitrine, sem taxa por venda.",
+      "plans": [
+        {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
+          "id": "mensal",
+          "name": "Loojinha Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Loojinha Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "Dá para montar um catálogo só para o Carnaval?",
+          "answer": "Dá. Você cadastra as peças da temporada, divulga o link e, quando a festa passar, zera o estoque ou apaga o que não vai mais vender. Tamanho sem estoque deixa de aparecer para a cliente."
+        },
+        {
+          "question": "Compro no Agreste ou no Brás para revender. Funciona?",
+          "answer": "Sim. Você cadastra as peças com o seu preço de revenda e a quantidade de cada tamanho. A Minha Loojinha não é fornecedor nem marketplace: o catálogo é seu e os pedidos vão para o seu WhatsApp."
+        },
+        {
+          "question": "A cliente paga pelo catálogo?",
+          "answer": "Não. A Minha Loojinha não processa pagamento: o pedido chega no seu WhatsApp e você combina Pix, dinheiro ou cartão na entrega direto com a cliente. Por isso não existe taxa por venda."
+        },
+        {
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
+        },
+        {
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Não há fidelidade. Após o cancelamento, você continua com acesso ao plano Loojinha até o fim do período já pago."
+        }
+      ],
+      "ctaPrompt": "Vamos organizar suas vendas em Salvador?",
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
+    },
+    "shared": {
+      "headerCta": "Criar meu catálogo grátis",
+      "footerCtaTitle": "Seu catálogo pronto antes do próximo verão",
+      "footerCtaSubtitle": "Comece hoje grátis, sem cartão. Sem taxa por venda. Sem fidelidade.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas de moda em Salvador. Pedidos organizados no WhatsApp, estoque por tamanho e sem taxa por venda.",
+      "organizationDescription": "Catálogo digital por link para lojistas de moda que vendem pelo WhatsApp. Pedidos organizados, estoque por tamanho e sem taxa por venda.",
+      "localBusinessDescription": "Plataforma online de catálogo digital para lojistas e revendedoras de moda de Salvador, BA. Pedidos organizados no WhatsApp e controle de estoque por tamanho, inclusive na alta temporada.",
+      "areaServed": [
+        "Salvador",
+        "Região Metropolitana de Salvador"
+      ]
+    }
+  },
+  "recife": {
+    "meta": {
+      "title": "Catálogo digital para lojistas de moda em Recife | Minha Loojinha",
+      "description": "Compra no Polo de Confecções do Agreste e revende pelo WhatsApp em Recife? Catálogo por link, estoque por tamanho e pedidos organizados. Grátis, sem cartão.",
+      "keywords": [
+        "catálogo digital loja de roupas Recife",
+        "vender roupas WhatsApp Recife",
+        "revender roupas Santa Cruz do Capibaribe",
+        "catálogo para sacoleira Caruaru",
+        "loja virtual moda Recife PE"
+      ],
+      "ogTitle": "Catálogo digital para lojistas de moda em Recife | Minha Loojinha",
+      "ogDescription": "Compra no Polo de Confecções do Agreste e revende pelo WhatsApp em Recife? Catálogo por link, estoque por tamanho e pedidos organizados. Grátis, sem cartão."
+    },
+    "hero": {
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
+      "title": "Voltou de Caruaru ou de Santa Cruz?",
+      "titleHighlight": "Coloque as peças num link",
+      "titleSuffix": "e receba os pedidos organizados no WhatsApp.",
+      "subtitle": "Pernambuco tem um dos maiores polos de confecção do Brasil, no Agreste, e muita sacoleira do Recife vive de comprar lá e revender na capital. A peça chega, a foto vai para o status e o WhatsApp lota de “tem no M?”. Com a Minha Loojinha, a cliente vê tudo num catálogo e manda o pedido pronto.",
+      "socialProof": "Funciona no Recife, em Olinda, em Jaboatão e para clientes de qualquer cidade, só com internet.",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver benefícios"
+    },
+    "benefits": {
+      "title": "O que muda para quem vende moda em Recife",
+      "subtitle": "O Polo de Confecções do Agreste reúne Caruaru, Santa Cruz do Capibaribe, com o Moda Center, e Toritama, conhecida pelo jeans. Muita revendedora recifense compra em grade nesses polos e vende nos bairros, no trabalho e pelo Instagram. Na capital, o comércio de moda vai do Centro, na Rua da Imperatriz e em São José, até Boa Viagem e Casa Amarela.",
+      "cards": [
+        {
+          "title": "Grade da feira, estoque no catálogo",
+          "description": "Comprou a grade completa? Cadastre a peça com a quantidade de cada tamanho. A cada pedido o estoque baixa, e o tamanho que acabou sai do catálogo."
+        },
+        {
+          "title": "Jeans por numeração",
+          "description": "Calça jeans vende do 36 ao 48. Cada numeração tem o seu estoque, e a cliente só vê o número que você ainda tem."
+        },
+        {
+          "title": "Revenda sem comissão",
+          "description": "Sua margem de sacoleira fica inteira: não há taxa por venda. Comece grátis com até 10 produtos e libere produtos ilimitados no plano Loojinha."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Para sacoleiras que compram em Caruaru, Santa Cruz do Capibaribe e Toritama, lojas do Centro do Recife e de Boa Viagem e revendedoras de Olinda e Jaboatão."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Da feira ao pedido no WhatsApp",
+      "subtitle": "Quatro passos, sem site para montar e sem aplicativo para a cliente.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Cadastre o que comprou",
+          "description": "Fotos, preço de revenda, preço promocional e tamanhos ou numerações, pelo celular."
+        },
+        {
+          "step": "2",
+          "title": "Divulgue o link",
+          "description": "No status, na bio do Instagram e nos grupos de clientes."
+        },
+        {
+          "step": "3",
+          "title": "A cliente escolhe",
+          "description": "Ela vê o que tem disponível no tamanho dela e envia o pedido."
+        },
+        {
+          "step": "4",
+          "title": "Você confirma e entrega",
+          "description": "O pedido chega com peças, tamanhos, total e se é retirada ou entrega. O pagamento você combina com a cliente."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Mais organização",
+      "title": "Menos “tem no M?”, mais pedido fechado",
+      "subtitle": "A pergunta de tamanho é a que mais toma tempo. No catálogo, a cliente já vê o que tem e decide sozinha.",
+      "stats": [
+        {
+          "label": "Pedidos sempre organizados"
+        },
+        {
+          "label": "Estoque em tempo real"
+        },
+        {
+          "label": "Atendimento muito mais rápido"
+        }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "A cliente abre o link no celular. Você cadastra as peças pelo celular, ainda na volta da feira. Comece hoje, grátis e sem cartão.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Quanto custa para vender moda em Recife?",
+      "guarantee": "Comece grátis, sem cartão, com até 10 produtos. Quando a revenda crescer, o plano Loojinha libera produtos ilimitados, sem taxa por venda.",
+      "plans": [
+        {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
+          "id": "mensal",
+          "name": "Loojinha Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Loojinha Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "Sou sacoleira e compro no Agreste. A Minha Loojinha serve para mim?",
+          "answer": "Serve. Você cadastra as peças com o seu preço de revenda e a quantidade de cada tamanho, e divulga o link. A Minha Loojinha não é fornecedor nem marketplace: o catálogo leva o nome da sua loja e os pedidos vão para o seu WhatsApp."
+        },
+        {
+          "question": "Serve para jeans e peças com numeração?",
+          "answer": "Sim. O tamanho pode ser letra (P, M, G) ou número (36, 38, 40…), cada um com o seu estoque. A plataforma não tem seleção de cor: a mesma peça em lavagens ou cores diferentes entra como produtos separados."
+        },
+        {
+          "question": "Entrego em Olinda e Jaboatão. Como fica o frete?",
+          "answer": "A cliente informa no pedido se vai retirar ou o endereço de entrega. O frete e a forma de envio você combina com ela pelo WhatsApp: a plataforma não calcula frete."
+        },
+        {
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
+        },
+        {
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Não há fidelidade. Após o cancelamento, você continua com acesso ao plano Loojinha até o fim do período já pago."
+        }
+      ],
+      "ctaPrompt": "Vamos organizar suas vendas em Recife?",
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
+    },
+    "shared": {
+      "headerCta": "Criar meu catálogo grátis",
+      "footerCtaTitle": "Seu catálogo pronto antes da próxima feira",
+      "footerCtaSubtitle": "Comece hoje grátis, sem cartão. Sem taxa por venda. Sem fidelidade.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas e sacoleiras de moda em Recife. Pedidos organizados no WhatsApp, estoque por tamanho e sem taxa por venda.",
+      "organizationDescription": "Catálogo digital por link para lojistas de moda que vendem pelo WhatsApp. Pedidos organizados, estoque por tamanho e sem taxa por venda.",
+      "localBusinessDescription": "Plataforma online de catálogo digital para lojistas e sacoleiras de moda do Recife, PE, incluindo quem compra no Polo de Confecções do Agreste. Pedidos organizados no WhatsApp e controle de estoque por tamanho.",
+      "areaServed": [
+        "Recife",
+        "Região Metropolitana do Recife"
+      ]
+    }
+  },
+  "fortaleza": {
+    "meta": {
+      "title": "Catálogo digital para lojistas de moda em Fortaleza | Minha Loojinha",
+      "description": "Vende moda pelo WhatsApp em Fortaleza? Catálogo por link para sua coleção de moda praia, fitness ou confecção própria, com estoque por tamanho. Grátis, sem cartão.",
+      "keywords": [
+        "catálogo digital loja de roupas Fortaleza",
+        "vender roupas WhatsApp Fortaleza",
+        "loja virtual moda Fortaleza CE",
+        "catálogo para confecção Fortaleza",
+        "vender moda praia pelo WhatsApp Ceará"
+      ],
+      "ogTitle": "Catálogo digital para lojistas de moda em Fortaleza | Minha Loojinha",
+      "ogDescription": "Vende moda pelo WhatsApp em Fortaleza? Catálogo por link para sua coleção de moda praia, fitness ou confecção própria, com estoque por tamanho. Grátis, sem cartão."
+    },
+    "hero": {
+      "badge": "Comece grátis, sem cartão — sem fidelidade",
+      "title": "Fortaleza é terra de confecção.",
+      "titleHighlight": "Sua coleção merece um link",
+      "titleSuffix": "que entrega o pedido pronto no WhatsApp.",
+      "subtitle": "Fortaleza é um dos grandes polos de confecção do Nordeste, com muita moda praia, fitness e roupa feminina produzida no próprio Ceará. Quem produz ou revende sabe que o WhatsApp é o principal canal de venda, e também o mais bagunçado. A Minha Loojinha organiza suas peças num catálogo e os pedidos chegam completos.",
+      "socialProof": "Funciona em Fortaleza, em Caucaia, em Maracanaú e para clientes de qualquer cidade do Brasil.",
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver benefícios"
+    },
+    "benefits": {
+      "title": "O que muda para quem vende moda em Fortaleza",
+      "subtitle": "O comércio de moda de Fortaleza vai das feiras e centros de atacado do Centro, como o Centro Fashion, que recebem compradores de vários estados, à Avenida Monsenhor Tabosa e às lojas da Aldeota. Muita marca local e muita revendedora vendem para o Brasil inteiro pelo Instagram, e fecham a venda pelo WhatsApp.",
+      "cards": [
+        {
+          "title": "Pronto para cliente de longe",
+          "description": "Muita lojista de Fortaleza vende para outros estados. O catálogo funciona igual para quem está na Aldeota ou em Belém: a cliente escolhe, envia o pedido e você combina o envio pelo WhatsApp."
+        },
+        {
+          "title": "Moda praia e fitness por tamanho",
+          "description": "Biquíni, maiô, legging, top: cada peça com os seus tamanhos e a quantidade de cada um. O tamanho que esgota sai do catálogo sozinho."
+        },
+        {
+          "title": "Coleção própria, preço seu",
+          "description": "Tem confecção ou marca própria? Coloque a coleção no catálogo com o seu preço, a sua logo e a cor da sua marca. Sem taxa por venda e sem marketplace no meio."
+        }
+      ],
+      "ctaPrimary": "Criar meu catálogo grátis — sem cartão",
+      "ctaSecondary": "Ver planos e preços",
+      "footer": "Para confecções e marcas próprias, lojas da Monsenhor Tabosa e da Aldeota e revendedoras de Fortaleza, Caucaia e Maracanaú."
+    },
+    "howItWorks": {
+      "badge": "Simples de configurar",
+      "title": "Sua coleção num link, em quatro passos",
+      "subtitle": "A cliente compra pelo celular, sem baixar aplicativo e sem criar conta.",
+      "steps": [
+        {
+          "step": "1",
+          "title": "Cadastre a coleção",
+          "description": "Fotos, preço, preço promocional e tamanhos. Logo, banners e a cor da vitrine com a cara da sua marca."
+        },
+        {
+          "step": "2",
+          "title": "Divulgue o link",
+          "description": "Na bio do Instagram, nos stories, no status e nos grupos de clientes."
+        },
+        {
+          "step": "3",
+          "title": "A cliente monta o carrinho",
+          "description": "Escolhe peças e tamanhos e envia o pedido pelo catálogo."
+        },
+        {
+          "step": "4",
+          "title": "O pedido chega no seu WhatsApp",
+          "description": "Com peças, tamanhos, total, nome e telefone da cliente. Pagamento e envio você combina com ela."
+        }
+      ]
+    },
+    "results": {
+      "badge": "Mais organização",
+      "title": "Da mensagem solta ao pedido completo",
+      "subtitle": "Quando a venda vem de vários estados ao mesmo tempo, anotar pedido no caderno não dá conta. No catálogo, cada pedido chega completo e o estoque se atualiza sozinho.",
+      "stats": [
+        {
+          "label": "Pedidos sempre organizados"
+        },
+        {
+          "label": "Estoque em tempo real"
+        },
+        {
+          "label": "Atendimento muito mais rápido"
+        }
+      ],
+      "cta": "Quero organizar minhas vendas"
+    },
+    "multiDevice": {
+      "badge": "Funciona em qualquer dispositivo",
+      "title": "Sua loja em qualquer lugar",
+      "subtitle": "Sua cliente abre no celular, esteja onde estiver. Você gerencia pelo celular ou pelo computador da confecção. Comece hoje, grátis e sem cartão.",
+      "cta": "Criar minha loja agora"
+    },
+    "pricing": {
+      "badge": "Planos que cabem no seu bolso",
+      "title": "Quanto custa para vender moda em Fortaleza?",
+      "guarantee": "Comece grátis, sem cartão, com até 10 produtos. Para a coleção inteira, o plano Loojinha tem produtos ilimitados e não cobra taxa por venda.",
+      "plans": [
+        {
+          "id": "gratis",
+          "name": "Grátis",
+          "price": "0",
+          "priceSuffix": "/mês",
+          "billingNote": "Sem cartão de crédito",
+          "destaque": false,
+          "features": [
+            "Até 10 produtos",
+            "Catálogo com link próprio para divulgar",
+            "Pedidos organizados no seu WhatsApp",
+            "Sem taxas sobre suas vendas",
+            "Selo da Minha Loojinha no rodapé da vitrine"
+          ],
+          "cta": "Começar grátis"
+        },
+        {
+          "id": "mensal",
+          "name": "Loojinha Mensal",
+          "price": "16,90",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado mensalmente",
+          "destaque": false,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Mensal"
+        },
+        {
+          "id": "anual",
+          "name": "Loojinha Anual",
+          "price": "12,49",
+          "priceSuffix": "/mês",
+          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "savingsBadge": "Economize 26%",
+          "destaque": true,
+          "features": [
+            "Catálogo ilimitado de produtos",
+            "Sem o selo da Minha Loojinha na vitrine",
+            "Teste 14 dias antes de pagar",
+            "Pedidos organizados no seu WhatsApp",
+            "Controle de estoque por tamanho",
+            "Sem taxa por venda",
+            "Cancele quando quiser, sem fidelidade"
+          ],
+          "cta": "Assinar Anual"
+        }
+      ],
+      "disclaimer": "Plano grátis sem cartão. Plano Loojinha no cartão de crédito; cancele a qualquer momento."
+    },
+    "faq": {
+      "title": "Dúvidas frequentes",
+      "items": [
+        {
+          "question": "Tenho confecção. Dá para vender no atacado pelo catálogo?",
+          "answer": "O catálogo foi feito para venda no varejo: um preço por peça e estoque por tamanho. Se você vende no atacado, dá para usar o catálogo como vitrine e combinar quantidade e preço de atacado pelo WhatsApp, mas a plataforma não tem tabela de preço de atacado."
+        },
+        {
+          "question": "Vendo para clientes de outros estados. Como fica o frete?",
+          "answer": "A cliente informa no pedido se vai retirar ou o endereço de entrega. O frete e a forma de envio você combina com ela pelo WhatsApp: a plataforma não calcula frete."
+        },
+        {
+          "question": "Serve para moda praia e moda fitness?",
+          "answer": "Sim. Cada peça tem os seus tamanhos com estoque próprio. A plataforma não tem seleção de cor, então a mesma peça em cores diferentes entra como produtos separados."
+        },
+        {
+          "question": "Preciso de cartão de crédito para começar?",
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha e teste 14 dias antes de pagar."
+        },
+        {
+          "question": "Quanto custa?",
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+        },
+        {
+          "question": "Posso cancelar a qualquer momento?",
+          "answer": "Sim. Não há fidelidade. Após o cancelamento, você continua com acesso ao plano Loojinha até o fim do período já pago."
+        }
+      ],
+      "ctaPrompt": "Vamos organizar suas vendas em Fortaleza?",
+      "ctaButton": "Criar meu catálogo grátis — sem cartão"
+    },
+    "shared": {
+      "headerCta": "Criar meu catálogo grátis",
+      "footerCtaTitle": "Sua coleção num link ainda hoje",
+      "footerCtaSubtitle": "Comece hoje grátis, sem cartão. Sem taxa por venda. Sem fidelidade.",
+      "footerCtaButton": "Criar minha loja agora",
+      "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
+    },
+    "schema": {
+      "siteName": "Minha Loojinha",
+      "siteDescription": "Catálogo digital para lojistas e confecções de moda em Fortaleza. Pedidos organizados no WhatsApp, estoque por tamanho e sem taxa por venda.",
+      "organizationDescription": "Catálogo digital por link para lojistas de moda que vendem pelo WhatsApp. Pedidos organizados, estoque por tamanho e sem taxa por venda.",
+      "localBusinessDescription": "Plataforma online de catálogo digital para lojistas, confecções e revendedoras de moda de Fortaleza, CE. Pedidos organizados no WhatsApp e controle de estoque por tamanho.",
+      "areaServed": [
+        "Fortaleza",
+        "Região Metropolitana de Fortaleza"
+      ]
+    }
+  }
+}

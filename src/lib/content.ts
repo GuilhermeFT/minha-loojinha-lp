@@ -1,4 +1,6 @@
 import lpContent from "@/content/lp-content.json";
+// Páginas de capitais ficam num arquivo próprio para o lp-content.json não crescer demais.
+import lpCities from "@/content/lp-cities.json";
 
 export type LpContentMeta = {
   title: string;
@@ -123,7 +125,7 @@ export type LpContentPath = {
 
 type LpContentMap = Record<string, LpContentPath>;
 
-const contentMap = lpContent as LpContentMap;
+const contentMap = { ...lpContent, ...lpCities } as LpContentMap;
 
 const DEFAULT_PATH = "main";
 
