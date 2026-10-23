@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Política de Privacidade | Minha Loojinha",
@@ -12,7 +13,7 @@ export default function PoliticaDePrivacidadePage() {
         Política de Privacidade
       </h1>
       <p className="mt-2 text-sm text-[hsl(var(--muted-foreground))]">
-        Última atualização: fevereiro de 2025
+        Última atualização: outubro de 2026
       </p>
 
       <div className="mt-8">
@@ -74,8 +75,33 @@ export default function PoliticaDePrivacidadePage() {
           <p>
             Podemos compartilhar dados com: (a) processador de pagamentos de
             pagamento, para cobrança; (b) ferramentas de e-mail e infraestrutura
-            (quando aplicável); (c) autoridades quando exigido por lei. Não
-            vendemos seus dados pessoais.
+            (quando aplicável); (c) autoridades quando exigido por lei; (d) a Meta, quando você
+            conecta seu catálogo (veja abaixo). Não vendemos seus dados
+            pessoais.
+          </p>
+          <h3 className="pt-2 font-semibold text-[var(--foreground)]">
+            Conexão com Facebook, Instagram e WhatsApp (Meta)
+          </h3>
+          <p>
+            Se você escolher conectar seu catálogo da Meta no painel, enviamos à
+            Meta Platforms os dados dos seus produtos (nome, descrição, preço,
+            promoção, tamanhos, estoque, fotos, nome da loja e link da peça)
+            para que eles apareçam no seu catálogo do WhatsApp e da loja do
+            Instagram. Fazemos isso para executar o serviço que você pediu, e
+            você pode desconectar quando quiser. A Meta pode guardar esses dados
+            em servidores fora do Brasil, conforme os termos dela.
+          </p>
+          <p>
+            Da Meta, guardamos apenas o identificador da sua conta e do seu
+            negócio, o catálogo conectado e o código de acesso, criptografado.
+            Ao desconectar, apagamos esses dados na hora. Veja como em{" "}
+            <Link
+              href="/exclusao-de-dados"
+              className="font-medium text-[var(--foreground)] underline"
+            >
+              Exclusão de dados
+            </Link>
+            .
           </p>
         </section>
 
@@ -120,8 +146,14 @@ export default function PoliticaDePrivacidadePage() {
           </h2>
           <p>
             Dúvidas ou pedidos relacionados a esta política e aos seus dados
-            pessoais: utilize o canal de contato disponível no site (e-mail ou
-            formulário).
+            pessoais: escreva para{" "}
+            <a
+              href="mailto:guilherme@minhaloojinha.com.br"
+              className="font-medium text-[var(--foreground)] underline"
+            >
+              guilherme@minhaloojinha.com.br
+            </a>
+            .
           </p>
         </section>
       </div>

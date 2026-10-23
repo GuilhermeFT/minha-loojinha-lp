@@ -41,6 +41,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
     {
+      url: `${baseUrl}/exclusao-de-dados`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.3,
+    },
+    {
       url: `${baseUrl}/termos-de-uso`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,

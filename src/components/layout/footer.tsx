@@ -69,6 +69,14 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/exclusao-de-dados"
+                  className="transition-colors hover:text-white"
+                >
+                  Exclusão de dados
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/termos-de-uso"
                   className="transition-colors hover:text-white"
                 >
