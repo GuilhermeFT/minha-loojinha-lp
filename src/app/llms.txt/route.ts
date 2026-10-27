@@ -3,13 +3,20 @@
 // Mantenha os fatos iguais aos da LP (preço, teste grátis, o que o produto NÃO faz).
 
 import { getAllPosts } from "@/lib/blog";
+import { formatPrice, planPrices } from "@/lib/founder-price";
 
 const siteUrl = (process.env.NEXT_PUBLIC_URL ?? "https://minhaloojinha.com.br").replace(/\/$/, "");
 
 export const dynamic = "force-static";
+// Preço de fundadora vira em 01/12
+export const revalidate = 3600;
 
 export function GET() {
   const posts = getAllPosts();
+  const prices = planPrices();
+  const plan = prices.founder
+    ? `R$ ${formatPrice(prices.monthly)} por mês ou R$ ${formatPrice(prices.yearly)} por ano para quem assinar até 30/11/2026 (preço de fundadora, mantido enquanto for assinante); a partir de 01/12/2026, R$ ${formatPrice(prices.founder.regularMonthly)} por mês ou R$ ${formatPrice(prices.founder.regularYearly)} por ano`
+    : `R$ ${formatPrice(prices.monthly)} por mês ou R$ ${formatPrice(prices.yearly)} por ano`;
   const body = `# Minha Loojinha
 
 > Catálogo digital (vitrine online por link) para lojistas de moda que vendem pelo WhatsApp e pelo Instagram. A cliente abre o link no celular, escolhe a peça e o tamanho, e o pedido chega organizado no WhatsApp da loja.
@@ -23,7 +30,7 @@ export function GET() {
 
 ## Preço
 - Plano grátis, sem cartão de crédito: até 10 produtos, com o selo "Feito com Minha Loojinha" no rodapé da vitrine.
-- Plano Loojinha: R$ 16,90 por mês ou R$ 149,90 por ano, com produtos ilimitados e sem o selo. Dá para testar 14 dias antes de pagar; cancela quando quiser, sem fidelidade.
+- Plano Loojinha: ${plan}, com produtos ilimitados e sem o selo. Dá para testar 14 dias antes de pagar; cancela quando quiser, sem fidelidade.
 - Sem taxa por venda em nenhum plano.
 
 ## O que a Minha Loojinha não faz

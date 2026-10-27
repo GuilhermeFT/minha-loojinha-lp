@@ -108,7 +108,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -126,9 +126,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -154,7 +154,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
@@ -179,7 +179,7 @@
     "shared": {
       "headerCta": "Começar grátis",
       "footerCtaTitle": "Acessar a plataforma",
-      "footerCtaSubtitle": "Comece grátis, sem cartão. Produtos ilimitados a partir de R$ 12,49/mês no plano anual.",
+      "footerCtaSubtitle": "Comece grátis, sem cartão. Produtos ilimitados a partir de R$ {{anual_mes}}/mês no plano anual.",
       "footerCtaButton": "Começar agora",
       "stickyCtaMobile": "Começar grátis"
     },
@@ -303,7 +303,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -321,9 +321,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -353,7 +353,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
@@ -499,7 +499,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -517,9 +517,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -549,7 +549,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
@@ -695,7 +695,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -713,9 +713,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -745,7 +745,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Qual a diferença para um catálogo simples no WhatsApp?",
@@ -886,9 +886,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Pague R$ 149,90/ano — equivale a 10 meses, use 12",
+          "billingNote": "Pague R$ {{anual}}/ano — equivale a 10 meses, use 12",
           "savingsBadge": "Mais popular — melhor valor",
           "destaque": true,
           "features": [
@@ -906,7 +906,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente — cancele quando quiser",
           "destaque": false,
@@ -941,7 +941,7 @@
         },
         {
           "question": "Preciso de cartão de crédito para começar?",
-          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha (R$ 16,90/mês ou R$ 149,90/ano) e teste 14 dias antes de pagar."
+          "answer": "Não. Você cria sua conta e já usa o plano grátis, com até 10 produtos, sem cartão. Se quiser produtos ilimitados e tirar o selo da Minha Loojinha da vitrine, assine o plano Loojinha (R$ {{mensal}}/mês ou R$ {{anual}}/ano) e teste 14 dias antes de pagar."
         },
         {
           "question": "O sistema controla os tamanhos?",
@@ -958,7 +958,7 @@
     "shared": {
       "headerCta": "Criar minha loja",
       "footerCtaTitle": "Enquanto você pensa, sua concorrente está recebendo pedido organizado.",
-      "footerCtaSubtitle": "Comece hoje, sem risco: o plano grátis não pede cartão. Quando quiser produtos ilimitados, o plano Loojinha custa R$ 16,90/mês.",
+      "footerCtaSubtitle": "Comece hoje, sem risco: o plano grátis não pede cartão. Quando quiser produtos ilimitados, o plano Loojinha custa R$ {{mensal}}/mês.",
       "footerCtaButton": "Criar minha loja agora",
       "stickyCtaMobile": "Criar catálogo grátis — sem cartão"
     },

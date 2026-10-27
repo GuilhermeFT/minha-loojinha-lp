@@ -1,4 +1,5 @@
 import lpContent from "@/content/lp-content.json";
+import { formatPrice, planPrices, type PlanPrices } from "@/lib/founder-price";
 // Páginas de capitais ficam num arquivo próprio para o lp-content.json não crescer demais.
 import lpCities from "@/content/lp-cities.json";
 
@@ -143,33 +144,45 @@ export function getLpContentPaths(): string[] {
   return Object.keys(contentMap);
 }
 
-type LivePrices = {
-  monthly: { price: string; billingNote: string };
-  yearly: { price: string; billingNote: string; savingsBadge: string };
-};
+/**
+ * Preços do plano no conteúdo: os textos usam {{mensal}}, {{anual}} e {{anual_mes}} (sem o R$),
+ * e os cards mensal/anual ganham a nota do preço de fundadora até 30/11. Os valores vêm de
+ * planPrices (src/lib/founder-price.ts), que vira sozinho em 01/12.
+ */
+export function mergeWithLivePrices(content: LpContentPath, prices: PlanPrices): LpContentPath {
+  const values: Record<string, string> = {
+    mensal: formatPrice(prices.monthly),
+    anual: formatPrice(prices.yearly),
+    anual_mes: formatPrice(prices.yearlyPerMonth),
+  };
+  const filled = JSON.parse(
+    JSON.stringify(content).replace(/\{\{(mensal|anual_mes|anual)\}\}/g, (_, key: string) => values[key]),
+  ) as LpContentPath;
 
-export function mergeWithLivePrices(
-  content: LpContentPath,
-  prices: LivePrices | null,
-): LpContentPath {
-  if (!prices) return content;
-
-  const plans = content.pricing.plans.map((plan) => {
+  const founder = prices.founder;
+  const plans = filled.pricing.plans.map((plan) => {
     if (plan.id === "mensal")
       return {
         ...plan,
-        price: prices.monthly.price,
-        billingNote: prices.monthly.billingNote,
+        billingNote: founder
+          ? `Preço de fundadora até 30/11 · depois, R$ ${formatPrice(founder.regularMonthly)}/mês`
+          : "Cobrado mensalmente",
       };
     if (plan.id === "anual")
       return {
         ...plan,
-        price: prices.yearly.price,
-        billingNote: prices.yearly.billingNote,
-        savingsBadge: prices.yearly.savingsBadge,
+        billingNote: founder
+          ? `Cobrado R$ ${values.anual}/ano até 30/11 · depois, R$ ${formatPrice(founder.regularYearly)}/ano`
+          : `Cobrado R$ ${values.anual}/ano`,
+        savingsBadge: `Economize ${prices.savingsPercent}%`,
       };
     return plan;
   });
 
-  return { ...content, pricing: { ...content.pricing, plans } };
+  return { ...filled, pricing: { ...filled.pricing, plans } };
+}
+
+/** Textos compartilhados (rodapé, CTAs) da página, já com os preços. */
+export function getLpShared(path: string, now: Date = new Date()): LpContentShared {
+  return mergeWithLivePrices(getLpContent(path), planPrices(now)).shared;
 }

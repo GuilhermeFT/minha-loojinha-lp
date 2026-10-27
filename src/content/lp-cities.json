@@ -118,7 +118,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -136,9 +136,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -176,7 +176,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -323,7 +323,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -341,9 +341,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -385,7 +385,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -532,7 +532,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -550,9 +550,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -590,7 +590,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -737,7 +737,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -755,9 +755,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -799,7 +799,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -925,7 +925,7 @@
     "pricing": {
       "badge": "Planos que cabem no seu bolso",
       "title": "Quanto custa para vender moda em Porto Alegre?",
-      "guarantee": "Comece grátis, sem cartão, com até 10 produtos. Para catálogo ilimitado, o plano Loojinha custa R$ 16,90/mês ou R$ 149,90/ano, sem taxa por venda.",
+      "guarantee": "Comece grátis, sem cartão, com até 10 produtos. Para catálogo ilimitado, o plano Loojinha custa R$ {{mensal}}/mês ou R$ {{anual}}/ano, sem taxa por venda.",
       "plans": [
         {
           "id": "gratis",
@@ -946,7 +946,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -964,9 +964,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -1004,7 +1004,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -1151,7 +1151,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -1169,9 +1169,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -1209,7 +1209,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -1356,7 +1356,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -1374,9 +1374,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -1414,7 +1414,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Posso cancelar a qualquer momento?",
@@ -1561,7 +1561,7 @@
         {
           "id": "mensal",
           "name": "Loojinha Mensal",
-          "price": "16,90",
+          "price": "{{mensal}}",
           "priceSuffix": "/mês",
           "billingNote": "Cobrado mensalmente",
           "destaque": false,
@@ -1579,9 +1579,9 @@
         {
           "id": "anual",
           "name": "Loojinha Anual",
-          "price": "12,49",
+          "price": "{{anual_mes}}",
           "priceSuffix": "/mês",
-          "billingNote": "Cobrado R$ 149,90/ano — pague 10, leve 12",
+          "billingNote": "Cobrado R$ {{anual}}/ano — pague 10, leve 12",
           "savingsBadge": "Economize 26%",
           "destaque": true,
           "features": [
@@ -1619,7 +1619,7 @@
         },
         {
           "question": "Quanto custa?",
-          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ 16,90/mês ou R$ 149,90/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
+          "answer": "O plano grátis não custa nada e permite até 10 produtos. O plano Loojinha sai a R$ {{mensal}}/mês ou R$ {{anual}}/ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum dos dois cobra taxa por venda."
         },
         {
           "question": "Posso cancelar a qualquer momento?",

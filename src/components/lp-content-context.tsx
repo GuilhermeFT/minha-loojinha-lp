@@ -3,8 +3,8 @@
 import { createContext, useContext, useMemo } from "react";
 import { usePathname } from "next/navigation";
 import {
-  getLpContent,
   getLpContentPaths,
+  getLpShared,
   type LpContentShared,
 } from "@/lib/content";
 
@@ -23,7 +23,7 @@ export function LpContentProvider({ children }: { children: React.ReactNode }) {
   const pathKey = useMemo(() => pathnameToKey(pathname ?? "/"), [pathname]);
   const paths = useMemo(() => getLpContentPaths(), []);
   const key = paths.includes(pathKey) ? pathKey : "main";
-  const shared = useMemo(() => getLpContent(key).shared, [key]);
+  const shared = useMemo(() => getLpShared(key), [key]);
   const value = useMemo<LpContentContextValue>(() => shared, [shared]);
 
   return (
@@ -36,7 +36,7 @@ export function LpContentProvider({ children }: { children: React.ReactNode }) {
 export function useLpShared(): LpContentShared {
   const ctx = useContext(LpContentContext);
   if (!ctx) {
-    return getLpContent("main").shared;
+    return getLpShared("main");
   }
   return ctx;
 }

@@ -8,7 +8,10 @@ import {
 import { LpPageContent } from "@/components/lp-page-content";
 import { OtherCities } from "@/components/other-cities";
 import { isCityPage } from "@/lib/cities";
-import { getPlansPrice } from "@/services/plans.service";
+import { planPrices } from "@/lib/founder-price";
+
+// Preço de fundadora vira em 01/12: a página se refaz a cada hora
+export const revalidate = 3600;
 
 const siteUrlDefault =
   process.env.NEXT_PUBLIC_URL ?? "https://minhaloojinha.com.br";
@@ -64,11 +67,7 @@ export default async function SlugPage({ params }: Props) {
     notFound();
   }
 
-  const [rawContent, prices] = await Promise.all([
-    Promise.resolve(getLpContent(slug)),
-    getPlansPrice(),
-  ]);
-  const content = mergeWithLivePrices(rawContent, prices);
+  const content = mergeWithLivePrices(getLpContent(slug), planPrices());
   const siteUrl = process.env.NEXT_PUBLIC_URL ?? "https://minhaloojinha.com.br";
   const baseUrl = siteUrl.replace(/\/$/, "");
 
