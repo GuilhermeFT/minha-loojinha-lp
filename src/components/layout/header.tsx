@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
@@ -13,6 +14,16 @@ import { useLpShared } from "@/components/lp-content-context";
 
 const navLinks = [
   { href: "/#beneficios", label: "Benefícios" },
+  { href: "/#como-funciona", label: "Como funciona" },
+  { href: "/#preco", label: "Preço" },
+  { href: "/#duvidas", label: "Dúvidas" },
+  { href: "/blog", label: "Blog" },
+];
+
+// /classico é o controle do teste antes × depois: cabeçalho exatamente como era antes da LP nova
+// (sempre fixo, mesmos links, mesmo logo e botão). Apague quando o teste acabar.
+const classicNavLinks = [
+  { href: "/#beneficios", label: "Benefícios" },
   { href: "/#preco", label: "Preço" },
   { href: "/#duvidas", label: "Dúvidas" },
   { href: "/blog", label: "Blog" },
@@ -20,14 +31,15 @@ const navLinks = [
   { href: "/termos-de-uso", label: "Termos" },
 ];
 
+const noopSubscribe = () => () => {};
+
 export function Header() {
   const shared = useLpShared();
+  const classic = usePathname() === "/classico";
+  const links = classic ? classicNavLinks : navLinks;
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  // O portal do menu só existe no navegador
+  const mounted = useSyncExternalStore(noopSubscribe, () => true, () => false);
 
   useEffect(() => {
     if (mobileMenuOpen) {
@@ -51,33 +63,56 @@ export function Header() {
   const closeMobileMenu = () => setMobileMenuOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-[hsl(var(--border))] bg-[var(--background)]/95 backdrop-blur supports-[backdrop-filter]:bg-[var(--background)]/80">
+    <header className={`${classic ? "sticky top-0" : "relative md:sticky md:top-0"} z-50 w-full border-b border-[hsl(var(--border))] bg-[var(--background)]/95 backdrop-blur supports-[backdrop-filter]:bg-[var(--background)]/80`}>
       <div className="container mx-auto flex h-14 min-h-14 max-w-6xl items-center justify-between gap-2 px-3 sm:h-16 sm:px-6">
         <Link
           href="/"
           className="flex min-w-0 shrink items-center gap-1.5 sm:gap-2"
         >
-          <Image
-            src={logoLight}
-            alt="Minha Loojinha"
-            className="h-7 w-auto dark:hidden sm:h-8"
-            width={140}
-            height={32}
-            priority
-          />
-          <Image
-            src={logoDark}
-            alt="Minha Loojinha"
-            className="hidden h-7 w-auto dark:block sm:h-8"
-            width={140}
-            height={32}
-            priority
-          />
+          {classic ? (
+            <>
+              <Image
+                src={logoLight}
+                alt="Minha Loojinha"
+                className="h-7 w-auto dark:hidden sm:h-8"
+                width={140}
+                height={32}
+                priority
+              />
+              <Image
+                src={logoDark}
+                alt="Minha Loojinha"
+                className="hidden h-7 w-auto dark:block sm:h-8"
+                width={140}
+                height={32}
+                priority
+              />
+            </>
+          ) : (
+            <>
+              {/* logo-dark = letras escuras (fundo claro); logo-light = letras claras (tema Black Friday) */}
+              <Image
+                src={logoDark}
+                alt="Minha Loojinha"
+                className="logo-on-light h-7 w-auto sm:h-8"
+                width={140}
+                height={32}
+                priority
+              />
+              <Image
+                src={logoLight}
+                alt="Minha Loojinha"
+                className="logo-on-dark h-7 w-auto sm:h-8"
+                width={140}
+                height={32}
+              />
+            </>
+          )}
         </Link>
 
         {/* Desktop nav */}
         <nav className="hidden items-center justify-end gap-4 md:flex md:gap-6">
-          {navLinks.map((link) => (
+          {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -87,8 +122,8 @@ export function Header() {
             </Link>
           ))}
           <CheckoutTrigger asChild location="header">
-            <Button type="button" size="sm" className="shrink-0">
-              {shared.headerCta}
+            <Button type="button" size="sm" className={classic ? "shrink-0" : "shrink-0 rounded-full bg-[#530083] hover:bg-[#410068]"}>
+              {classic ? shared.headerCta : "Criar loja grátis"}
             </Button>
           </CheckoutTrigger>
         </nav>
@@ -135,7 +170,7 @@ export function Header() {
                 </button>
               </div>
               <nav className="flex flex-1 flex-col gap-1 overflow-y-auto p-4">
-                {navLinks.map((link) => (
+                {links.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}
@@ -147,8 +182,8 @@ export function Header() {
                 ))}
                 <div className="mt-4 px-0">
                   <CheckoutTrigger asChild location="header_mobile">
-                    <Button type="button" size="lg" className="w-full">
-                      {shared.headerCta}
+                    <Button type="button" size="lg" className={classic ? "w-full" : "w-full rounded-full bg-[#530083] hover:bg-[#410068]"}>
+                      {classic ? shared.headerCta : "Criar loja grátis"}
                     </Button>
                   </CheckoutTrigger>
                 </div>

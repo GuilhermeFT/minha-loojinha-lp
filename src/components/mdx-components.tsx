@@ -1,6 +1,13 @@
 import type { MDXComponents } from 'mdx/types'
 import Link from 'next/link'
 import type { ComponentPropsWithoutRef } from 'react'
+import { formatPrice, launchNote, planPrices } from '@/lib/founder-price'
+
+// Preços nos posts: <PrecoMensal /> e <PrecoAnual /> viram sozinhos em 01/12 (fim do preço de
+// lançamento); <Lancamento /> diz até quando vale o preço e some em 01/12.
+const PrecoMensal = () => <>R$&nbsp;{formatPrice(planPrices().monthly)}</>
+const PrecoAnual = () => <>R$&nbsp;{formatPrice(planPrices().yearly)}</>
+const Lancamento = () => <>{launchNote(planPrices())}</>
 
 function isInternalHref(href?: string): boolean {
   if (!href) return false
@@ -100,6 +107,9 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         {...props}
       />
     ),
+    PrecoMensal,
+    PrecoAnual,
+    Lancamento,
     ...components,
   }
 }

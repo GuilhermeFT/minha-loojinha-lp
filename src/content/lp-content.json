@@ -635,7 +635,7 @@
         {
           "step": "1",
           "title": "Cadastre seus produtos",
-          "description": "Fotos em alta resolução, tamanhos, preço cheio e promocional. Parece uma loja virtual, mas é mais simples."
+          "description": "Fotos, tamanhos, preço cheio e promocional. Parece uma loja virtual, mas é mais simples."
         },
         {
           "step": "2",
@@ -895,13 +895,11 @@
             "Produtos ilimitados",
             "Sem o selo da Minha Loojinha na vitrine",
             "Teste 14 dias antes de pagar",
-            "Fotos em alta resolução",
             "Gestão de estoque e grade de tamanhos",
             "Pedidos ilimitados via WhatsApp",
-            "Sem taxas sobre suas vendas",
-            "Suporte prioritário por WhatsApp"
+            "Sem taxas sobre suas vendas"
           ],
-          "cta": "Assinar anual — economizar agora"
+          "cta": "Assinar o anual"
         },
         {
           "id": "mensal",
@@ -914,7 +912,6 @@
             "Produtos ilimitados",
             "Sem o selo da Minha Loojinha na vitrine",
             "Teste 14 dias antes de pagar",
-            "Fotos em alta resolução",
             "Gestão de estoque e grade de tamanhos",
             "Pedidos ilimitados via WhatsApp",
             "Sem taxas sobre suas vendas"

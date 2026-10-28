@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 import { getPostBySlug, getAllSlugs } from "@/lib/blog";
 import { JsonLd } from "@/components/json-ld";
 
+// Os preços nos posts (preço de lançamento até 30/11) viram em 01/12: refaz a cada hora
+export const revalidate = 3600;
+
 const siteUrl = process.env.NEXT_PUBLIC_URL ?? "https://minhaloojinha.com.br";
 
 type Props = { params: Promise<{ slug: string }> };

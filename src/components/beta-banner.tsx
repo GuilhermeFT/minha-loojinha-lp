@@ -1,66 +1,84 @@
 "use client";
 
-// Faixa do topo. Até 30/11: preço de fundadora com contagem regressiva (na semana da Black
-// Friday vira "última chance"); depois volta à mensagem de sempre. Datas em src/lib/founder-price.ts.
+// Faixa do topo. Até 30/11: preço de lançamento com contagem (na semana da Black Friday vira
+// "última semana", preta com âmbar; nas últimas 24 h, "último dia"); no celular fica fixa ao
+// rolar. Depois volta à mensagem de sempre. Datas em src/lib/founder-price.ts; em dev, ?fase= finge a data (src/lib/phase-preview.ts).
+// Em /classico (controle do teste) mostra a faixa antiga.
 
 import { useEffect, useState } from "react";
-import { Flame, Zap } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { BetaBannerClassic } from "@/components/beta-banner-classic";
+import { getLpContentPaths } from "@/lib/content";
+import { offerLabel } from "@/content/lp-new";
 import { founderCountdown, founderPhase, formatPrice, planPrices } from "@/lib/founder-price";
+import { previewNow } from "@/lib/phase-preview";
+import { cn } from "@/lib/utils";
 
 function countdownLabel(now: Date): string | null {
   const left = founderCountdown(now);
   if (!left) return null;
-  if (left.days >= 1) return `${left.days}d ${left.hours}h`;
-  return `${left.hours}h ${String(left.minutes).padStart(2, "0")}min`;
+  const pad = (n: number) => String(n).padStart(2, "0");
+  if (left.days >= 1) return `${left.days}d ${pad(left.hours)}h ${pad(left.minutes)}min`;
+  return `${pad(left.hours)}h ${pad(left.minutes)}min`;
 }
 
 export function BetaBanner() {
+  const pathname = usePathname();
   // A contagem só aparece no navegador (o HTML estático não sabe a hora de quem abre)
   const [now, setNow] = useState<Date | null>(null);
   useEffect(() => {
-    setNow(new Date());
-    const timer = setInterval(() => setNow(new Date()), 30_000);
+    const fake = previewNow(new URLSearchParams(window.location.search).get("fase"));
+    const offset = fake ? fake.getTime() - Date.now() : 0;
+    const tick = () => setNow(new Date(Date.now() + offset));
+    tick();
+    const timer = setInterval(tick, 20_000);
     return () => clearInterval(timer);
   }, []);
 
-  const phase = founderPhase(now ?? new Date());
-  const price = formatPrice(planPrices(now ?? new Date()).monthly);
-  const left = now ? countdownLabel(now) : null;
+  if (pathname === "/classico") return <BetaBannerClassic />;
 
-  if (phase === "ended") {
+  const at = now ?? new Date();
+  const phase = founderPhase(at);
+  const prices = planPrices(at);
+  const left = now ? countdownLabel(now) : null;
+  const label = offerLabel(at);
+
+  if (phase === "ended" || !label) {
     return (
-      <div className="bg-[#111111] text-white">
-        <div className="container mx-auto max-w-6xl px-3 py-2 sm:px-6">
-          <p className="flex items-center justify-center gap-2 text-center text-xs leading-snug text-white/90 sm:text-sm">
-            <Zap className="size-3.5 shrink-0 fill-current text-[var(--accent-amber)]" />
-            Comece grátis, sem cartão · Sem taxa por venda · Sem fidelidade
-          </p>
-        </div>
+      <div className="bg-[#27003e] text-white">
+        <p className="mx-auto max-w-6xl px-4 py-2.5 text-center text-[0.8rem] font-semibold sm:px-6">
+          Comece grátis, sem cartão · Sem taxa por venda · Sem fidelidade
+        </p>
       </div>
     );
   }
 
   const blackFriday = phase === "black_friday";
+  // Nas LPs o preço está na própria página; no blog e afins, na home
+  const slug = (pathname ?? "/").split("/")[1] ?? "";
+  const onLp = slug === "" || getLpContentPaths().includes(slug);
   return (
-    <a href="#preco" className="block bg-[#111111] text-white transition-colors hover:bg-black">
-      <div className="container mx-auto max-w-6xl px-3 py-2 sm:px-6">
-        <p className="flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5 text-center text-xs leading-snug text-white/90 sm:text-sm">
-          {blackFriday ? (
-            <Flame className="size-3.5 shrink-0 fill-current text-[var(--accent-amber)]" />
-          ) : (
-            <Zap className="size-3.5 shrink-0 fill-current text-[var(--accent-amber)]" />
-          )}
-          <span>
-            <strong className="font-semibold text-white">
-              {blackFriday ? "Black Friday: última chance" : "Preço de fundadora"}
-            </strong>{" "}
-            · R$ {price}/mês para sempre para quem assinar até 30/11
+    <a
+      href={onLp ? "#preco" : "/#preco"}
+      className={cn(
+        "sticky top-0 z-[60] block md:static",
+        blackFriday ? "bg-black text-white" : "bg-[#340055] text-white",
+      )}
+    >
+      <div className="mx-auto flex min-h-14 max-w-6xl flex-col items-center justify-center px-4 py-2 text-center sm:px-6 md:min-h-11 md:flex-row md:gap-3">
+        <p className="text-[0.9rem] leading-snug text-balance">
+          <strong className={cn("font-bold", blackFriday && "text-[#f2daff]")}>
+            {blackFriday && <span className="hidden md:inline">Black Friday · </span>}
+            {label}:
+          </strong>{" "}
+          <span className="whitespace-nowrap">R$ {formatPrice(prices.monthly)}/mês até 30/11</span>
+        </p>
+        <p className="mt-0.5 text-[0.75rem] font-semibold md:mt-0">
+          <span className={cn("tabular-nums", !left && "invisible")}>
+            Termina em{" "}
+            <span className={cn("font-semibold", blackFriday ? "text-[#ffb340]" : "text-[#e2b5ff]")}>{left ?? "00d 00h 00min"}</span>
           </span>
-          {left && (
-            <span className="rounded-full bg-[var(--accent-amber)] px-2 py-0.5 font-semibold tabular-nums text-[#111111]">
-              termina em {left}
-            </span>
-          )}
+          <span aria-hidden className="ml-2 underline underline-offset-2">ver preço</span>
         </p>
       </div>
     </a>

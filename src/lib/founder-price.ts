@@ -1,4 +1,4 @@
-// Preço de fundadora (campanha out–nov/2026). Até 30/11 (23h59 de Brasília) o plano Loojinha
+// Preço de lançamento (campanha out–nov/2026). Até 30/11 (23h59 de Brasília) o plano Loojinha
 // custa R$ 16,90/mês ou R$ 149,90/ano, garantidos para quem assinar; a partir de 01/12,
 // R$ 39,90/mês ou R$ 353,90/ano. Semana da Black Friday (23 a 30/11) = última chamada.
 // Mesmas datas e preços do painel (minha-loojinha-dashboard/src/lib/founder-price.ts):
@@ -31,7 +31,7 @@ export type PlanPrices = {
   /** Anual dividido por 12, para cima no centavo (nunca promete menos do que é cobrado). */
   yearlyPerMonth: number;
   savingsPercent: number;
-  /** Até 30/11: preços de fundadora, com os novos para mostrar "depois, R$ ...". */
+  /** Até 30/11: preços de lançamento, com os novos para mostrar "depois, R$ ...". */
   founder: { regularMonthly: number; regularYearly: number } | null;
 };
 
@@ -47,7 +47,12 @@ export function planPrices(now: Date = new Date()): PlanPrices {
   };
 }
 
-/** Quanto falta para o fim do preço de fundadora; null depois do prazo. */
+/** Trecho dos posts do blog depois do preço: " (preço de lançamento, para quem assinar até 30/11)"; vazio depois. */
+export function launchNote(prices: PlanPrices): string {
+  return prices.founder ? " (preço de lançamento, para quem assinar até 30/11)" : "";
+}
+
+/** Quanto falta para o fim do preço de lançamento; null depois do prazo. */
 export function founderCountdown(now: Date = new Date()): { days: number; hours: number; minutes: number } | null {
   const ms = FOUNDER_DEADLINE.getTime() - now.getTime();
   if (ms <= 0) return null;

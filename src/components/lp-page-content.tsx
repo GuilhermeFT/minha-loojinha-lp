@@ -504,7 +504,7 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
                       {plan.priceSuffix}
                     </span>
                   </p>
-                  <p className="mt-2 text-xs text-[var(--text-muted)]">
+                  <p className="mt-2 whitespace-pre-line text-xs text-[var(--text-muted)] [text-wrap:balance]">
                     {plan.billingNote}
                   </p>
                 </div>
@@ -520,11 +520,11 @@ export function LpPageContent({ content, baseUrl }: LpPageContentProps) {
                       </li>
                     ))}
                   </ul>
-                  <CheckoutTrigger asChild location={`pricing_${plan.id}`}>
+                  <CheckoutTrigger asChild location={`pricing_${plan.id}`} className="min-w-0">
                     <Button
                       type="button"
                       size="lg"
-                      className="mt-auto w-full"
+                      className="mt-auto h-auto min-h-14 w-full min-w-0 whitespace-normal py-3 text-base [text-wrap:balance] sm:whitespace-normal"
                       variant={plan.destaque ? "default" : "outline"}
                     >
                       {plan.cta}

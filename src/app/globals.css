@@ -152,3 +152,227 @@ button {
     height: 0;
   }
 }
+
+/* ------------------------------------------------------------------------------------------
+   Landing page nova (src/components/lp/), no design system do painel (minha-loojinha-dashboard/
+   docs/design/stitch/DESIGN.md): Plus Jakarta Sans, roxo #530083 nas ações, Deep Velvet nos
+   títulos, lilás nos destaques, superfície #fcf8fb e cards brancos com borda hairline.
+   Na semana da Black Friday (data-fase="black_friday", pela data) a página fica #111111 com o
+   roxo e o lilás da marca; âmbar só na contagem. :has() leva o tema e a fonte para faixa,
+   cabeçalho e rodapé do layout. /classico não tem .lp e fica como era (Geist).
+   ------------------------------------------------------------------------------------------ */
+body:has(.lp) {
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+}
+
+.lp {
+  --surface: #fcf8fb;
+  --surface-2: #f5f5f7;
+  --card: #ffffff;
+  --hairline: #e5e5ea;
+  --title: #27003e;
+  --title-2: #340055;
+  --text: #1c1c1e;
+  --text-2: #636366;
+  --text-3: #8e8e93;
+  --action: #530083;
+  --action-hover: #410068;
+  --action-ink: #ffffff;
+  --action-text: #530083;
+  --lilac: #f2daff;
+  --lilac-ink: #530083;
+  --countdown: #530083;
+  --band: #340055;
+  --band-ink: #ffffff;
+  --band-soft: #e2b5ff;
+  --shadow-1: 0 2px 8px rgba(39, 0, 62, 0.04);
+  --shadow-2: 0 8px 24px rgba(39, 0, 62, 0.08);
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+  letter-spacing: -0.003em;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.lp[data-fase="black_friday"] {
+  --surface: #111111;
+  --surface-2: #1a1a1c;
+  --card: #1c1c1e;
+  --hairline: #2f2f33;
+  --title: #ffffff;
+  --title-2: #f2daff;
+  --text: #f3f0f2;
+  --text-2: #c7c2cb;
+  --text-3: #9a95a0;
+  --action: #7a2bc0;
+  --action-hover: #8b3fd3;
+  --action-text: #e2b5ff;
+  --lilac: #2c1240;
+  --lilac-ink: #f2daff;
+  --countdown: #ffb340;
+  --band: #1f0a33;
+  --band-ink: #ffffff;
+  --band-soft: #e2b5ff;
+  --shadow-1: none;
+  --shadow-2: none;
+}
+
+:root:has(.lp[data-fase="black_friday"]) {
+  --background: #111111;
+  --foreground: #f3f0f2;
+  --border: 240 4% 19%;
+  --muted: 240 3% 15%;
+  --muted-foreground: 270 5% 78%;
+  --border-color: #2f2f33;
+  --color-surface-dark: #000000;
+  color-scheme: dark;
+}
+:root:has(.lp) {
+  --background: #fcf8fb;
+}
+:root:has(.lp[data-fase="black_friday"]) {
+  --background: #111111;
+}
+
+/* Logo do cabeçalho: letras escuras no fundo claro, claras no tema Black Friday */
+.logo-on-dark {
+  display: none;
+}
+:root:has(.lp[data-fase="black_friday"]) .logo-on-light {
+  display: none;
+}
+:root:has(.lp[data-fase="black_friday"]) .logo-on-dark {
+  display: block;
+}
+
+/* Rótulo label-sm do DESIGN.md (pills, legendas de tela) */
+.lp-label {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.lp-num {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.lp a:focus-visible,
+.lp button:focus-visible,
+.lp summary:focus-visible {
+  outline: 3px solid var(--action-text);
+  outline-offset: 3px;
+}
+
+@layer components {
+  /* Botões do painel: pill, 52px de toque, texto pode quebrar (nunca vaza) */
+  .lp-btn {
+    display: inline-flex;
+    min-height: 3.25rem;
+    min-width: 0;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    background: var(--action);
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    white-space: nowrap; /* rótulos curtos (até ~3 palavras): nunca quebram */
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--action-ink);
+    box-shadow: 0 6px 18px rgba(83, 0, 131, 0.22);
+    transition:
+      background-color 0.15s,
+      transform 0.15s;
+  }
+  .lp-btn:hover {
+    background: var(--action-hover);
+  }
+  .lp-btn:active {
+    transform: scale(0.98);
+  }
+  .lp-btn-ghost {
+    display: inline-flex;
+    min-height: 3.25rem;
+    min-width: 0;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    border: 1px solid var(--hairline);
+    background: var(--card);
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    white-space: nowrap; /* rótulos curtos (até ~3 palavras): nunca quebram */
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--action-text);
+    transition:
+      background-color 0.15s,
+      transform 0.15s;
+  }
+  .lp-btn-ghost:hover {
+    background: var(--lilac);
+  }
+  .lp-btn-ghost:active {
+    transform: scale(0.98);
+  }
+  .lp-card {
+    border-radius: 1.25rem;
+    border: 1px solid var(--hairline);
+    background: var(--card);
+    box-shadow: var(--shadow-1);
+  }
+}
+
+/* Telas do celular: troca suave entre passos */
+.screen-step {
+  transition:
+    opacity 0.45s ease,
+    transform 0.45s ease;
+}
+
+@keyframes msg-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.msg-in {
+  animation: msg-in 0.4s ease-out both;
+}
+@keyframes tap {
+  0% {
+    transform: scale(0.4);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+.tap-ring {
+  animation: tap 0.9s ease-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .screen-step,
+  .lp-btn,
+  .lp-btn-ghost {
+    transition: none;
+  }
+  .msg-in,
+  .tap-ring {
+    animation: none;
+  }
+}

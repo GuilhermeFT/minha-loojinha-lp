@@ -146,7 +146,8 @@ export function getLpContentPaths(): string[] {
 
 /**
  * Preços do plano no conteúdo: os textos usam {{mensal}}, {{anual}} e {{anual_mes}} (sem o R$),
- * e os cards mensal/anual ganham a nota do preço de fundadora até 30/11. Os valores vêm de
+ * e os cards mensal/anual ganham a nota do preço de fundadora até 30/11 (o "depois" em linha própria,
+ * com \n, para não quebrar no meio no celular). Os valores vêm de
  * planPrices (src/lib/founder-price.ts), que vira sozinho em 01/12.
  */
 export function mergeWithLivePrices(content: LpContentPath, prices: PlanPrices): LpContentPath {
@@ -165,14 +166,14 @@ export function mergeWithLivePrices(content: LpContentPath, prices: PlanPrices):
       return {
         ...plan,
         billingNote: founder
-          ? `Preço de fundadora até 30/11 · depois, R$ ${formatPrice(founder.regularMonthly)}/mês`
+          ? `Preço de fundadora até 30/11\ndepois, R$ ${formatPrice(founder.regularMonthly)}/mês`
           : "Cobrado mensalmente",
       };
     if (plan.id === "anual")
       return {
         ...plan,
         billingNote: founder
-          ? `Cobrado R$ ${values.anual}/ano até 30/11 · depois, R$ ${formatPrice(founder.regularYearly)}/ano`
+          ? `Cobrado R$ ${values.anual}/ano até 30/11\ndepois, R$ ${formatPrice(founder.regularYearly)}/ano`
           : `Cobrado R$ ${values.anual}/ano`,
         savingsBadge: `Economize ${prices.savingsPercent}%`,
       };

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logoDark from "@/assets/minhaloojinha-logo-dark.svg";
+import logoLight from "@/assets/minhaloojinha-logo-light.svg";
 import { FooterCta } from "@/components/footer-cta";
 import { CITY_PAGES } from "@/lib/cities";
 
@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-block">
               <Image
-                src={logoDark}
+                src={logoLight}
                 alt="Minha Loojinha"
                 className="h-7 w-auto"
                 width={120}

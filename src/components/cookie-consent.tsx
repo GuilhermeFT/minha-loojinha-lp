@@ -10,16 +10,15 @@ export function CookieConsent() {
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
+    let saved: string | null = null
     try {
-      if (typeof window === 'undefined') return
-      const saved = window.localStorage.getItem(STORAGE_KEY)
-      if (!saved) {
-        const t = window.setTimeout(() => setVisible(true), 600)
-        return () => window.clearTimeout(t)
-      }
+      saved = window.localStorage.getItem(STORAGE_KEY)
     } catch {
-      setVisible(true)
+      // sem localStorage (aba anônima bloqueada): mostra o aviso
     }
+    if (saved) return
+    const t = window.setTimeout(() => setVisible(true), 600)
+    return () => window.clearTimeout(t)
   }, [])
 
   const dismiss = () => {

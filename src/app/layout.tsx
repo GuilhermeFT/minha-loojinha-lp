@@ -1,7 +1,7 @@
 import './globals.css'
 
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Geist, Geist_Mono, Plus_Jakarta_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { GoogleTagManager } from '@next/third-parties/google'
 import { Suspense } from 'react'
@@ -21,6 +21,13 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
+  subsets: ['latin'],
+})
+
+// Plus Jakarta Sans: a fonte do painel (DESIGN.md do Stitch). Só a LP nova (home e cidades) usa;
+// o resto do site, inclusive /classico (controle do teste), continua em Geist.
+const jakarta = Plus_Jakarta_Sans({
+  variable: '--font-jakarta',
   subsets: ['latin'],
 })
 
@@ -92,7 +99,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden pb-28 md:pb-0`}
+        className={`${geistSans.variable} ${geistMono.variable} ${jakarta.variable} antialiased overflow-x-hidden pb-28 md:pb-0`}
       >
         <CheckoutProvider>
           <LpContentProvider>

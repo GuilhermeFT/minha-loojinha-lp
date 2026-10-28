@@ -8,14 +8,14 @@ import { formatPrice, planPrices } from "@/lib/founder-price";
 const siteUrl = (process.env.NEXT_PUBLIC_URL ?? "https://minhaloojinha.com.br").replace(/\/$/, "");
 
 export const dynamic = "force-static";
-// Preço de fundadora vira em 01/12
+// Preço de lançamento vira em 01/12
 export const revalidate = 3600;
 
 export function GET() {
   const posts = getAllPosts();
   const prices = planPrices();
   const plan = prices.founder
-    ? `R$ ${formatPrice(prices.monthly)} por mês ou R$ ${formatPrice(prices.yearly)} por ano para quem assinar até 30/11/2026 (preço de fundadora, mantido enquanto for assinante); a partir de 01/12/2026, R$ ${formatPrice(prices.founder.regularMonthly)} por mês ou R$ ${formatPrice(prices.founder.regularYearly)} por ano`
+    ? `R$ ${formatPrice(prices.monthly)} por mês ou R$ ${formatPrice(prices.yearly)} por ano para quem assinar até 30/11/2026 (preço de lançamento, mantido enquanto for assinante); a partir de 01/12/2026, R$ ${formatPrice(prices.founder.regularMonthly)} por mês ou R$ ${formatPrice(prices.founder.regularYearly)} por ano`
     : `R$ ${formatPrice(prices.monthly)} por mês ou R$ ${formatPrice(prices.yearly)} por ano`;
   const body = `# Minha Loojinha
 

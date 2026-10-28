@@ -24,7 +24,7 @@ faq:
   - question: "A cliente precisa baixar algum aplicativo para ver o catálogo?"
     answer: "No caso da Minha Loojinha, não. A cliente abre o link no navegador do celular, escolhe as peças e envia o pedido."
   - question: "Quanto custa ter um catálogo digital na Minha Loojinha?"
-    answer: "Dá para começar grátis, sem cartão, com até 10 produtos. O plano Loojinha custa R$ 16,90 por mês ou R$ 149,90 por ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum plano cobra taxa por venda."
+    answer: "Dá para começar grátis, sem cartão, com até 10 produtos. O plano Loojinha custa R$ {{mensal}} por mês ou R$ {{anual}} por ano{{lancamento}}, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine. Nenhum plano cobra taxa por venda."
 ---
 
 import { CtaInline } from "@/components/cta-inline";
@@ -124,7 +124,7 @@ Você personaliza a loja com logo, banners, cor do tema, modo claro ou escuro, h
 
 O pagamento continua sendo combinado com você no WhatsApp, do jeito que você já faz hoje. O catálogo cuida da parte de escolher e pedir.
 
-Você começa grátis, sem cartão, com até 10 produtos. Quando precisar de mais, o plano Loojinha custa R$ 16,90 por mês ou R$ 149,90 por ano, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine; dá para testar 14 dias antes de pagar e cancelar quando quiser. Não há taxa por venda.
+Você começa grátis, sem cartão, com até 10 produtos. Quando precisar de mais, o plano Loojinha custa <PrecoMensal /> por mês ou <PrecoAnual /> por ano<Lancamento />, com produtos ilimitados e sem o selo da Minha Loojinha na vitrine; dá para testar 14 dias antes de pagar e cancelar quando quiser. Não há taxa por venda.
 
 ---
 
