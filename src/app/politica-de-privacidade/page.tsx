@@ -22,10 +22,12 @@ export default function PoliticaDePrivacidadePage() {
             1. Quem somos
           </h2>
           <p>
-            O Minha Loojinha (&quot;nós&quot;, &quot;nosso&quot;) é o
-            responsável pelo tratamento dos seus dados pessoais nesta
-            plataforma, em conformidade com a Lei Geral de Proteção de Dados
-            (LGPD - Lei 13.709/2018).
+            O Minha Loojinha (&quot;nós&quot;, &quot;nosso&quot;) é um produto
+            de GUILHERME FT CONSULTORIA E TECNOLOGIA LTDA, CNPJ
+            64.936.514/0001-36, com sede em Anápolis, GO, Brasil, responsável
+            pelo tratamento dos seus dados pessoais nesta plataforma, em
+            conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei
+            13.709/2018).
           </p>
         </section>
 

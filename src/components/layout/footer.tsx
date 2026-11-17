@@ -107,6 +107,10 @@ export function Footer() {
         <div className="mt-10 border-t border-white/10 pt-6 text-center text-sm text-white/40">
           © {new Date().getFullYear()} Minha Loojinha. Todos os direitos
           reservados.
+          <p className="mt-2 text-xs">
+            Minha Loojinha é um produto de GUILHERME FT CONSULTORIA E
+            TECNOLOGIA LTDA · CNPJ 64.936.514/0001-36 · Anápolis, GO, Brasil
+          </p>
         </div>
       </div>
     </footer>
