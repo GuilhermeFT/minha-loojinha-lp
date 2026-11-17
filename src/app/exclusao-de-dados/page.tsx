@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Como apagar os dados da sua conta Minha Loojinha e da conexão com o Facebook, Instagram e WhatsApp.",
 };
 
-const SUPPORT_EMAIL = "guilherme@minhaloojinha.com.br";
+const SUPPORT_EMAIL = "guilhermetrind12@gmail.com";
 const SUPPORT_WHATSAPP_URL = `https://wa.me/5566992433225?text=${encodeURIComponent(
   "Oi! Quero apagar os dados da minha conta na Minha Loojinha."
 )}`;

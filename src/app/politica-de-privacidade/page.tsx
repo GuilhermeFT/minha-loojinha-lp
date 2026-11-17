@@ -150,10 +150,10 @@ export default function PoliticaDePrivacidadePage() {
             Dúvidas ou pedidos relacionados a esta política e aos seus dados
             pessoais: escreva para{" "}
             <a
-              href="mailto:guilherme@minhaloojinha.com.br"
+              href="mailto:guilhermetrind12@gmail.com"
               className="font-medium text-[var(--foreground)] underline"
             >
-              guilherme@minhaloojinha.com.br
+              guilhermetrind12@gmail.com
             </a>
             .
           </p>
